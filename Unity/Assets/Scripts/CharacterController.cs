@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class CharacterController : MonoBehaviour
@@ -43,6 +44,11 @@ public class CharacterController : MonoBehaviour
 
         // Read the crouch input in update so button presses aren`t missed.
         m_crouch = Input.GetKey(KeyCode.LeftControl);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
         
     }
         
