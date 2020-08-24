@@ -9,7 +9,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private float m_jumpForce = 400f;                   // Amount of force added when the player jumps.
     [SerializeField] private bool m_airControl = false;                  // Whether or not the player can steer while jumping.
     [SerializeField] private LayerMask m_whatIsGround;                   // A mask determining what is ground to the character.
-    [SerializeField] [Range(0, 1)] private float m_crouchSpeed = 0.3f;    // Percent of maxSpeed applied to the crouch.
+    [SerializeField] [Range(0, 1)] private float m_crouchSpeed = 0.3f;   // Percent of maxSpeed applied to the crouch.
 
     private Transform m_groundCheck;                                     // A position marking where to check if the player is grounded.
     const float k_groundedRadius = .2f;                                  // Radius of the overlap circle to determine if grounded.
@@ -18,7 +18,7 @@ public class CharacterController : MonoBehaviour
     const float k_ceilingRadius = .01f;                                  // Radius of the overlap circle to determine if the player can stand up
     private Rigidbody2D m_rigidbody2D;                                   // A reference to the players rigidbody.
     private bool m_facingRight = true;                                   // For determining which way the player is currently facing.
-    [SerializeField] private bool m_jump = false;                                         // For controlling player jumps.
+    private bool m_jump = false;                                         // For controlling player jumps.
     private Animator m_anim;                                             // Reference to the player`s animator component. 
     private bool m_crouch = false;                                       // For controlling player crouch
 
@@ -112,7 +112,7 @@ public class CharacterController : MonoBehaviour
             }
         }
         // If the player should jump...
-        if (m_grounded && jump && m_anim.GetBool("Ground"))
+        if (m_grounded && jump)// && m_anim.GetBool("Ground"))
         {
             // Add a vertical force to the player.
             m_grounded = false;
