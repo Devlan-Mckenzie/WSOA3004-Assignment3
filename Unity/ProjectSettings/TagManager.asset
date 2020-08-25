@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Key
+  - PuzzlePiece
   layers:
   - Default
   - TransparentFX
