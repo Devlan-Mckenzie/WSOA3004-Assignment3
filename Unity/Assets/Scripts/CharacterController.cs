@@ -114,12 +114,14 @@ public class CharacterController : MonoBehaviour
             {
                 // ... flip the player.
                 Flip();
+                FindObjectOfType<AudioManager>().Play("Breathe");
             }
             // Otherwise if the input is moving the player left and the player is facing right...
             else if (move < 0 && m_facingRight)
             {
                 // ... flip the player.
                 Flip();
+                FindObjectOfType<AudioManager>().Play("Breathe");
             }
         }
         // If the player should jump...

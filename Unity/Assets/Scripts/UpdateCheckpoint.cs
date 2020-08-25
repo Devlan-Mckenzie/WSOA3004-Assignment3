@@ -27,6 +27,7 @@ public class UpdateCheckpoint : MonoBehaviour
         if (collision.tag == "CheckPoint")
         {
             CurrentCheckPoint.transform.position = collision.gameObject.transform.position;
+            FindObjectOfType<AudioManager>().Play("CheckPoint");
             Destroy(collision.gameObject);            
         }
     }

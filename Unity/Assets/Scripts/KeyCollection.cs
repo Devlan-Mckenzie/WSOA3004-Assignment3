@@ -10,6 +10,7 @@ public class KeyCollection : MonoBehaviour
         if (collision.gameObject.tag == "Key")
         {
             Key_Symbol_1.SetActive(true);
+            FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
             Destroy(collision.gameObject);
         }
     }
