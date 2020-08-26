@@ -5,6 +5,7 @@ using UnityEngine;
 public class KeyCollection : MonoBehaviour
 {
     public GameObject Key_Symbol_1;
+    public bool pickedupkey=false;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Key")
@@ -12,6 +13,7 @@ public class KeyCollection : MonoBehaviour
             Key_Symbol_1.SetActive(true);
             FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
             Destroy(collision.gameObject);
+            pickedupkey = true;
         }
     }
 }
