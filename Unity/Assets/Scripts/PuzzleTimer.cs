@@ -18,6 +18,8 @@ public class PuzzleTimer : MonoBehaviour
         }
     }
 
+    
+
     private void Update()
     {
         if (StartTimer)
@@ -33,4 +35,6 @@ public class PuzzleTimer : MonoBehaviour
             EnemySpawned = true;           
         }
     }
+
+    
 }
