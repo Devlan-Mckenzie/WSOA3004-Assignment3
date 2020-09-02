@@ -10,6 +10,7 @@ public class PuzzleTimer : MonoBehaviour
     [SerializeField] GameObject EnemyPrefab;
     [SerializeField] bool StartTimer = false;
     [SerializeField] bool EnemySpawned = false;
+    [SerializeField] bool PuzzleCompleted = false;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player" && !EnemySpawned)
@@ -18,8 +19,6 @@ public class PuzzleTimer : MonoBehaviour
         }
     }
 
-    
-
     private void Update()
     {
         if (StartTimer)
@@ -27,14 +26,23 @@ public class PuzzleTimer : MonoBehaviour
             TimerCount += Time.deltaTime;         
         }
 
-        if (TimerCount > TimeGiven && StartTimer)
+        if (!PuzzleCompleted)
         {
-            StartTimer = false;            
-            Instantiate(EnemyPrefab);
-            FindObjectOfType<AudioManager>().Play("EnemyGrowl");
-            EnemySpawned = true;           
+            if (TimerCount > TimeGiven && StartTimer)
+            {
+                StartTimer = false;
+                Instantiate(EnemyPrefab);
+                FindObjectOfType<AudioManager>().Play("EnemyGrowl");
+                EnemySpawned = true;
+            }
         }
+        
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        PuzzleCompleted = true;
+    }
+
+
 }
