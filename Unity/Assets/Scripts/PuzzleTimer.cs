@@ -29,6 +29,7 @@ public class PuzzleTimer : MonoBehaviour
         {
             StartTimer = false;            
             Instantiate(EnemyPrefab);
+            FindObjectOfType<AudioManager>().Play("EnemyGrowl");
             EnemySpawned = true;           
         }
     }

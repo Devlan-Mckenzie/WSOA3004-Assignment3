@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PushingBox : MonoBehaviour
 {
-    public Rigidbody2D bodyr;
+    private Rigidbody2D bodyr;
 
     private void Update()
     {
