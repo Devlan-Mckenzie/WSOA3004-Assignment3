@@ -16,6 +16,10 @@ public class KeyCollection : MonoBehaviour
         {
             pickedupkey = true;
         }
+        if (keyCount < 0)
+        {
+            pickedupkey = false;
+        }
     }
 
     public void RemoveKey()
@@ -26,26 +30,34 @@ public class KeyCollection : MonoBehaviour
     {
         if (collision.gameObject.tag == "Key")
         {
-            keyCount++;
-            if (keyCount == 1)
+            ++keyCount;
+            //FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
+            //Destroy(collision.gameObject);
+            if (keyCount >= 1)
             {
-                Key_Symbol_1.SetActive(true);
-                FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
-                Destroy(collision.gameObject);                
+                Key_Symbol_1.SetActive(true);                               
             }
-            if (keyCount == 2)
+            else
             {
-                Key_Symbol_2.SetActive(true);
-                FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
-                Destroy(collision.gameObject);                
+                Key_Symbol_1.SetActive(false);
             }
-            if (keyCount == 3)
+            if (keyCount >= 2)
             {
-                Key_Symbol_3.SetActive(true);
-                FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
-                Destroy(collision.gameObject);
-            }       
-            
+                Key_Symbol_2.SetActive(true);                              
+            }
+            else
+            {
+                Key_Symbol_2.SetActive(false);
+            }
+            if (keyCount >= 3)
+            {
+                Key_Symbol_3.SetActive(true);                
+            }
+            else
+            {
+                Key_Symbol_3.SetActive(false);
+            }
+
         }
     }
 
