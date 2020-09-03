@@ -17,7 +17,7 @@ public class PuzzleTrigger : MonoBehaviour
         if(collision.gameObject.tag == "Player" && FindObjectOfType<KeyCollection>().pickedupkey )
         {
             Door_1.SetActive(false);
-            FindObjectOfType<KeyCollection>().pickedupkey = false;
+            FindObjectOfType<KeyCollection>().RemoveKey();
         }
     }
 }

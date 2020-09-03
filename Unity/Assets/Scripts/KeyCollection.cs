@@ -5,15 +5,48 @@ using UnityEngine;
 public class KeyCollection : MonoBehaviour
 {
     public GameObject Key_Symbol_1;
-    public bool pickedupkey=false;
+    public GameObject Key_Symbol_2;
+    public GameObject Key_Symbol_3;
+    private int keyCount = 0;
+    public bool pickedupkey = false;
+
+    private void Update()
+    {
+        while (keyCount > 0)
+        {
+            pickedupkey = true;
+        }
+    }
+
+    public void RemoveKey()
+    {
+        keyCount--;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Key")
         {
-            Key_Symbol_1.SetActive(true);
-            FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
-            Destroy(collision.gameObject);
-            pickedupkey = true;
+            keyCount++;
+            if (keyCount == 1)
+            {
+                Key_Symbol_1.SetActive(true);
+                FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
+                Destroy(collision.gameObject);                
+            }
+            if (keyCount == 2)
+            {
+                Key_Symbol_2.SetActive(true);
+                FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
+                Destroy(collision.gameObject);                
+            }
+            if (keyCount == 3)
+            {
+                Key_Symbol_3.SetActive(true);
+                FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
+                Destroy(collision.gameObject);
+            }       
+            
         }
     }
+
 }
