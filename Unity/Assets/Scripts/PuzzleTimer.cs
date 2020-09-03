@@ -40,7 +40,9 @@ public class PuzzleTimer : MonoBehaviour
     {
 
         if (StartTimer)
-        {   SliderTime -= Time.deltaTime;
+        {
+            TimerSlider.gameObject.SetActive(true);
+            SliderTime -= Time.deltaTime;
             float SliderMinutes = Mathf.FloorToInt(SliderTime / 60);
             float SliderSeconds =  Mathf.FloorToInt(SliderTime - SliderMinutes *60f);    
             
@@ -66,12 +68,20 @@ public class PuzzleTimer : MonoBehaviour
                 EnemySpawned = true;
             }
         }
+        else
+        {
+            TimerSlider.gameObject.SetActive(false);
+        }
         
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PuzzleCompleted = true;
+        if (collision.gameObject.tag == "PuzzleComplete")
+        {
+            PuzzleCompleted = true;
+        }
+        
     }
 
 
