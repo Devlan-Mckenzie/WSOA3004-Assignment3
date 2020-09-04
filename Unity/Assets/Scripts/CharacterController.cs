@@ -26,8 +26,8 @@ public class CharacterController : MonoBehaviour
     private bool m_climbingUp = false;                                     // For Controlling ladder anim
     private bool m_climbingDown = false;                                     // For Controlling ladder anim
     private bool canClimb = false;                                      // Controls the ability to climb
-    
 
+    
     private void Awake()
     {
         // Setting up references.
@@ -78,9 +78,11 @@ public class CharacterController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-
+        }       
+        
     } 
+
+    
 
     private void FixedUpdate()
     {
