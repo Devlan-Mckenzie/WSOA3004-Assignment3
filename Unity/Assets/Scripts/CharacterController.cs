@@ -27,6 +27,8 @@ public class CharacterController : MonoBehaviour
     private bool m_climbingDown = false;                                     // For Controlling ladder anim
     private bool canClimb = false;                                      // Controls the ability to climb
 
+    public GameObject Torch;                        // refrence to light in players hand 
+    
     
     private void Awake()
     {
@@ -78,10 +80,19 @@ public class CharacterController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }       
-        
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            ToggleTorch();
+        }
     } 
 
+    void ToggleTorch()
+    {
+        Torch.SetActive(!Torch.activeSelf);
+    }
     
 
     private void FixedUpdate()
