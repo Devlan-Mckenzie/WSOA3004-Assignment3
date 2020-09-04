@@ -9,6 +9,8 @@ TagManager:
   - Spawn
   - CheckPoint
   - Enemy
+  - PuzzleComplete
+  - Ladder
   layers:
   - Default
   - TransparentFX

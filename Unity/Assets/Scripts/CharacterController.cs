@@ -11,6 +11,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private bool m_airControl = false;                  // Whether or not the player can steer while jumping.
     [SerializeField] private LayerMask m_whatIsGround;                   // A mask determining what is ground to the character.
     [SerializeField] [Range(0, 1)] private float m_crouchSpeed = 0.3f;   // Percent of maxSpeed applied to the crouch.
+    [SerializeField] private float m_climbSpeed = 10f;                   // Climbing speed at which the player will ascend
 
     private Transform m_groundCheck;                                     // A position marking where to check if the player is grounded.
     const float k_groundedRadius = .2f;                                  // Radius of the overlap circle to determine if grounded.
@@ -22,7 +23,9 @@ public class CharacterController : MonoBehaviour
     private bool m_jump = false;                                         // For controlling player jumps.
     private Animator m_anim;                                             // Reference to the player`s animator component. 
     private bool m_crouch = false;                                       // For controlling player crouch
-
+    private bool m_climbingUp = false;                                     // For Controlling ladder anim
+    private bool m_climbingDown = false;                                     // For Controlling ladder anim
+    private bool canClimb = false;                                      // Controls the ability to climb
     
 
     private void Awake()
@@ -32,8 +35,9 @@ public class CharacterController : MonoBehaviour
         m_ceilingCheck = transform.Find("CeilingCheck");        
         m_rigidbody2D = GetComponent<Rigidbody2D>();
         m_anim = GetComponent<Animator>();
-    }
-
+    }    
+    
+    
     private void Update()
     {
         if (!m_jump)
@@ -41,6 +45,27 @@ public class CharacterController : MonoBehaviour
             // Read the jump input in Update so button presses aren't missed.
             m_jump = Input.GetButtonDown("Jump");
         }
+
+        
+            if (Input.GetKey(KeyCode.W))
+            {
+                m_climbingUp = true;
+            }
+
+            if (Input.GetKey(KeyCode.S))
+            {
+                m_climbingDown = true;
+            }
+
+            if (Input.GetKeyUp(KeyCode.W))
+            {
+                m_climbingUp = false;
+            }
+            if (Input.GetKeyUp(KeyCode.S))
+            {
+                m_climbingDown = false;
+            }
+        
 
         // Read the crouch input in update so button presses aren`t missed.
         m_crouch = Input.GetKey(KeyCode.LeftControl);
@@ -55,8 +80,7 @@ public class CharacterController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
-    }
-        
+    } 
 
     private void FixedUpdate()
     {
@@ -79,11 +103,15 @@ public class CharacterController : MonoBehaviour
         // Read the inputs.        
         float h = Input.GetAxis("Horizontal");
         // Pass all parameters to the character control script.
-        Move(h,m_crouch, m_jump);
+        Move(h,m_crouch, m_jump,m_climbingUp,m_climbingDown);
         m_jump = false;        
     }   
 
-    public void Move(float move, bool crouch, bool jump)
+    public void Setclimb(bool Climb)
+    {
+        canClimb = Climb;
+    }
+    public void Move(float move, bool crouch, bool jump,bool climbingUp , bool climbingDown)
     {   // If crouching then check to see if the player can stand up 
         if (!crouch && m_anim.GetBool("Crouch"))
         {
@@ -132,8 +160,28 @@ public class CharacterController : MonoBehaviour
             m_anim.SetBool("Ground", false);
             m_rigidbody2D.AddForce(new Vector2(0f, m_jumpForce));
         }
-    }
 
+        if (m_climbingUp && canClimb)
+        {
+            Debug.Log("Up");
+            m_anim.SetBool("Climbing", true);
+            m_rigidbody2D.position = new Vector2(m_rigidbody2D.position.x,m_rigidbody2D.position.y + m_climbSpeed);
+           
+
+        }
+
+        if (m_climbingDown && canClimb)
+        {
+            m_anim.SetBool("Climbing", true);
+            m_rigidbody2D.position = new Vector2(m_rigidbody2D.position.x, m_rigidbody2D.position.y - m_climbSpeed);
+
+        }
+
+        if (!canClimb)
+        {
+            m_anim.SetBool("Climbing", false);
+        }
+    }
 
     private void Flip()
     {
