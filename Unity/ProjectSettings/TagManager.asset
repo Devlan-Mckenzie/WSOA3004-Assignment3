@@ -11,6 +11,8 @@ TagManager:
   - Enemy
   - PuzzleComplete
   - Ladder
+  - Torch
+  - LightTrigger
   layers:
   - Default
   - TransparentFX
