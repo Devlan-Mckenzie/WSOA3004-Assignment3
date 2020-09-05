@@ -44,6 +44,7 @@ public class LightActivation : MonoBehaviour
             if (hit.collider != null && hit.collider.CompareTag("LightTrigger"))
             {
                 hit.collider.GetComponent<LightTrigger>().OpenDoor();
+                Debug.Log("Hit Light Trigger");
             }
 
             if (hit.collider != null && hit.collider.CompareTag("Redirect"))
@@ -51,6 +52,13 @@ public class LightActivation : MonoBehaviour
                 hit.collider.GetComponent<LightRedirect>().LightOn();
                 Debug.Log("Hit Redirect");
             }
+
+            if (hit.collider != null && hit.collider.CompareTag("Semi"))
+            {
+                hit.collider.GetComponent<LightInteractable>().ToggleInteractable();
+                Debug.Log("Hit Interactable");
+            }
+
 
             //Debug.DrawLine(Torch.transform.position, hit.point, Color.red);            
         }

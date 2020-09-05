@@ -13,6 +13,8 @@ TagManager:
   - Ladder
   - Torch
   - LightTrigger
+  - Redirect
+  - Semi
   layers:
   - Default
   - TransparentFX
