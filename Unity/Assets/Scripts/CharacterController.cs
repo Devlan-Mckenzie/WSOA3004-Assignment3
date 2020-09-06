@@ -49,12 +49,12 @@ public class CharacterController : MonoBehaviour
         }
 
         
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKeyDown(KeyCode.W))
             {
                 m_climbingUp = true;
             }
 
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKeyDown(KeyCode.S))
             {
                 m_climbingDown = true;
             }
@@ -70,7 +70,7 @@ public class CharacterController : MonoBehaviour
         
 
         // Read the crouch input in update so button presses aren`t missed.
-        m_crouch = Input.GetKey(KeyCode.LeftControl);
+        m_crouch = Input.GetKeyDown(KeyCode.LeftControl);
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {

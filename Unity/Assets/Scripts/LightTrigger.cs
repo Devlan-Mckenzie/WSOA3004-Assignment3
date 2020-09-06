@@ -4,9 +4,44 @@ using UnityEngine;
 
 public class LightTrigger : MonoBehaviour
 {
-    public GameObject Door;
-    public void OpenDoor()
+    public GameObject[] Doors;
+    public GameObject[] Ladders;
+    public bool testbool;
+
+    public void OpenDoor()  
     {
-        Door.SetActive(false);
+        
+        this.gameObject.SetActive(false);
+        
+        if(Doors.Length >= 1)
+        {
+            int n = 0;
+            while (n< Doors.Length)
+            {
+                Doors[n].SetActive(false);
+                n++;
+            }
+            
+        }
+
+        if(Ladders.Length >0)
+        {
+            int n = 0;
+            while (n< Ladders.Length)
+            {
+                Ladders[n].SetActive(true);
+                n++;
+            }
+        }
+    }
+
+    
+
+    public void Update()
+    {
+        if (testbool)
+        {
+            OpenDoor();
+        }
     }
 }
