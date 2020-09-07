@@ -18,8 +18,11 @@ public class PuzzleTimer : MonoBehaviour
     [SerializeField] bool PuzzleCompleted = false;          // Controls the puzzle completion 
     float SliderTime;                                       // Stores the Slider time which has been converted into min and sec
 
+    private GameObject Player;                              // Stores the plaeyr gameobject
+
     private void Start()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
         // set the timer to off
         StartTimer = false;
         // if the timer max and timer value are wrong set them to the correct max and value
@@ -95,8 +98,10 @@ public class PuzzleTimer : MonoBehaviour
                 TimerText.text = "00:00";
                 // find the audio manager and play death sound
                 FindObjectOfType<AudioManager>().Play("PlayerDeath"); // Ben Insert death sound here thanks :)         
-                
+
                 // create player death of some kind 
+                // for now sets the anim bool death to true;
+                Player.GetComponent<CharacterController>().PlayerDeath();
             }
         }
         else
