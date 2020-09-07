@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class LightTrigger : MonoBehaviour
 {
-    public GameObject[] Doors;
-    public GameObject[] Ladders;
-    public bool testbool;
+    public GameObject Zone;                 // Stores the zone the puzzle is in
+    public GameObject[] Doors;              // Array of gameobjects to be used as a door storage  
+    public GameObject[] Ladders;            // Array of gameobjects to be used as a ladder storage 
+    public bool OpenDoors;                  // Boolean for running the puzzle completed function
 
     public void OpenDoor()  
     {
-        
+        // Tell the zone that the puzzle was completed and thus to stop the timer
+        Zone.gameObject.GetComponent<PuzzleTimer>().PuzzleComplete();
+        // Set this object to inactive
         this.gameObject.SetActive(false);
         
+        // Run through the array of doors and set each of them to inactive, Opening them for now.
         if(Doors.Length >= 1)
         {
             int n = 0;
@@ -23,8 +27,8 @@ public class LightTrigger : MonoBehaviour
             }
             
         }
-
-        if(Ladders.Length >0)
+        // Run through the array of doors and set each of them to active, Showing them for now.
+        if (Ladders.Length >0)
         {
             int n = 0;
             while (n< Ladders.Length)
@@ -39,7 +43,8 @@ public class LightTrigger : MonoBehaviour
 
     public void Update()
     {
-        if (testbool)
+        // Check if the Puzzle has been solved and then call the above function to display the solve
+        if (OpenDoors)
         {
             OpenDoor();
         }

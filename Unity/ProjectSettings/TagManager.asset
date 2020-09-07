@@ -17,6 +17,7 @@ TagManager:
   - Semi
   - Friend
   - KeyDoor
+  - PuzzleTimer
   layers:
   - Default
   - TransparentFX

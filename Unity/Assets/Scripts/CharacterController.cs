@@ -48,7 +48,7 @@ public class CharacterController : MonoBehaviour
             m_jump = Input.GetButtonDown("Jump");
         }
 
-        
+        // read these inputs for up and down w s 
             if (Input.GetKeyDown(KeyCode.W))
             {
                 m_climbingUp = true;

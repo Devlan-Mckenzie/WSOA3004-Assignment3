@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1170359698914287420}
   - component: {fileID: 1170359698914287421}
   m_Layer: 5
-  m_Name: Slider
-  m_TagString: Untagged
+  m_Name: Puzzle Timer Slider
+  m_TagString: PuzzleTimer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
