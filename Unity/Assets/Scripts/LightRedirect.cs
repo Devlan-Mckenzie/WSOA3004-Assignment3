@@ -7,7 +7,7 @@ public class LightRedirect : MonoBehaviour
     public GameObject Light;
 
     [SerializeField]
-    private float rayLength = 100f;
+    public float rayLength = 100f;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,7 +43,7 @@ public class LightRedirect : MonoBehaviour
                 Debug.Log("Hit Interactable");
             }
 
-            //Debug.DrawLine(this.transform.position, hit.point, Color.red);
+            Debug.DrawLine(this.transform.position, hit.point, Color.red);
         }
     }
 

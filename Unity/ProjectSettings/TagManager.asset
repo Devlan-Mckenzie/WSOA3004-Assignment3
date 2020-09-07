@@ -15,6 +15,7 @@ TagManager:
   - LightTrigger
   - Redirect
   - Semi
+  - Friend
   layers:
   - Default
   - TransparentFX
