@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class KeyCollection : MonoBehaviour
 {
-    public GameObject Key_Symbol_1;
-    public GameObject Key_Symbol_2;
-    public GameObject Key_Symbol_3;
+    public GameObject[] Key_Symbol;
+    
 
     public GameObject FinalKey_Symbol_1;
     public GameObject FinalKey_Symbol_2;
@@ -69,35 +68,23 @@ public class KeyCollection : MonoBehaviour
             Destroy(collision.gameObject);
             if (keyCount >= 1)
             {
-                Key_Symbol_1.SetActive(true);
-            }
-            else
-            {
-                Key_Symbol_1.SetActive(false);
-            }
-
-            if (keyCount >= 2)
-            {
-                Key_Symbol_2.SetActive(true);
-            }
-            else
-            {
-                Key_Symbol_2.SetActive(false);
-            }
-
-            if (keyCount >= 3)
-            {
-                Key_Symbol_3.SetActive(true);
-            }
-            else
-            {
-                Key_Symbol_3.SetActive(false);
+                Key_Symbol[keyCount - 1].SetActive(true);
             }
         }
     }
     public void RemoveKey()
     {
         keyCount--;
+        if (keyCount >= 1)
+        {
+            Key_Symbol[keyCount - 1].SetActive(false);
+        }
+            
+        else if(keyCount == 0)
+        {
+            Key_Symbol[keyCount].SetActive(false);
+        }
+        
     }
 
 }
