@@ -37,7 +37,8 @@ public class KeyCollection : MonoBehaviour
             // find the audio manager and play the key collection sound
             FindObjectOfType<AudioManager>().Play("Key");
             //destroys the friend
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<FriendMovement>().BeginMoveFriend = true;
             // loops from 0 to number of final keys
             for (int i = 0; i < FinalKey_Symbol.Count; i++)
             {

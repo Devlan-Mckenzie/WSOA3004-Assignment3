@@ -23,11 +23,15 @@ public class CharacterController : MonoBehaviour
     private bool m_jump = false;                                         // For controlling player jumps.
     private Animator m_anim;                                             // Reference to the player`s animator component. 
     private bool m_crouch = false;                                       // For controlling player crouch
-    private bool m_climbingUp = false;                                     // For Controlling ladder anim
-    private bool m_climbingDown = false;                                     // For Controlling ladder anim
-    private bool canClimb = false;                                      // Controls the ability to climb
+    private bool m_climbingUp = false;                                   // For Controlling ladder anim
+    private bool m_climbingDown = false;                                 // For Controlling ladder anim
+    private bool canClimb = false;                                       // Controls the ability to climb
 
-    public GameObject Torch;                        // refrence to light in players hand 
+    public GameObject Torch;                                             // refrence to light in players hand 
+
+    private float DeathAnimTimer = 0f;                                  // Timer for counting till game freeze after player death
+    public float DeathAnimLength = 1f;                                  // Time for death animation to complete
+    private bool StartDeathTimer = false;                               // bool that starts the timer for the death animation
     
     
     private void Awake()
@@ -94,6 +98,15 @@ public class CharacterController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             ToggleTorch();
+        }
+
+        if (StartDeathTimer)
+        {
+            DeathAnimTimer += Time.deltaTime;
+            if (DeathAnimTimer > DeathAnimLength)
+            {
+                Time.timeScale = 0;
+            }
         }
     } 
 
@@ -191,8 +204,6 @@ public class CharacterController : MonoBehaviour
             Debug.Log("Up");
             m_anim.SetBool("Climbing", true);
             m_rigidbody2D.position = new Vector2(m_rigidbody2D.position.x,m_rigidbody2D.position.y + m_climbSpeed);
-           
-
         }
 
         if (m_climbingDown && canClimb)
@@ -221,7 +232,8 @@ public class CharacterController : MonoBehaviour
 
     public void PlayerDeath()
     {
-        m_anim.SetBool("Dead", true);
+        m_anim.SetBool("Death", true);
+        StartDeathTimer = true;
     }
 }
 
