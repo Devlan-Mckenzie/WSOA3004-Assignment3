@@ -58,6 +58,9 @@ TagManager:
   - name: Background
     uniqueID: 1872431311
     locked: 0
+  - name: Fog
+    uniqueID: 2567981755
+    locked: 0
   - name: Floor
     uniqueID: 103818451
     locked: 0
