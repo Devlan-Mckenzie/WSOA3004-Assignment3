@@ -11,6 +11,7 @@ public class Ladder : MonoBehaviour
         {
             // set the players character controller to climb
             collision.gameObject.GetComponent<CharacterController>().Setclimb(true);
+            FindObjectOfType<AudioManager>().Play("LadderFootsteps");
         }
     }
 
@@ -21,6 +22,7 @@ public class Ladder : MonoBehaviour
         {
             // set the player climb to true
             collision.gameObject.GetComponent<CharacterController>().Setclimb(true);
+            FindObjectOfType<AudioManager>().Play("LadderFootsteps");
         }
     }
 

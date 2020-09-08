@@ -155,14 +155,16 @@ public class CharacterController : MonoBehaviour
             {
                 // ... flip the player.
                 Flip();
-                FindObjectOfType<AudioManager>().Play("Breathe");
+                FindObjectOfType<AudioManager>().Play("BreathingSfx");
+                FindObjectOfType<AudioManager>().Play("Run");
             }
             // Otherwise if the input is moving the player left and the player is facing right...
             else if (move < 0 && m_facingRight)
             {
                 // ... flip the player.
                 Flip();
-                FindObjectOfType<AudioManager>().Play("Breathe");
+                FindObjectOfType<AudioManager>().Play("BreathingSfx");
+                FindObjectOfType<AudioManager>().Play("Run");
             }
         }
         // If the player should jump...
@@ -172,6 +174,8 @@ public class CharacterController : MonoBehaviour
             m_grounded = false;
             m_anim.SetBool("Ground", false);
             m_rigidbody2D.AddForce(new Vector2(0f, m_jumpForce));
+
+            FindObjectOfType<AudioManager>().Play("Jump");
         }
 
         if (m_climbingUp && canClimb)

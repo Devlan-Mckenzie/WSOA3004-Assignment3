@@ -35,7 +35,7 @@ public class KeyCollection : MonoBehaviour
             // increase the final key count by 1
             FinalKeyCount++;
             // find the audio manager and play the key collection sound
-            FindObjectOfType<AudioManager>().Play("KeyCollectionSound");
+            FindObjectOfType<AudioManager>().Play("Key");
             //destroys the friend
             Destroy(collision.gameObject);
             // loops from 0 to number of final keys

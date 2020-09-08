@@ -9,6 +9,7 @@ public class EnemyCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            FindObjectOfType<AudioManager>().Play("Death");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }

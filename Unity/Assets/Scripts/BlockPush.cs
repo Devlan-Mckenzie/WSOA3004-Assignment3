@@ -26,6 +26,8 @@ public class BlockPush : MonoBehaviour
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
             // set the being pulled variable to true
             box.GetComponent<BoxPull>().beingPushed = true;
+
+            FindObjectOfType<AudioManager>().Play("PushBox");
         }
         else if (Input.GetKeyUp(KeyCode.E) && box != null) // if the player releases the e key and the box is not equal to null
         {
