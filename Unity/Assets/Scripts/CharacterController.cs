@@ -67,10 +67,18 @@ public class CharacterController : MonoBehaviour
             {
                 m_climbingDown = false;
             }
-        
+
 
         // Read the crouch input in update so button presses aren`t missed.
-        m_crouch = Input.GetKeyDown(KeyCode.LeftControl);
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            m_crouch = true;
+        }
+        else
+        {
+            m_crouch = false;           
+        }
+        
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -131,7 +139,7 @@ public class CharacterController : MonoBehaviour
             // If the character has an object above them preventing them from standing then keep them crouching
             if (Physics2D.OverlapCircle(m_ceilingCheck.position,k_ceilingRadius,m_whatIsGround))
             {
-                crouch = true;
+                //crouch = true;      Disabled due to lack of use and error in this code          
             }
         }
 
