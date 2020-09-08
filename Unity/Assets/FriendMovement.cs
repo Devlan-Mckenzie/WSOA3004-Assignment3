@@ -11,6 +11,10 @@ public class FriendMovement : MonoBehaviour
     private Rigidbody2D rb;
      private float MoveDirection = 1;
     public bool BeginMoveFriend = false;
+
+    public float DespawnTime = 5f;
+    private float TimePassed = 0f;
+    private bool StartDespawnTimer = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +37,19 @@ public class FriendMovement : MonoBehaviour
     {        
         if (BeginMoveFriend)
         {
+            if (!StartDespawnTimer)
+            {
+                StartDespawnTimer = true;
+            }
+
+            if (StartDespawnTimer)
+            {
+                TimePassed += Time.deltaTime;
+                if (TimePassed > DespawnTime)
+                {
+                    this.gameObject.SetActive(false);
+                }
+            }
             MoveFriend();
         }        
     }
