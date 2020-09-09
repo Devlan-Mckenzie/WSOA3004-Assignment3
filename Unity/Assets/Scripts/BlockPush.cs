@@ -17,8 +17,10 @@ public class BlockPush : MonoBehaviour
         // cast the ray called hit from this pos in the right direction which will swap if our character turns left , for the distance above and interacting with the layers in boxMask
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x,InteractionDistance,boxMask);
         // if the ray hits an object with the collider puzzlepiece and the player is holding e
+
         if (hit.collider != null && hit.collider.gameObject.tag == "PuzzlePiece" && Input.GetKeyDown(KeyCode.E))
         {
+            
             // set the box to be equal to the object we hit 
             box = hit.collider.gameObject;
             // access the object and set it so that the fixed point 2d is joined to the players body and thus the player can drag it 
@@ -27,7 +29,7 @@ public class BlockPush : MonoBehaviour
             // set the being pulled variable to true
             box.GetComponent<BoxPull>().beingPushed = true;
 
-            FindObjectOfType<AudioManager>().Play("PushBox");
+            FindObjectOfType<AudioManager>().Play("Box");
         }
         else if (Input.GetKeyUp(KeyCode.E) && box != null) // if the player releases the e key and the box is not equal to null
         {

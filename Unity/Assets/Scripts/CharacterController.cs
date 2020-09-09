@@ -239,6 +239,8 @@ public class CharacterController : MonoBehaviour
     {
         m_anim.SetBool("Death", true);
         StartDeathTimer = true;
+
+        FindObjectOfType<AudioManager>().Play("Death");
     }
 
     public bool PlayerisDead() { return StartDeathTimer; }

@@ -19,7 +19,7 @@ public class OpenDoor : MonoBehaviour
             Destroy(Door);
             Destroy(Door2);
             FindObjectOfType<KeyCollection>().RemoveKey();
-            FindObjectOfType<AudioManager>().Play("DoorOpen");
+            //FindObjectOfType<AudioManager>().Play("DoorOpen");
         }
     }
     // Update is called once per frame

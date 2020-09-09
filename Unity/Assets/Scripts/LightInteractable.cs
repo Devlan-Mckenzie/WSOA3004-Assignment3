@@ -39,5 +39,6 @@ public class LightInteractable : MonoBehaviour
         this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
         StartTimer = true;
+        
     }
 }

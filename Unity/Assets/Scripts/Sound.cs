@@ -6,7 +6,7 @@ public class Sound
 {
     public AudioClip audioClip;
 
-    [Range(0f, 2f)]
+    [Range(0f, 5f)]
     public float volume;
 
     [Range(0f, 1f)]
