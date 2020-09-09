@@ -103,6 +103,7 @@ public class CharacterController : MonoBehaviour
         if (StartDeathTimer)
         {
             DeathAnimTimer += Time.deltaTime;
+
             if (DeathAnimTimer > DeathAnimLength)
             {
                 Time.timeScale = 0;
@@ -137,7 +138,11 @@ public class CharacterController : MonoBehaviour
         // Read the inputs.        
         float h = Input.GetAxis("Horizontal");
         // Pass all parameters to the character control script.
-        Move(h,m_crouch, m_jump,m_climbingUp,m_climbingDown);
+        if (!StartDeathTimer)
+        {
+            Move(h, m_crouch, m_jump, m_climbingUp, m_climbingDown);
+        }
+        
         m_jump = false;        
     }   
 
@@ -235,5 +240,7 @@ public class CharacterController : MonoBehaviour
         m_anim.SetBool("Death", true);
         StartDeathTimer = true;
     }
+
+    public bool PlayerisDead() { return StartDeathTimer; }
 }
 
