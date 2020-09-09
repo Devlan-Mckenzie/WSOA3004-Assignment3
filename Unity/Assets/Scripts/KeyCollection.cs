@@ -12,8 +12,11 @@ public class KeyCollection : MonoBehaviour
     public int FinalKeyCount = 0;
     public bool pickedupkey = false;
 
+    public float timer = 0;
+
     private void Update()
     {
+        timer += Time.deltaTime;
         // check if the player has atleast 1 key
         if (keyCount > 0)
         {
@@ -32,19 +35,27 @@ public class KeyCollection : MonoBehaviour
         // if the player collides an object tagged as friend
         if (collision.gameObject.tag == "Friend")
         {
-            // increase the final key count by 1
-            FinalKeyCount++;
-            // find the audio manager and play the key collection sound
-            FindObjectOfType<AudioManager>().Play("Key");
-            //destroys the friend
-            //Destroy(collision.gameObject);
-            collision.gameObject.GetComponent<FriendMovement>().BeginMoveFriend = true;
-            // loops from 0 to number of final keys
-            for (int i = 0; i < FinalKey_Symbol.Count; i++)
+            if (timer >= 5)
             {
-                // sets the final key symbol to true if its less than the number of final keys obtained
-                FinalKey_Symbol[i].SetActive(i < FinalKeyCount);
+                // increase the final key count by 1
+                FinalKeyCount++;
+                // find the audio manager and play the key collection sound
+                FindObjectOfType<AudioManager>().Play("Key");
+                //destroys the friend
+                //(collision.gameObject);
+                
+                
+                collision.gameObject.GetComponent<FriendMovement>().BeginMoveFriend = true;
+                // loops from 0 to number of final keys
+
+                for (int i = 0; i < FinalKey_Symbol.Count; i++)
+                {
+                    // sets the final key symbol to true if its less than the number of final keys obtained
+                    FinalKey_Symbol[i].SetActive(i < FinalKeyCount);
+                    timer = 0;
+                }
             }
+            
       
         }
 
