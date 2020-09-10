@@ -21,15 +21,16 @@ public class BlockPush : MonoBehaviour
         if (hit.collider != null && hit.collider.gameObject.tag == "PuzzlePiece" && Input.GetKeyDown(KeyCode.E))
         {
             
+
             // set the box to be equal to the object we hit 
             box = hit.collider.gameObject;
             // access the object and set it so that the fixed point 2d is joined to the players body and thus the player can drag it 
             box.GetComponent<FixedJoint2D>().enabled = true;
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
-            // set the being pulled variable to true
-            box.GetComponent<BoxPull>().beingPushed = true;
-
             FindObjectOfType<AudioManager>().Play("Box");
+            // set the being pulled variable to true
+            box.GetComponent<BoxPull>().beingPushed = true; // this line seemed to prevent stuff beneath it from running Ben, so I moved the audio call above it.
+            
         }
         else if (Input.GetKeyUp(KeyCode.E) && box != null) // if the player releases the e key and the box is not equal to null
         {
