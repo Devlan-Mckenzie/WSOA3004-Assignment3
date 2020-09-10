@@ -70,6 +70,9 @@ TagManager:
   - name: Player
     uniqueID: 1604381467
     locked: 0
+  - name: Particle effects
+    uniqueID: 771291895
+    locked: 0
   - name: UI
     uniqueID: 2946545993
     locked: 0
