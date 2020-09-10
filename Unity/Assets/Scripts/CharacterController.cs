@@ -27,7 +27,8 @@ public class CharacterController : MonoBehaviour
     private bool m_climbingDown = false;                                 // For Controlling ladder anim
     private bool canClimb = false;                                       // Controls the ability to climb
 
-    public GameObject Torch;                                             // refrence to light in players hand 
+    public GameObject Torch;
+    public GameObject DeathPanel;                                                  // refrence to light in players hand 
 
     private float DeathAnimTimer = 0f;                                  // Timer for counting till game freeze after player death
     public float DeathAnimLength = 1f;                                  // Time for death animation to complete
@@ -41,9 +42,9 @@ public class CharacterController : MonoBehaviour
         m_ceilingCheck = transform.Find("CeilingCheck");        
         m_rigidbody2D = GetComponent<Rigidbody2D>();
         m_anim = GetComponent<Animator>();
-    }    
-    
-    
+
+        DeathPanel.SetActive(false);
+    }      
     private void Update()
     {
         //if (!m_jump)
@@ -112,16 +113,14 @@ public class CharacterController : MonoBehaviour
             if (DeathAnimTimer > DeathAnimLength)
             {
                 Time.timeScale = 0;
+                DeathPanel.SetActive(true);
             }
         }
     } 
-
     void ToggleTorch()
     {
         Torch.SetActive(!Torch.activeSelf);
     }
-    
-
     private void FixedUpdate()
     {
         m_grounded = false;
@@ -240,7 +239,6 @@ public class CharacterController : MonoBehaviour
         theScale.x *= -1;
         transform.localScale = theScale;
     }
-
     public void PlayerDeath()
     {
         m_anim.SetBool("Death", true);
@@ -248,7 +246,6 @@ public class CharacterController : MonoBehaviour
 
         FindObjectOfType<AudioManager>().Play("Death");
     }
-
     public bool PlayerisDead() { return StartDeathTimer; }
 }
 
