@@ -46,10 +46,15 @@ public class CharacterController : MonoBehaviour
     
     private void Update()
     {
-        if (!m_jump)
+        //if (!m_jump)
+        //{
+        //    // Read the jump input in Update so button presses aren't missed.
+        //    m_jump = Input.GetButtonDown("Jump");
+        //}
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            // Read the jump input in Update so button presses aren't missed.
-            m_jump = Input.GetButtonDown("Jump");
+            m_jump = true;
         }
 
         // read these inputs for up and down w s 
@@ -128,6 +133,7 @@ public class CharacterController : MonoBehaviour
         {
             if (colliders[i].gameObject != gameObject)
                 m_grounded = true;
+            
         }
         m_anim.SetBool("Ground", m_grounded); // Sets the Animator Ground paramater of m_anim to the value of m_grounded  
 
@@ -140,7 +146,7 @@ public class CharacterController : MonoBehaviour
         // Pass all parameters to the character control script.
         if (!StartDeathTimer)
         {
-            Move(h, m_crouch, m_jump, m_climbingUp, m_climbingDown);
+            Move(h, m_crouch, m_jump, m_climbingUp, m_climbingDown);           
         }
         
         m_jump = false;        
