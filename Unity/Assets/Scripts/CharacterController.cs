@@ -38,6 +38,7 @@ public class CharacterController : MonoBehaviour
     private void Awake()
     {
         // Setting up references.
+        Time.timeScale = 1;
         m_groundCheck = transform.Find("GroundCheck");
         m_ceilingCheck = transform.Find("CeilingCheck");        
         m_rigidbody2D = GetComponent<Rigidbody2D>();

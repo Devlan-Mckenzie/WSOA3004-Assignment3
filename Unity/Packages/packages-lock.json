@@ -52,7 +52,7 @@
       }
     },
     "com.unity.ads": {
-      "version": "3.4.7",
+      "version": "3.4.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -195,7 +195,8 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.modules.ui": "1.0.0"
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
       }
     },
     "com.unity.xr.legacyinputhelpers": {
