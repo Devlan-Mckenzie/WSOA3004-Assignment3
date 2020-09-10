@@ -38,6 +38,39 @@ TextureImporter:
   - first:
       213: 5035479191965617608
     second: character_death_spritesheet_11
+  - first:
+      213: 201021845833792065
+    second: character_death_spritesheet_0
+  - first:
+      213: 5120740022954390859
+    second: character_death_spritesheet_1
+  - first:
+      213: 5171700074435813992
+    second: character_death_spritesheet_2
+  - first:
+      213: -3863320013560070874
+    second: character_death_spritesheet_3
+  - first:
+      213: -1068583985742746028
+    second: character_death_spritesheet_4
+  - first:
+      213: 727543054515846018
+    second: character_death_spritesheet_5
+  - first:
+      213: 4082953722865073673
+    second: character_death_spritesheet_6
+  - first:
+      213: 6438989973150722208
+    second: character_death_spritesheet_7
+  - first:
+      213: 1300350835605910278
+    second: character_death_spritesheet_8
+  - first:
+      213: 8996797597518017731
+    second: character_death_spritesheet_9
+  - first:
+      213: -6028516488844550622
+    second: character_death_spritesheet_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -68,7 +101,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -102,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +147,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -152,10 +185,10 @@ TextureImporter:
       name: character_death_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 93
-        y: 3837
-        width: 174
-        height: 186
+        x: 58
+        y: 3838
+        width: 150
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +196,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce8870bb50b063b50800000000000000
-      internalID: 6572452825434392812
+      spriteID: 14a3401cd4c2ac200800000000000000
+      internalID: 201021845833792065
       vertices: []
       indices: 
       edges: []
@@ -173,10 +206,10 @@ TextureImporter:
       name: character_death_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 319
-        y: 3845
-        width: 174
-        height: 186
+        x: 529
+        y: 3846
+        width: 150
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +217,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84fca422a540b0de0800000000000000
-      internalID: -1365993276807917752
+      spriteID: b4572578be5801740800000000000000
+      internalID: 5120740022954390859
       vertices: []
       indices: 
       edges: []
@@ -194,10 +227,10 @@ TextureImporter:
       name: character_death_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 541
-        y: 3847
-        width: 174
-        height: 186
+        x: 1039
+        y: 3852
+        width: 150
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +238,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6449179a559460b30800000000000000
-      internalID: 4253167530361852998
+      spriteID: 862ab9d11d195c740800000000000000
+      internalID: 5171700074435813992
       vertices: []
       indices: 
       edges: []
@@ -215,10 +248,10 @@ TextureImporter:
       name: character_death_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 787
-        y: 3855
-        width: 174
-        height: 186
+        x: 1759
+        y: 3862
+        width: 150
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,92 +259,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c08f9d278f9bfc10800000000000000
-      internalID: 2088438255151186116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_death_spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 958
-        y: 3855
-        width: 174
-        height: 186
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38df9841d4b262d30800000000000000
-      internalID: 4406256895485672835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_death_spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 1171
-        y: 3857
-        width: 174
-        height: 186
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50b28552660c62750800000000000000
-      internalID: 6279918275360467717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_death_spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 1397
-        y: 3865
-        width: 174
-        height: 186
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d59d6d1256f14e2d0800000000000000
-      internalID: -3250438511834769059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_death_spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 3854
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8644735d19219e40800000000000000
-      internalID: 5661351412512343691
+      spriteID: 62d381a9aeab26ac0800000000000000
+      internalID: -3863320013560070874
       vertices: []
       indices: 
       edges: []
@@ -320,10 +269,10 @@ TextureImporter:
       name: character_death_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 598
-        y: 3840
-        width: 4
-        height: 4
+        x: 78
+        y: 3412
+        width: 150
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,8 +280,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4abe074b1f883ed20800000000000000
-      internalID: 3306637123115871140
+      spriteID: 6033ca70236cb0210800000000000000
+      internalID: 1300350835605910278
       vertices: []
       indices: 
       edges: []
@@ -341,10 +290,10 @@ TextureImporter:
       name: character_death_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 613
-        y: 3840
-        width: 9
-        height: 5
+        x: 604
+        y: 3430
+        width: 175
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,8 +301,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9989ff312595cea0800000000000000
-      internalID: -5853108170658313827
+      spriteID: 3c436247fbb0bdc70800000000000000
+      internalID: 8996797597518017731
       vertices: []
       indices: 
       edges: []
@@ -362,10 +311,10 @@ TextureImporter:
       name: character_death_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 832
-        y: 3828
-        width: 4
-        height: 4
+        x: 1152
+        y: 3448
+        width: 175
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,29 +322,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92473cb13da037ca0800000000000000
-      internalID: -6020456375044049879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_death_spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 848
-        y: 3828
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8cd4bfe55ad91e540800000000000000
-      internalID: 5035479191965617608
+      spriteID: 22ed5df9138665ca0800000000000000
+      internalID: -6028516488844550622
       vertices: []
       indices: 
       edges: []
