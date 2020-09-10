@@ -28,8 +28,7 @@ public class CharacterController : MonoBehaviour
     private bool canClimb = false;                                       // Controls the ability to climb
 
     public GameObject Torch;
-    public GameObject DeathPanel;                                                 // refrence to light in players hand 
-    public AudioSource DeathPanelSound;
+    public GameObject DeathPanel;                                                  // refrence to light in players hand 
 
     private float DeathAnimTimer = 0f;                                  // Timer for counting till game freeze after player death
     public float DeathAnimLength = 1f;                                  // Time for death animation to complete
@@ -116,7 +115,6 @@ public class CharacterController : MonoBehaviour
             {
                 Time.timeScale = 0;
                 DeathPanel.SetActive(true);
-                DeathPanelSound.Play();
             }
         }
     } 
