@@ -45,6 +45,7 @@ public class PuzzleTimer : MonoBehaviour
         {
             // if it was the player start the timer
             StartTimer = true;
+            TimerSlider.gameObject.SetActive(true);
         }
     }
 
@@ -108,6 +109,7 @@ public class PuzzleTimer : MonoBehaviour
         {
             // if puzzle gets completed the make the timer inactive
             TimerSlider.gameObject.SetActive(false);
+            this.gameObject.SetActive(false);
         }
         
     }
