@@ -18,11 +18,8 @@ public class BlockPush : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x,InteractionDistance,boxMask);
         // if the ray hits an object with the collider puzzlepiece and the player is holding e
 
-        if (hit.collider != null && hit.collider.gameObject.tag == "PuzzlePiece" && Input.GetKeyDown(KeyCode.E))
-        {
-            
-
-            // set the box to be equal to the object we hit 
+        if (hit.collider != null && hit.collider.gameObject.layer == 9 && Input.GetKeyDown(KeyCode.E))
+        {   // set the box to be equal to the object we hit 
             box = hit.collider.gameObject;
             // access the object and set it so that the fixed point 2d is joined to the players body and thus the player can drag it 
             box.GetComponent<FixedJoint2D>().enabled = true;
