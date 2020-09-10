@@ -11,6 +11,15 @@ TextureImporter:
   - first:
       213: 7002315637811526218
     second: newplayercharacter_idle_sheet_2
+  - first:
+      213: -6109969197067231724
+    second: newplayercharacter_idle_sheet_0
+  - first:
+      213: 2503095285194030585
+    second: newplayercharacter_idle_sheet_1
+  - first:
+      213: 66910594834434566
+    second: newplayercharacter_idle_sheet_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +50,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -75,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -87,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,9 +134,9 @@ TextureImporter:
       name: newplayercharacter_idle_sheet_0
       rect:
         serializedVersion: 2
-        x: 30
+        x: 0
         y: 771
-        width: 98
+        width: 130
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -136,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79551845d91d65960800000000000000
-      internalID: 7590484695637382551
+      spriteID: 41e9a342367053ba0800000000000000
+      internalID: -6109969197067231724
       vertices: []
       indices: 
       edges: []
@@ -146,9 +155,9 @@ TextureImporter:
       name: newplayercharacter_idle_sheet_1
       rect:
         serializedVersion: 2
-        x: 168
-        y: 774
-        width: 98
+        x: 373
+        y: 762
+        width: 130
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -157,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e514d5fd617dc80800000000000000
-      internalID: -8298138639808766366
+      spriteID: 9fdf1f066e7ccb220800000000000000
+      internalID: 2503095285194030585
       vertices: []
       indices: 
       edges: []
@@ -167,9 +176,9 @@ TextureImporter:
       name: newplayercharacter_idle_sheet_2
       rect:
         serializedVersion: 2
-        x: 289
-        y: 773
-        width: 98
+        x: 693
+        y: 760
+        width: 130
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -178,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4a3be409f83d2160800000000000000
-      internalID: 7002315637811526218
+      spriteID: 60a01dcd4d6bde000800000000000000
+      internalID: 66910594834434566
       vertices: []
       indices: 
       edges: []

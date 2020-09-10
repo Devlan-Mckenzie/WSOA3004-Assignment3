@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: 97276642743433371
     second: character_ladderidle_spritesheet_1
+  - first:
+      213: 1490365213204987240
+    second: character_ladderidle_spritesheet_0
+  - first:
+      213: -7407755833545300977
+    second: character_ladderidle_spritesheet_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -38,7 +44,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -72,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -84,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,9 +128,9 @@ TextureImporter:
       name: character_ladderidle_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 89
+        x: 53
         y: 768
-        width: 76
+        width: 150
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -133,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86585f4466008edc0800000000000000
-      internalID: -3609634662093847192
+      spriteID: 86dbeaed347dea410800000000000000
+      internalID: 1490365213204987240
       vertices: []
       indices: 
       edges: []
@@ -143,9 +149,9 @@ TextureImporter:
       name: character_ladderidle_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 202
-        y: 772
-        width: 76
+        x: 404
+        y: 766
+        width: 150
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -154,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b983aa75798995100800000000000000
-      internalID: 97276642743433371
+      spriteID: f0464be315d523990800000000000000
+      internalID: -7407755833545300977
       vertices: []
       indices: 
       edges: []
