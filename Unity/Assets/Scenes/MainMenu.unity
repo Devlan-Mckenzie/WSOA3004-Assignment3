@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &14169459
 RectTransform:
   m_ObjectHideFlags: 0
@@ -154,6 +154,8 @@ RectTransform:
   - {fileID: 559933733}
   - {fileID: 23211821}
   - {fileID: 1305193399}
+  - {fileID: 981108959}
+  - {fileID: 1425117106}
   m_Father: {fileID: 422183464}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -196,8 +198,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269, y: 89}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -215, y: -33.976}
+  m_SizeDelta: {x: 286.04242, y: 282.62473}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23211822
 MonoBehaviour:
@@ -212,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8862746, g: 0.5803922, b: 0.16470589, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -220,26 +222,26 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 11
+    m_Font: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
+    m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 144
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "At the end of the raging ball of light\u2019s tether \r\nThe stars shine
-    and the moon lights up the skies\r\nYet it all still feels like delirium,\r\nIt
-    begs to question, am I awake or asleep,\r\nIs it day or is it night?\r\nIs it
+    and the moon lights up the skies.\r\nYet, it all still feels like delirium,\r\nIt
+    begs the questions; am I awake or asleep?\nIs it day or is it night?\r\nIs it
     merely another day, in the face of pain?\r\n\r\nHere in this moment, cold and
-    unmoving. \r\nAn insignificant creature of the abyss,\r\nLays bound and tortured
+    unmoving-\r\nAn insignificant creature of the abyss,\r\nLays bound and tortured
     within,\r\nthe dark dreary dungeon of \u201CLight\u201D.\r\nAs she looks at the
-    world from behind bars,\r\nThoughts and dreams about escape,\r\nfade through
-    the halls of the dungeon, and \r\ntunnels become her only vision.\r\n\r\nScreaming,
+    world from behind bars;\nThoughts and dreams about escape,\r\nfade through the
+    halls of the dungeon, and \r\ntunnels become her only vision.\r\n\r\nScreaming,
     Screaming\r\nShe brings this moment into action, escapes\r\nAnd holds onto hope
     \u2013 a flashlight that glistens to\r\nthe remembrance of friends, family and
     what It means \r\nto be alive.\r\n"
@@ -752,18 +754,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 411664019}
-  m_LocalRotation: {x: -0.0012059516, y: 0.0006393225, z: 0.011377892, w: 0.99993443}
-  m_LocalPosition: {x: 0, y: 0, z: -0.69788414}
+  m_LocalRotation: {x: -0.0012130279, y: 0.00062832865, z: 0.00000076218083, w: 0.99999905}
+  m_LocalPosition: {x: 0, y: 0, z: -0.57212}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 1030111310}
   m_Father: {fileID: 14169459}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.139, y: 0.072, z: 1.304}
+  m_LocalEulerAnglesHint: {x: -0.139, y: 0.072, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 235, y: 92}
-  m_SizeDelta: {x: 368.4737, y: 120.08319}
+  m_AnchoredPosition: {x: 27.383, y: 147.7}
+  m_SizeDelta: {x: 91.65073, y: 45.815125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411664021
 MonoBehaviour:
@@ -778,7 +780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7169812, g: 0.49138874, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1235,8 +1237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 137, y: -73}
-  m_SizeDelta: {x: 181.7583, y: 79.73303}
+  m_AnchoredPosition: {x: 297.2, y: -85.899994}
+  m_SizeDelta: {x: 49.860184, y: 27.031013}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &559933734
 MonoBehaviour:
@@ -1757,6 +1759,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701770474}
+  m_CullTransparentMesh: 0
+--- !u!1 &981108958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 981108959}
+  - component: {fileID: 981108961}
+  - component: {fileID: 981108960}
+  m_Layer: 5
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &981108959
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981108958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 14169459}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 236, y: 138.97}
+  m_SizeDelta: {x: 122.042816, y: 63.267}
+  m_Pivot: {x: 0.50000006, y: 0.5}
+--- !u!114 &981108960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981108958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 135
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 'How to play:'
+--- !u!222 &981108961
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981108958}
   m_CullTransparentMesh: 0
 --- !u!1 &985205990
 GameObject:
@@ -2622,9 +2703,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 228, y: -1}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 236, y: -13.267}
+  m_SizeDelta: {x: 286.1827, y: 218.2352}
+  m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &1305193400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2638,7 +2719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8862746, g: 0.5803922, b: 0.16470589, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2646,13 +2727,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 13
+    m_Font: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 135
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -2663,8 +2744,12 @@ MonoBehaviour:
 
 
     You will need to use your torch to navigate the level
-    to find puzzles that need to be completed in order to reward you with keys that
-    will open doors to paths to other parts of the level to save your friends.'
+    and find the puzzles. they need to be completed in order to reward you with keys.
+    these keys will open the doors to the passages that lead you through level to
+    save your friends.
+
+
+    good luck!'
 --- !u!222 &1305193401
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3068,6 +3153,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371685034}
+  m_CullTransparentMesh: 0
+--- !u!1 &1425117105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1425117106}
+  - component: {fileID: 1425117108}
+  - component: {fileID: 1425117107}
+  m_Layer: 5
+  m_Name: Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1425117106
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425117105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 14169459}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -216.54, y: 147.7}
+  m_SizeDelta: {x: 289.11392, y: 60.335434}
+  m_Pivot: {x: 0.50000006, y: 0.5}
+--- !u!114 &1425117107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425117105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 135
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: the story of the dungeon
+--- !u!222 &1425117108
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425117105}
   m_CullTransparentMesh: 0
 --- !u!1 &1503889832
 GameObject:
@@ -3962,7 +4126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1841150565
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4032,10 +4196,10 @@ RectTransform:
   m_Father: {fileID: 559933733}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 141, y: -50}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.22010818}
+  m_AnchorMax: {x: 0.8295069, y: 1}
+  m_AnchoredPosition: {x: 4.2504005, y: -2.9749002}
+  m_SizeDelta: {x: 8.50082, y: 5.949745}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1880110488
 MonoBehaviour:
@@ -4050,7 +4214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7169812, g: 0.49138874, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4064,7 +4228,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 45
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
