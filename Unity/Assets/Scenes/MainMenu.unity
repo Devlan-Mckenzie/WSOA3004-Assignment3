@@ -2442,8 +2442,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -57.3, y: -108.3}
-  m_SizeDelta: {x: 128.38492, y: 52.258003}
+  m_AnchoredPosition: {x: -60.4, y: -115.44}
+  m_SizeDelta: {x: 134.4849, y: 83.09035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170041151
 MonoBehaviour:
@@ -2467,10 +2467,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 49c71b45dc09dfc408128fa230ed009f, type: 3}
-    m_FontSize: 14
+    m_FontSize: 8
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
+    m_BestFit: 1
+    m_MinSize: 8
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -2478,7 +2478,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: once the triangle dissappears this tile will be visible to indicated that
+    the torch has been lit
 --- !u!222 &1170041152
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3344,8 +3345,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -275.8, y: -115.75}
-  m_SizeDelta: {x: 131.1849, y: 67.15847}
+  m_AnchoredPosition: {x: -277.2, y: -119.58}
+  m_SizeDelta: {x: 128.38492, y: 74.81202}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531118748
 MonoBehaviour:
@@ -3381,8 +3382,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: the white triangle spread around the map is the trigger to the puzzle. 
-    when the torch is pointed towards the triangle it opens a door and the timer
-    stops.
+    when the torch is pointed towards the triangle it lights the torch, opens a door
+    and the timer stops.
 --- !u!222 &1531118749
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3844,7 +3845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1752041055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4179,7 +4180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1841150565
 RectTransform:
   m_ObjectHideFlags: 0
