@@ -7,6 +7,7 @@ public class LightTrigger : MonoBehaviour
     public GameObject Zone;                 // Stores the zone the puzzle is in
     public GameObject[] Doors;              // Array of gameobjects to be used as a door storage  
     public GameObject[] Ladders;            // Array of gameobjects to be used as a ladder storage 
+    public GameObject[] Torches;            // Array of gameobjects to be used as torches, will be displayed when the light zone is activated
     public bool OpenDoors;                  // Boolean for running the puzzle completed function
 
     public void OpenDoor()  
@@ -16,12 +17,22 @@ public class LightTrigger : MonoBehaviour
         {
             Zone.gameObject.GetComponent<PuzzleTimer>().PuzzleComplete();
         }
-        
+
         // Set this object to inactive
-        this.gameObject.SetActive(false);
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
+        if (Torches.Length > 0)
+        {
+            int n = 0;
+            while (n < Torches.Length)
+            {
+                Torches[n].SetActive(true);
+                n++;
+            }
+        }
         
         // Run through the array of doors and set each of them to inactive, Opening them for now.
-        if(Doors.Length >= 1)
+        if (Doors.Length >= 1)
         {
             int n = 0;
             while (n< Doors.Length)
@@ -32,7 +43,7 @@ public class LightTrigger : MonoBehaviour
             
         }
         // Run through the array of doors and set each of them to active, Showing them for now.
-        if (Ladders.Length >0)
+        if (Ladders.Length > 0)
         {
             int n = 0;
             while (n< Ladders.Length)
