@@ -220,8 +220,7 @@ public class CharacterController : MonoBehaviour
         if (m_climbingDown && canClimb)
         {
             m_anim.SetBool("Climbing", true);
-            m_rigidbody2D.position = new Vector2(m_rigidbody2D.position.x, m_rigidbody2D.position.y - m_climbSpeed);
-
+            // removed speed as it would go through the floor
         }
 
         if (!canClimb)
