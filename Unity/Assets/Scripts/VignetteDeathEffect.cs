@@ -35,7 +35,6 @@ public class VignetteDeathEffect : MonoBehaviour
             int MaxVignetteIntensity = 1;
             float NewVignetteIntensity = Mathf.Lerp(CurrentVignetteIntensity, MaxVignetteIntensity, ((VignetteTime/LerpTime) * LerpSpeed) + VignetteOffset);
             VG.intensity.value = NewVignetteIntensity;
-            Debug.Log("The VG Intensity is " + VG.intensity.value);
         }
     }
 }
