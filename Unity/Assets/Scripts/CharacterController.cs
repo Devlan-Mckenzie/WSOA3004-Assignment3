@@ -9,7 +9,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private float m_maxSpeed = 10f;                     // The fastest the player can travel in the X - axis.
     [SerializeField] private float m_jumpForce = 400f;                   // Amount of force added when the player jumps.
     [SerializeField] private bool m_airControl = false;                  // Whether or not the player can steer while jumping.
-    [SerializeField] private LayerMask m_whatIsGround;                   // A mask determining what is ground to the character.
+    [SerializeField] private LayerMask m_whatIsGround = 1;                   // A mask determining what is ground to the character.
     [SerializeField] [Range(0, 1)] private float m_crouchSpeed = 0.3f;   // Percent of maxSpeed applied to the crouch.
     [SerializeField] private float m_climbSpeed = 10f;                   // Climbing speed at which the player will ascend
 

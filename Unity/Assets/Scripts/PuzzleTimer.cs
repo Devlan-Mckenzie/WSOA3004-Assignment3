@@ -1,11 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using TMPro;
-using UnityEngine.UIElements;
-using UnityEditor.UI;
-using System.Threading;
 
 public class PuzzleTimer : MonoBehaviour
 {
