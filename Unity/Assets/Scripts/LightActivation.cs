@@ -50,8 +50,6 @@ public class LightActivation : MonoBehaviour
                 hit.collider.GetComponent<LightTrigger>().OpenDoor();
 
                 FindObjectOfType<AudioManager>().Play("DoorOpen");
-                //state that the light trigger was hit
-                Debug.Log("Hit Light Trigger");
                
             }
             // if the ray hits an object with the redirect tag
@@ -60,8 +58,6 @@ public class LightActivation : MonoBehaviour
                 // access the object and play the lighton function
                 hit.collider.GetComponent<LightRedirect>().LightOn();
                 FindObjectOfType<AudioManager>().Play("DoorOpen");
-                // state that the redirect trigger was hit
-                Debug.Log("Hit Redirect");
             }
             // if the ray hits and object with the tag semi
             if (hit.collider != null && hit.collider.CompareTag("Semi"))
@@ -69,8 +65,6 @@ public class LightActivation : MonoBehaviour
                 // access the object and play the toggleinteractable function
                 hit.collider.GetComponent<LightInteractable>().ToggleInteractable();
                 FindObjectOfType<AudioManager>().Play("DoorOpen");
-                // state that the interactable trigger was hit
-                Debug.Log("Hit Interactable");
             }
             // Draw the ray for visual purposes
             //Debug.DrawLine(Torch.transform.position, hit.point, Color.red);            

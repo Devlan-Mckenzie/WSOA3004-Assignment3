@@ -23,25 +23,19 @@ public class LightRedirect : MonoBehaviour
             if (hit.collider != null && hit.collider.CompareTag("LightTrigger"))
             {
                 // access the object the ray collided with and run the open door function 
-                hit.collider.GetComponent<LightTrigger>().OpenDoor();
-                // state that the trigger was hit
-                Debug.Log("Hit Light Trigger");
+                hit.collider.GetComponent<LightTrigger>().OpenDoor();                
             }
             // if the ray hit something and the tag on the object it hit is the redirect tag
             if (hit.collider != null && hit.collider.CompareTag("Redirect"))
             {
                 // access the object hit and play the lighton function
-                hit.collider.GetComponent<LightRedirect>().LightOn();
-                //state that the redirect was hit 
-                Debug.Log("Hit Redirect");
+                hit.collider.GetComponent<LightRedirect>().LightOn();              
             }
             // if the ray hit something and the tag on the object hit is semi
             if (hit.collider != null && hit.collider.CompareTag("Semi"))
             {
                 // access the object hit and play the toggleinteractable function
-                hit.collider.GetComponent<LightInteractable>().ToggleInteractable();
-                // state that the interactable trigger was hit
-                Debug.Log("Hit Interactable");
+                hit.collider.GetComponent<LightInteractable>().ToggleInteractable();               
             }
             // draw the ray so that we can visualise the ray
             Debug.DrawLine(this.transform.position, hit.point, Color.red);

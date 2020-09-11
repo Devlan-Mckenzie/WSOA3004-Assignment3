@@ -211,8 +211,7 @@ public class CharacterController : MonoBehaviour
         }
 
         if (m_climbingUp && canClimb)
-        {
-            Debug.Log("Up");
+        {            
             m_anim.SetBool("Climbing", true);
             m_rigidbody2D.position = new Vector2(m_rigidbody2D.position.x,m_rigidbody2D.position.y + m_climbSpeed);
         }
