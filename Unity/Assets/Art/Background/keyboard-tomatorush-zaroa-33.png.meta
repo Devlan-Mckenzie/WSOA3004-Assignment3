@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 923fef292fd365e428cf81ba0cd66fc6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -317180667656351309
+    second: keyboard-tomatorush-zaroa-33_0
+  - first:
+      213: -5873378482782167844
+    second: keyboard-tomatorush-zaroa-33_1
+  - first:
+      213: -8298173731070126760
+    second: keyboard-tomatorush-zaroa-33_2
+  - first:
+      213: 2073979130372826308
+    second: keyboard-tomatorush-zaroa-33_3
+  - first:
+      213: -387250382292094967
+    second: keyboard-tomatorush-zaroa-33_4
+  - first:
+      213: 6918597783879368741
+    second: keyboard-tomatorush-zaroa-33_5
+  - first:
+      213: -2875155333314623694
+    second: keyboard-tomatorush-zaroa-33_6
+  - first:
+      213: -7578859107188762168
+    second: keyboard-tomatorush-zaroa-33_7
+  - first:
+      213: -4048370689193942040
+    second: keyboard-tomatorush-zaroa-33_8
+  - first:
+      213: -788586703951717708
+    second: keyboard-tomatorush-zaroa-33_9
+  - first:
+      213: 8299423600450344251
+    second: keyboard-tomatorush-zaroa-33_10
+  - first:
+      213: 8100153871946688701
+    second: keyboard-tomatorush-zaroa-33_11
+  - first:
+      213: -7876875976521322835
+    second: keyboard-tomatorush-zaroa-33_12
+  - first:
+      213: -7701286080978631034
+    second: keyboard-tomatorush-zaroa-33_13
+  - first:
+      213: 2348818711296038734
+    second: keyboard-tomatorush-zaroa-33_14
+  - first:
+      213: 3411352740648668848
+    second: keyboard-tomatorush-zaroa-33_15
+  - first:
+      213: -7259203308652695250
+    second: keyboard-tomatorush-zaroa-33_16
+  - first:
+      213: -29396137854343400
+    second: keyboard-tomatorush-zaroa-33_17
+  - first:
+      213: 5322517113506669100
+    second: keyboard-tomatorush-zaroa-33_18
+  - first:
+      213: 3396224917418446948
+    second: keyboard-tomatorush-zaroa-33_19
+  - first:
+      213: 3220461712937803276
+    second: keyboard-tomatorush-zaroa-33_20
+  - first:
+      213: 5190272954607090067
+    second: keyboard-tomatorush-zaroa-33_21
+  - first:
+      213: 5431089399769209086
+    second: keyboard-tomatorush-zaroa-33_22
+  - first:
+      213: 3637737549839921601
+    second: keyboard-tomatorush-zaroa-33_23
+  - first:
+      213: 8660714514370294041
+    second: keyboard-tomatorush-zaroa-33_24
+  - first:
+      213: 4753855067971678930
+    second: keyboard-tomatorush-zaroa-33_25
+  - first:
+      213: 4301519922781834824
+    second: keyboard-tomatorush-zaroa-33_26
+  - first:
+      213: -8891908279473626154
+    second: keyboard-tomatorush-zaroa-33_27
+  - first:
+      213: 3335318708060096840
+    second: keyboard-tomatorush-zaroa-33_28
+  - first:
+      213: -5699570538995770869
+    second: keyboard-tomatorush-zaroa-33_29
+  - first:
+      213: -4939203132866033771
+    second: keyboard-tomatorush-zaroa-33_30
+  - first:
+      213: 6305807259160788863
+    second: keyboard-tomatorush-zaroa-33_31
+  - first:
+      213: 8718052763392045376
+    second: keyboard-tomatorush-zaroa-33_32
+  - first:
+      213: 833770937109099264
+    second: keyboard-tomatorush-zaroa-33_33
+  - first:
+      213: -3666097133957872270
+    second: keyboard-tomatorush-zaroa-33_34
+  - first:
+      213: 9044719189766633068
+    second: keyboard-tomatorush-zaroa-33_35
+  - first:
+      213: 5824347498579384662
+    second: keyboard-tomatorush-zaroa-33_36
+  - first:
+      213: 3063213089777932906
+    second: keyboard-tomatorush-zaroa-33_37
+  - first:
+      213: 2286417852419021191
+    second: keyboard-tomatorush-zaroa-33_38
+  - first:
+      213: 2955172933823705312
+    second: keyboard-tomatorush-zaroa-33_39
+  - first:
+      213: -9002685611856811667
+    second: keyboard-tomatorush-zaroa-33_40
+  - first:
+      213: -6220657952129154388
+    second: keyboard-tomatorush-zaroa-33_41
+  - first:
+      213: 3581588335699642327
+    second: keyboard-tomatorush-zaroa-33_42
+  - first:
+      213: 6460558487519516965
+    second: keyboard-tomatorush-zaroa-33_43
+  - first:
+      213: 6323122130076892791
+    second: keyboard-tomatorush-zaroa-33_44
+  - first:
+      213: -8271255272558765987
+    second: keyboard-tomatorush-zaroa-33_45
+  - first:
+      213: 8707950522091417610
+    second: keyboard-tomatorush-zaroa-33_46
+  - first:
+      213: 4001714675513208807
+    second: keyboard-tomatorush-zaroa-33_47
+  - first:
+      213: 6823513686171433617
+    second: keyboard-tomatorush-zaroa-33_48
+  - first:
+      213: -4338353535545324930
+    second: keyboard-tomatorush-zaroa-33_49
+  - first:
+      213: -2777281767056401439
+    second: keyboard-tomatorush-zaroa-33_50
+  - first:
+      213: -1126789252312794386
+    second: keyboard-tomatorush-zaroa-33_51
+  - first:
+      213: 6856249777722360643
+    second: keyboard-tomatorush-zaroa-33_52
+  - first:
+      213: 1960375871030522954
+    second: keyboard-tomatorush-zaroa-33_53
+  - first:
+      213: -6360934196166727692
+    second: keyboard-tomatorush-zaroa-33_54
+  - first:
+      213: -672764036925285870
+    second: keyboard-tomatorush-zaroa-33_55
+  - first:
+      213: 4333677753232189507
+    second: keyboard-tomatorush-zaroa-33_56
+  - first:
+      213: -728266014060614482
+    second: keyboard-tomatorush-zaroa-33_57
+  - first:
+      213: -5798905379173714883
+    second: keyboard-tomatorush-zaroa-33_0
+  - first:
+      213: 2857136153433338147
+    second: keyboard-tomatorush-zaroa-33_1
+  - first:
+      213: 8146479371740689378
+    second: keyboard-tomatorush-zaroa-33_2
+  - first:
+      213: -4452392064601317519
+    second: keyboard-tomatorush-zaroa-33_3
+  - first:
+      213: -2282507611305731663
+    second: keyboard-tomatorush-zaroa-33_4
+  - first:
+      213: 698508986401283086
+    second: keyboard-tomatorush-zaroa-33_5
+  - first:
+      213: 8672539629227890792
+    second: keyboard-tomatorush-zaroa-33_6
+  - first:
+      213: 8429622638719074978
+    second: keyboard-tomatorush-zaroa-33_7
+  - first:
+      213: 6780958648337079467
+    second: keyboard-tomatorush-zaroa-33_8
+  - first:
+      213: -3861814518045528308
+    second: keyboard-tomatorush-zaroa-33_9
+  - first:
+      213: -5276785807182011357
+    second: keyboard-tomatorush-zaroa-33_10
+  - first:
+      213: -4819320314338019659
+    second: keyboard-tomatorush-zaroa-33_11
+  - first:
+      213: -1840004836939369566
+    second: keyboard-tomatorush-zaroa-33_12
+  - first:
+      213: -541042091782573293
+    second: keyboard-tomatorush-zaroa-33_13
+  - first:
+      213: 4771870012924188581
+    second: keyboard-tomatorush-zaroa-33_14
+  - first:
+      213: 369321693815920296
+    second: keyboard-tomatorush-zaroa-33_15
+  - first:
+      213: -778665050683853198
+    second: keyboard-tomatorush-zaroa-33_16
+  - first:
+      213: -5535768352074957595
+    second: keyboard-tomatorush-zaroa-33_17
+  - first:
+      213: 8988400540959094311
+    second: keyboard-tomatorush-zaroa-33_18
+  - first:
+      213: -8108913334511735168
+    second: keyboard-tomatorush-zaroa-33_19
+  - first:
+      213: -6651837344826393912
+    second: keyboard-tomatorush-zaroa-33_20
+  - first:
+      213: 8000433228916012608
+    second: keyboard-tomatorush-zaroa-33_21
+  - first:
+      213: 193236015200493630
+    second: keyboard-tomatorush-zaroa-33_22
+  - first:
+      213: -7749733669112868902
+    second: keyboard-tomatorush-zaroa-33_23
+  - first:
+      213: -5755049430877467994
+    second: keyboard-tomatorush-zaroa-33_24
+  - first:
+      213: -1017537325472191992
+    second: keyboard-tomatorush-zaroa-33_25
+  - first:
+      213: 8711701643458531161
+    second: keyboard-tomatorush-zaroa-33_26
+  - first:
+      213: 842187889431993178
+    second: keyboard-tomatorush-zaroa-33_27
+  - first:
+      213: 5321137326844855212
+    second: keyboard-tomatorush-zaroa-33_28
+  - first:
+      213: -4037501459139100675
+    second: keyboard-tomatorush-zaroa-33_29
+  - first:
+      213: -5346738773710695521
+    second: keyboard-tomatorush-zaroa-33_30
+  - first:
+      213: 8691917522980622891
+    second: keyboard-tomatorush-zaroa-33_31
+  - first:
+      213: -7727342340782869642
+    second: keyboard-tomatorush-zaroa-33_32
+  - first:
+      213: 5966337501625468653
+    second: keyboard-tomatorush-zaroa-33_33
+  - first:
+      213: -6778031077703717848
+    second: keyboard-tomatorush-zaroa-33_34
+  - first:
+      213: -6534504794788551909
+    second: keyboard-tomatorush-zaroa-33_35
+  - first:
+      213: -1283584926859299362
+    second: keyboard-tomatorush-zaroa-33_36
+  - first:
+      213: 7323436244582003492
+    second: keyboard-tomatorush-zaroa-33_37
+  - first:
+      213: -165359894546821598
+    second: keyboard-tomatorush-zaroa-33_38
+  - first:
+      213: 2602246214500988323
+    second: keyboard-tomatorush-zaroa-33_39
+  - first:
+      213: -5097408592290841702
+    second: keyboard-tomatorush-zaroa-33_40
+  - first:
+      213: 2372636951489556483
+    second: keyboard-tomatorush-zaroa-33_41
+  - first:
+      213: -8579141055321094081
+    second: keyboard-tomatorush-zaroa-33_42
+  - first:
+      213: -2690983115450584061
+    second: keyboard-tomatorush-zaroa-33_43
+  - first:
+      213: 9088529517220842155
+    second: keyboard-tomatorush-zaroa-33_44
+  - first:
+      213: 8283922899335845742
+    second: keyboard-tomatorush-zaroa-33_45
+  - first:
+      213: 5403223971157234051
+    second: keyboard-tomatorush-zaroa-33_46
+  - first:
+      213: 8338517955589720965
+    second: keyboard-tomatorush-zaroa-33_47
+  - first:
+      213: -8215319307127986452
+    second: keyboard-tomatorush-zaroa-33_48
+  - first:
+      213: 5540002380323902830
+    second: keyboard-tomatorush-zaroa-33_49
+  - first:
+      213: 4410494023607961105
+    second: keyboard-tomatorush-zaroa-33_50
+  - first:
+      213: 4368177033810093340
+    second: keyboard-tomatorush-zaroa-33_51
+  - first:
+      213: 1322689751251863846
+    second: keyboard-tomatorush-zaroa-33_52
+  - first:
+      213: 2280753459737189190
+    second: keyboard-tomatorush-zaroa-33_53
+  - first:
+      213: -2313438407490504949
+    second: keyboard-tomatorush-zaroa-33_54
+  - first:
+      213: 7683073638426895022
+    second: keyboard-tomatorush-zaroa-33_55
+  - first:
+      213: -5515434375041547676
+    second: keyboard-tomatorush-zaroa-33_56
+  - first:
+      213: -3626218335029302208
+    second: keyboard-tomatorush-zaroa-33_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_21
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 248
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04635c232af370f60800000000000000
+      internalID: 8000433228916012608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 250
+        width: 57
+        height: 57
+      alignment: 9
+      pivot: {x: 0.3334811, y: 0.39646187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3066dbc1238ea200800000000000000
+      internalID: 193236015200493630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_23
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 247
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf84aca94a637490800000000000000
+      internalID: -7749733669112868902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 186
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3c8a7c43a78d940800000000000000
+      internalID: 5321137326844855212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_29
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 186
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff74e380d9e7f7c0800000000000000
+      internalID: -4037501459139100675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 101
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bfa7d74ed5249b0800000000000000
+      internalID: -5097408592290841702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_51
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 124
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1525406ed1ee9c30800000000000000
+      internalID: 4368177033810093340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_53
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 59
+        width: 311
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bd0eb003dd6af10800000000000000
+      internalID: 2280753459737189190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_55
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 61
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea26a9974c2cf9a60800000000000000
+      internalID: 7683073638426895022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_56
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 61
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4628bad68ad3573b0800000000000000
+      internalID: -5515434375041547676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_57
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 62
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ce19603a51dadc0800000000000000
+      internalID: -3626218335029302208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
