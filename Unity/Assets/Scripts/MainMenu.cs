@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+/// <summary>
+/// Fonts 28 Days Later by 1001Fonts.com
+/// </summary>
 public class MainMenu : MonoBehaviour
 {
     public GameObject WinPanel;
