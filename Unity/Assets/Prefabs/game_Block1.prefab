@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1462895493
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0c3ce14d95543f14d9e59754638f2a6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -99,7 +99,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
+  m_Mass: 80
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -147,12 +147,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimerSlider: {fileID: 0}
-  TextStorage: {fileID: 0}
   TimerText: {fileID: 0}
   TimeGiven: 65
-  EnemyPrefab: {fileID: 1876383791988082405, guid: ea2338757a20f5f48847aa269b7213c0, type: 3}
   StartTimer: 0
-  EnemySpawned: 0
   PuzzleCompleted: 0
 --- !u!255 &516565368233016243
 FixedJoint2D:
@@ -185,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShadowGroup: 0
-  m_HasRenderer: 0
+  m_HasRenderer: 1
   m_UseRendererSilhouette: 1
   m_CastsShadows: 1
   m_SelfShadows: 0
@@ -197,4 +194,4 @@ MonoBehaviour:
   - {x: -0.5, y: 0.5, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: -189454
+  m_InstanceId: 161458
