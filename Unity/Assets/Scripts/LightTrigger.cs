@@ -12,7 +12,11 @@ public class LightTrigger : MonoBehaviour
     public void OpenDoor()  
     {
         // Tell the zone that the puzzle was completed and thus to stop the timer
-        Zone.gameObject.GetComponent<PuzzleTimer>().PuzzleComplete();
+        if (Zone != null)
+        {
+            Zone.gameObject.GetComponent<PuzzleTimer>().PuzzleComplete();
+        }
+        
         // Set this object to inactive
         this.gameObject.SetActive(false);
         
