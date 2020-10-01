@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     public int attackDamage = 40;
+    public int attackStamina = 20;
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
@@ -14,9 +15,26 @@ public class PlayerCombat : MonoBehaviour
     public float attackRate = 2f;
     private float nextAttackTime = 0f;
 
+    public int maxHealth = 100;
+    public int currentHealth;
+
+    public HealthBar healthBar;
+
+    public int maxStamina = 100;
+    public int currentStamina;
+
+    public StaminaBar staminaBar;
+
+
+
     private void Start()
     {
         animator = GetComponent<Animator>();
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+
+        currentStamina = maxStamina;
+        staminaBar.SetMaxStamina(maxStamina);
     }
 
     // Update is called once per frame
@@ -24,7 +42,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (Input.GetKeyDown(KeyCode.Mouse0) && currentStamina >= attackStamina)
             {
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;
@@ -35,6 +53,9 @@ public class PlayerCombat : MonoBehaviour
 
     void Attack()
     {
+        currentStamina -= attackStamina;
+        staminaBar.SetStamina(currentStamina);
+
         //Play attack animation
         animator.SetTrigger("Attack");
 
@@ -55,5 +76,24 @@ public class PlayerCombat : MonoBehaviour
             return;
         }
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    public void PlayerTakeDamage(int damage)
+    {
+        animator.SetTrigger("Hurt");
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        animator.SetBool("isDead", true);
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<CharacterControllerBeta>().enabled = false;
+        this.enabled = false;
     }
 }
