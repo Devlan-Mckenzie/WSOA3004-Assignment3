@@ -17,6 +17,18 @@ public class EnemyController : MonoBehaviour
     private float range;
     private bool isChasing = false;
     public int agroRange = 5;
+
+    public Transform attackPoint;
+    public int attackDamage = 40;
+    public float attackRange = 0.5f;
+    public LayerMask playerLayer;
+
+    public float attackRate = 2f;
+    private float nextAttackTime = 0f;
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +52,16 @@ public class EnemyController : MonoBehaviour
             {                
                 isChasing = true;
                 transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);
-            }            
+            }
+            else
+            {
+                if (Time.time >= nextAttackTime)
+                {
+                    Attack();
+                    nextAttackTime = Time.time + 1f / attackRate;
+                }
+                
+            }
         }
         else
         {
@@ -60,6 +81,27 @@ public class EnemyController : MonoBehaviour
             Flip();
         }
 
+    }
+
+    private void Attack()
+    {
+        animator.SetTrigger("Attack");
+
+        Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, playerLayer);
+
+        foreach (Collider2D player in hitPlayers)
+        {
+            player.GetComponent<PlayerCombat>().PlayerTakeDamage(attackDamage);
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+        {
+            return;
+        }
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 
     private void FixedUpdate()
