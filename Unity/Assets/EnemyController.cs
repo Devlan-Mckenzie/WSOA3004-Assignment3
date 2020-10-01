@@ -16,6 +16,7 @@ public class EnemyController : MonoBehaviour
     public float minDistance = 1f;
     private float range;
     private bool isChasing = false;
+    public int agroRange = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,17 +34,19 @@ public class EnemyController : MonoBehaviour
     void ChasePlayer()
     {
         range = Vector2.Distance(transform.position, Player.transform.position);
-
-        if (range > minDistance)
+        if (range < agroRange)
         {
-            Debug.Log(range);
-            isChasing = true;
-            transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);
+            if (range > minDistance)
+            {                
+                isChasing = true;
+                transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);
+            }            
         }
         else
         {
             isChasing = false;
         }
+        
 
         if ( Player.transform.position.x - rigidbody2D.transform.position.x > 0 && !facingRight)
         {
