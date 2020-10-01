@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
     private GameObject Player;
     private bool facingRight = false;    
    
-    private float minDistance = 1f;
+    public float minDistance = 1f;
     private float range;
     private bool isChasing = false;
     // Start is called before the first frame update
@@ -45,13 +45,13 @@ public class EnemyController : MonoBehaviour
             isChasing = false;
         }
 
-        if (rigidbody2D.velocity.x > 0 && !facingRight)
+        if ( Player.transform.position.x - rigidbody2D.transform.position.x > 0 && !facingRight)
         {
             // ... flip the player.
             Flip();
         }
         // Otherwise if the input is moving the player left and the player is facing right...
-        else if (rigidbody2D.velocity.x < 0 && facingRight)
+        else if (Player.transform.position.x - rigidbody2D.transform.position.x < 0 && facingRight)
         {
             // ... flip the player.
             Flip();

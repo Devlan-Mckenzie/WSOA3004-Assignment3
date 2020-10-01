@@ -58,8 +58,7 @@ public class CharacterControllerBeta : MonoBehaviour
     }
 
     private void Flip()
-    {
-        Debug.Log("Called Flip");
+    {        
         // Switch the way the player is labelled as facing.
         facingRight = !facingRight;
 
