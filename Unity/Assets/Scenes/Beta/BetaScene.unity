@@ -290,6 +290,10 @@ MonoBehaviour:
   maxStamina: 100
   currentStamina: 0
   staminaBar: {fileID: 1000586962}
+  healthRegen: 1
+  staminaRegen: 1
+  healthRegenRate: 1
+  staminaRegenRate: 1
 --- !u!61 &136413171
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -602,7 +606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -182.3, y: -95.2}
+  m_AnchoredPosition: {x: -392, y: -211.6}
   m_SizeDelta: {x: 50, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000586962
@@ -704,7 +708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -182.3, y: -108}
+  m_AnchoredPosition: {x: -392, y: -224.40001}
   m_SizeDelta: {x: 50, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1317561935
