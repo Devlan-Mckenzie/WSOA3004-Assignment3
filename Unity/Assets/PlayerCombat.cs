@@ -25,8 +25,12 @@ public class PlayerCombat : MonoBehaviour
 
     public StaminaBar staminaBar;
 
-
-
+    public int healthRegen = 1;
+    public int staminaRegen = 1;
+    private float nextHealthRegenTime = 0f;
+    private float nextStaminaRegenTime = 0f;
+    public float healthRegenRate = 1f;
+    public float staminaRegenRate = 1f;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -48,9 +52,35 @@ public class PlayerCombat : MonoBehaviour
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
-       
+        HealthRegen();
+        StaminaRegen();
     }
 
+    void HealthRegen()
+    {
+        if (Time.time >= nextHealthRegenTime)
+        {
+            if (currentHealth < maxHealth)
+            {
+                currentHealth += healthRegen;
+                healthBar.SetHealth(currentHealth);
+                nextHealthRegenTime = Time.time + 1f / healthRegenRate;
+            }
+        }
+    }
+
+    void StaminaRegen()
+    {
+        if (Time.time >= nextStaminaRegenTime)
+        {
+            if (currentStamina < maxHealth)
+            {
+                currentStamina += staminaRegen;
+                staminaBar.SetStamina(currentStamina);
+                nextStaminaRegenTime = Time.time + 1f / staminaRegenRate;
+            }
+        }
+    }
     void Attack()
     {
         currentStamina -= attackStamina;
