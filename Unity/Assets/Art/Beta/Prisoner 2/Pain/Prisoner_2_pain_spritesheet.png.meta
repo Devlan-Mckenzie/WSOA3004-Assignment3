@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 1595e62a114f7fc4c983db88d726abed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3796620499686058049
+    second: Prisoner_2_pain_spritesheet_0
+  - first:
+      213: 7758108131439797481
+    second: Prisoner_2_pain_spritesheet_1
+  - first:
+      213: -7051692750892364250
+    second: Prisoner_2_pain_spritesheet_2
+  - first:
+      213: 8938772519868477512
+    second: Prisoner_2_pain_spritesheet_3
+  - first:
+      213: 5991712376197525499
+    second: Prisoner_2_pain_spritesheet_4
+  - first:
+      213: 2229002375388711004
+    second: Prisoner_2_pain_spritesheet_5
+  - first:
+      213: 4873480069143589843
+    second: Prisoner_2_pain_spritesheet_6
+  - first:
+      213: 4093113179853292516
+    second: Prisoner_2_pain_spritesheet_7
+  - first:
+      213: -8879974064482516177
+    second: Prisoner_2_pain_spritesheet_8
+  - first:
+      213: -6703976930221422766
+    second: Prisoner_2_pain_spritesheet_9
+  - first:
+      213: 4710200906564591530
+    second: Prisoner_2_pain_spritesheet_10
+  - first:
+      213: 7886687512105986608
+    second: Prisoner_2_pain_spritesheet_11
+  - first:
+      213: 949917913825337475
+    second: Prisoner_2_pain_spritesheet_12
+  - first:
+      213: 2007567106335348955
+    second: Prisoner_2_pain_spritesheet_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prisoner_2_pain_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 412
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148e0c6aa3e40b430800000000000000
+      internalID: 3796620499686058049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_2_pain_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 405
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4e987cd365aab60800000000000000
+      internalID: 7758108131439797481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_2_pain_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 404
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840b8c64f36ec0c70800000000000000
+      internalID: 8938772519868477512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_2_pain_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 401
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58cb84c9d10fee10800000000000000
+      internalID: 2229002375388711004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_2_pain_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 409
+        width: 130
+        height: 260
+      alignment: 9
+      pivot: {x: 0.53620887, y: 0.5181047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e300a630c8adc830800000000000000
+      internalID: 4093113179853292516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_2_pain_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 406
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2570dbb4080b6f2a0800000000000000
+      internalID: -6703976930221422766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_2_pain_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 405
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a269db184237d60800000000000000
+      internalID: 7886687512105986608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c23bd82add95c2545a4da153b1626a6d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
