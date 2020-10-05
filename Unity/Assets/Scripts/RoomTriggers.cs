@@ -154,13 +154,15 @@ public class RoomTriggers : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    
+
     // Update is called once per frame
     void Update()
     {
 
         if (Alarm)
         {
-            float timer = 0.5f;
+            float timer = 1f;
             timer -= Time.deltaTime;
 
             if(timer <= 0)
@@ -168,12 +170,12 @@ public class RoomTriggers : MonoBehaviour
                 if (GeneratorLighting.activeSelf)
                 {
                     GeneratorLighting.SetActive(false);
-                    timer = 0.5f;
+                    timer = 1f;
                 }
                 else if(!GeneratorLighting.activeSelf)
                 {
                     GeneratorLighting.SetActive(true);
-                    timer = 0.5f;
+                    timer = 1f;
                 }
             }
         }
