@@ -152,12 +152,12 @@ TextureImporter:
       name: guard_attack_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 459
-        width: 220
-        height: 314
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 119
+        y: 674
+        width: 245
+        height: 320
+      alignment: 9
+      pivot: {x: 0.4871916, y: 0.5245167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: guard_attack_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 295
-        y: 456
-        width: 220
-        height: 314
+        x: 617
+        y: 676
+        width: 245
+        height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: guard_attack_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 521
-        y: 457
-        width: 220
-        height: 314
+        x: 1103
+        y: 677
+        width: 245
+        height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: guard_attack_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 777
-        y: 460
-        width: 220
-        height: 314
+        x: 1580
+        y: 680
+        width: 245
+        height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: guard_attack_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 984
-        y: 465
-        width: 220
-        height: 314
+        x: 312
+        y: 202
+        width: 245
+        height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: guard_attack_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 1195
-        y: 465
-        width: 220
-        height: 314
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 942
+        y: 207
+        width: 245
+        height: 320
+      alignment: 9
+      pivot: {x: 0.46797922, y: 0.5098068}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: guard_attack_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 1428
-        y: 459
-        width: 220
-        height: 314
+        x: 1525
+        y: 207
+        width: 245
+        height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
