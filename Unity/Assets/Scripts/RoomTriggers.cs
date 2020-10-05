@@ -6,11 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class RoomTriggers : MonoBehaviour
 {
+    //this is the ui to let player know that they can press the E to use a switch
     public GameObject PressToUseButton;
     public Rigidbody2D Player;
 
+    //this should be assigned to the 3 different types of lighting that will be included in the first room
+
+    //for little to no light
     public GameObject MinimalLighting;
+    //for when the generator turns on, i made it a red light
     public GameObject GeneratorLighting;
+    //for when the lights come back
     public GameObject GlobalLighting;
 
     public static int RoomCounter;
@@ -18,6 +24,12 @@ public class RoomTriggers : MonoBehaviour
     public bool died = false;
     public bool Alarm = false;
     public bool CablePossession = false;
+
+    public AudioSource AlarmSound;
+
+    public Animator ClosingLockers;
+    public Animator PlacingCable;
+    public Animator SwitchingOnGenerator;
 
     public static float health;
     // Start is called before the first frame update
@@ -96,7 +108,8 @@ public class RoomTriggers : MonoBehaviour
         GeneratorLighting.SetActive(true);
         //must insert animation here
         RoomCounter += 1;
-        
+        //SwitchingOnGenerator.Switch = true;
+
         
     }
 
@@ -107,7 +120,7 @@ public class RoomTriggers : MonoBehaviour
         Debug.Log("Locked weapons away");
         //put ui in to indicate that this has been done
         //just a simple text plus a sound ?
-
+        //ClosingLockers.Switch = true;
     }
 
     public void SoundAlarm()
@@ -115,6 +128,8 @@ public class RoomTriggers : MonoBehaviour
         //play sound for alarm
         RoomCounter += 1;
         Alarm = true;
+        AlarmSound.Play();
+
        
     }
 
@@ -128,7 +143,9 @@ public class RoomTriggers : MonoBehaviour
             GeneratorLighting.SetActive(false);
             GlobalLighting.SetActive(true);
             Debug.Log("Lights are back on");
+            
         }
+        //PlacingCable.Switch = true;
 
     }
     public void exitroom()
