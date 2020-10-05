@@ -1,12 +1,48 @@
 fileFormatVersion: 2
 guid: 5efc219bf35d0e1449a52f37cab27f98
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2012070168451704923
+    second: guard_pain_spritesheet_0
+  - first:
+      213: 2576468778275524707
+    second: guard_pain_spritesheet_1
+  - first:
+      213: -4023879195308512530
+    second: guard_pain_spritesheet_2
+  - first:
+      213: -4179396308833942510
+    second: guard_pain_spritesheet_3
+  - first:
+      213: -6764149218344626088
+    second: guard_pain_spritesheet_4
+  - first:
+      213: -4464420791551511624
+    second: guard_pain_spritesheet_5
+  - first:
+      213: -6170770444563229063
+    second: guard_pain_spritesheet_6
+  - first:
+      213: 7151459401912736050
+    second: guard_pain_spritesheet_7
+  - first:
+      213: -6858027939963227901
+    second: guard_pain_spritesheet_8
+  - first:
+      213: 1759526656942766566
+    second: guard_pain_spritesheet_9
+  - first:
+      213: -5549649620868018742
+    second: guard_pain_spritesheet_10
+  - first:
+      213: -1061649035550058243
+    second: guard_pain_spritesheet_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +71,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +86,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +109,196 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: guard_pain_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 461
+        width: 222
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5869b5682f4ceb10800000000000000
+      internalID: 2012070168451704923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_pain_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 447
+        width: 222
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3605ffff3b471c320800000000000000
+      internalID: 2576468778275524707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_pain_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 462
+        width: 222
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea2d88f03f4828c0800000000000000
+      internalID: -4023879195308512530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_pain_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 453
+        width: 222
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85815d8bf1ae022a0800000000000000
+      internalID: -6764149218344626088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_pain_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 454
+        width: 222
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b334bf81f03b02c0800000000000000
+      internalID: -4464420791551511624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_pain_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 456
+        width: 222
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976545d89f40d5aa0800000000000000
+      internalID: -6170770444563229063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_pain_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 459
+        width: 222
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239d2ac9f661f3360800000000000000
+      internalID: 7151459401912736050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 202dc3f4321af2b4ea168fb1888d45e0
     internalID: 0
     vertices: []
     indices: 

@@ -1,12 +1,90 @@
 fileFormatVersion: 2
 guid: 7f6635e8ee78d5845adfa32ce38d78ee
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4616963871310378154
+    second: guard_Win_spritesheet_0
+  - first:
+      213: -5310801383242921896
+    second: guard_Win_spritesheet_1
+  - first:
+      213: -522006204942458466
+    second: guard_Win_spritesheet_2
+  - first:
+      213: 7823379178713945782
+    second: guard_Win_spritesheet_3
+  - first:
+      213: -854093633188358807
+    second: guard_Win_spritesheet_4
+  - first:
+      213: -8931500153529155067
+    second: guard_Win_spritesheet_5
+  - first:
+      213: 3375616331131670650
+    second: guard_Win_spritesheet_6
+  - first:
+      213: -7715244310629349138
+    second: guard_Win_spritesheet_7
+  - first:
+      213: -5985654444693165460
+    second: guard_Win_spritesheet_8
+  - first:
+      213: -4622307026568267265
+    second: guard_Win_spritesheet_9
+  - first:
+      213: 1650806712580334154
+    second: guard_Win_spritesheet_10
+  - first:
+      213: 1685142959018050900
+    second: guard_Win_spritesheet_11
+  - first:
+      213: -3408380603411835668
+    second: guard_Win_spritesheet_12
+  - first:
+      213: -7055972606950184056
+    second: guard_Win_spritesheet_13
+  - first:
+      213: -5403052790140116378
+    second: guard_Win_spritesheet_14
+  - first:
+      213: -4747328857525599738
+    second: guard_Win_spritesheet_15
+  - first:
+      213: -6535241816475992554
+    second: guard_Win_spritesheet_16
+  - first:
+      213: 339416140234528133
+    second: guard_Win_spritesheet_17
+  - first:
+      213: -1097995921766957159
+    second: guard_Win_spritesheet_18
+  - first:
+      213: -8141108404020035182
+    second: guard_Win_spritesheet_19
+  - first:
+      213: 5295528542660229921
+    second: guard_Win_spritesheet_20
+  - first:
+      213: 1274707674032820747
+    second: guard_Win_spritesheet_21
+  - first:
+      213: -6586313671319164054
+    second: guard_Win_spritesheet_22
+  - first:
+      213: -8246583582552272445
+    second: guard_Win_spritesheet_23
+  - first:
+      213: -4581193437226620582
+    second: guard_Win_spritesheet_24
+  - first:
+      213: 5218534354930046491
+    second: guard_Win_spritesheet_25
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +113,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +128,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +151,196 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: guard_Win_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 414
+        width: 222
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa47442ed20c21040800000000000000
+      internalID: 4616963871310378154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_Win_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 404
+        width: 222
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858072f974e3c46b0800000000000000
+      internalID: -5310801383242921896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_Win_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 402
+        width: 222
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96592e4ad56a524f0800000000000000
+      internalID: -854093633188358807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_Win_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 418
+        width: 222
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5024c857eefec0480800000000000000
+      internalID: -8931500153529155067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_Win_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 411
+        width: 222
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee885953d22fde490800000000000000
+      internalID: -7715244310629349138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_Win_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 411
+        width: 222
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff93b96df344adfb0800000000000000
+      internalID: -4622307026568267265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_Win_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 416
+        width: 222
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a426e2075f7d8e610800000000000000
+      internalID: 1650806712580334154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 46471ddfa9434e74ba73efe3e16aae2b
     internalID: 0
     vertices: []
     indices: 
