@@ -18,6 +18,9 @@ TagManager:
   - Friend
   - KeyDoor
   - PuzzleTimer
+  - Room trigger
+  - Switch trigger
+  - WeaponsLocker
   layers:
   - Default
   - TransparentFX
