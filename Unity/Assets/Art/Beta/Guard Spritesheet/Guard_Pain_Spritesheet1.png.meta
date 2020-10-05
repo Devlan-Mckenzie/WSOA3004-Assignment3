@@ -1,12 +1,45 @@
 fileFormatVersion: 2
 guid: 553e4c68241e29e4db14bff8c156bf82
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1666332810894344915
+    second: Guard_Pain_Spritesheet1_0
+  - first:
+      213: -7572674644164261162
+    second: Guard_Pain_Spritesheet1_1
+  - first:
+      213: -877202285793809401
+    second: Guard_Pain_Spritesheet1_2
+  - first:
+      213: 3905165481210641901
+    second: Guard_Pain_Spritesheet1_3
+  - first:
+      213: -4256266545542827701
+    second: Guard_Pain_Spritesheet1_4
+  - first:
+      213: -7362280329198255475
+    second: Guard_Pain_Spritesheet1_5
+  - first:
+      213: -6708168931406386824
+    second: Guard_Pain_Spritesheet1_6
+  - first:
+      213: 8162779303606665041
+    second: Guard_Pain_Spritesheet1_7
+  - first:
+      213: 6612734908570781941
+    second: Guard_Pain_Spritesheet1_8
+  - first:
+      213: 8006585602348496867
+    second: Guard_Pain_Spritesheet1_9
+  - first:
+      213: 8262743797747734503
+    second: Guard_Pain_Spritesheet1_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +68,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +83,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +106,142 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Guard_Pain_Spritesheet1_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 396
+        width: 230
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d28fe6ecd0002710800000000000000
+      internalID: 1666332810894344915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Pain_Spritesheet1_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 394
+        width: 230
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da4bfa688478e690800000000000000
+      internalID: -7572674644164261162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Pain_Spritesheet1_3
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 398
+        width: 230
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded7da0905fe13630800000000000000
+      internalID: 3905165481210641901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Pain_Spritesheet1_4
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 391
+        width: 230
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b417a83a024bee4c0800000000000000
+      internalID: -4256266545542827701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Pain_Spritesheet1_6
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 399
+        width: 230
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879e536f5ebc7e2a0800000000000000
+      internalID: -6708168931406386824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4c048ce19d8217b4d92df97a20ed738e
     internalID: 0
     vertices: []
     indices: 

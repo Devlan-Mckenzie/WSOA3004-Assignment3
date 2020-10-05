@@ -29,6 +29,33 @@ TextureImporter:
   - first:
       213: -5071255083922574344
     second: guard_Walk_spritesheet_8
+  - first:
+      213: -8526120646706930780
+    second: guard_Walk_spritesheet_0
+  - first:
+      213: 277276007979838505
+    second: guard_Walk_spritesheet_1
+  - first:
+      213: -816956193171445052
+    second: guard_Walk_spritesheet_3
+  - first:
+      213: 6077750934049985475
+    second: guard_Walk_spritesheet_5
+  - first:
+      213: 7009069737399461656
+    second: guard_Walk_spritesheet_6
+  - first:
+      213: 2944411361597511928
+    second: guard_Walk_spritesheet_7
+  - first:
+      213: -4861924115388563465
+    second: guard_Walk_spritesheet_8
+  - first:
+      213: -4535025956750050235
+    second: guard_Walk_spritesheet_9
+  - first:
+      213: 4301086232198590288
+    second: guard_Walk_spritesheet_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -143,10 +170,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 460
-        width: 236
-        height: 312
+        x: 73
+        y: 465
+        width: 240
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dfee289362c75ad0800000000000000
-      internalID: -2713486517456670767
+      spriteID: 4abd8e4f1722da980800000000000000
+      internalID: -8526120646706930780
       vertices: []
       indices: 
       edges: []
@@ -164,10 +191,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 319
-        y: 458
-        width: 236
-        height: 312
+        x: 572
+        y: 534
+        width: 240
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26ccf9d6840d8aa50800000000000000
-      internalID: 6532700268996316258
+      spriteID: 92c60686f0519d300800000000000000
+      internalID: 277276007979838505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_Walk_spritesheet_3
+      name: guard_Walk_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 606
-        y: 451
-        width: 236
-        height: 312
+        x: 1091
+        y: 500
+        width: 240
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81b958811441aff80800000000000000
-      internalID: -8072117112291353832
+      spriteID: a1dd5e55c85ceb730800000000000000
+      internalID: 4016865124188282138
       vertices: []
       indices: 
       edges: []
@@ -206,10 +233,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 900
-        y: 451
-        width: 236
-        height: 312
+        x: 1265
+        y: 714
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,29 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e91cfa1daae4c030800000000000000
-      internalID: 3514191638458800614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guard_Walk_spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 1118
-        y: 452
-        width: 236
-        height: 312
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c4abc149ea91e070800000000000000
-      internalID: 8133952728629748930
+      spriteID: 3c31951f542885450800000000000000
+      internalID: 6077750934049985475
       vertices: []
       indices: 
       edges: []
@@ -248,10 +254,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 1367
-        y: 452
-        width: 236
-        height: 312
+        x: 446
+        y: 108
+        width: 240
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ae21732fa82750c0800000000000000
-      internalID: -4587152962774552924
+      spriteID: 8f8d4a08886acd820800000000000000
+      internalID: 2944411361597511928
       vertices: []
       indices: 
       edges: []
@@ -269,10 +275,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 1655
-        y: 459
-        width: 236
-        height: 312
+        x: 887
+        y: 107
+        width: 240
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,8 +286,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f3b66dae584f99b0800000000000000
-      internalID: -5071255083922574344
+      spriteID: 7fffb51d6c9f68cb0800000000000000
+      internalID: -4861924115388563465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_Walk_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 107
+        width: 240
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cbcb08be95011c0800000000000000
+      internalID: -4535025956750050235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard_Walk_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 150
+        width: 240
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f258ad32780bb30800000000000000
+      internalID: 4301086232198590288
       vertices: []
       indices: 
       edges: []
