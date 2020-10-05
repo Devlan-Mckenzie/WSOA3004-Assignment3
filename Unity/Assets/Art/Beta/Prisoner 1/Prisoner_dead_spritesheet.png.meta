@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 357e870cb677e9c4cb6b07ee325bdd02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7975742014046540592
+    second: Prisoner_dead_spritesheet_0
+  - first:
+      213: 1596791452868598132
+    second: Prisoner_dead_spritesheet_1
+  - first:
+      213: -324631667476192519
+    second: Prisoner_dead_spritesheet_2
+  - first:
+      213: 5270040348764143634
+    second: Prisoner_dead_spritesheet_3
+  - first:
+      213: -5308127961471363872
+    second: Prisoner_dead_spritesheet_4
+  - first:
+      213: 1269902876896797139
+    second: Prisoner_dead_spritesheet_5
+  - first:
+      213: 2989071580711555322
+    second: Prisoner_dead_spritesheet_6
+  - first:
+      213: 1556423223877932519
+    second: Prisoner_dead_spritesheet_7
+  - first:
+      213: 1208543977778553571
+    second: Prisoner_dead_spritesheet_8
+  - first:
+      213: 5022874483754770831
+    second: Prisoner_dead_spritesheet_9
+  - first:
+      213: 4686083327371167880
+    second: Prisoner_dead_spritesheet_10
+  - first:
+      213: -7533089714397281729
+    second: Prisoner_dead_spritesheet_11
+  - first:
+      213: 6148157113204805196
+    second: Prisoner_dead_spritesheet_12
+  - first:
+      213: 3906406567297874337
+    second: Prisoner_dead_spritesheet_5
+  - first:
+      213: 4423936838435080566
+    second: Prisoner_dead_spritesheet_6
+  - first:
+      213: 277599866317429360
+    second: Prisoner_dead_spritesheet_7
+  - first:
+      213: -357547985169073898
+    second: Prisoner_dead_spritesheet_8
+  - first:
+      213: 3946841085297251165
+    second: Prisoner_dead_spritesheet_9
+  - first:
+      213: 555031564762558522
+    second: Prisoner_dead_spritesheet_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prisoner_dead_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 585
+        width: 260
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033176fba178fae60800000000000000
+      internalID: 7975742014046540592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_dead_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 599
+        width: 260
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479dc90cd51f82610800000000000000
+      internalID: 1596791452868598132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_dead_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 574
+        width: 260
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210001c76c1f22940800000000000000
+      internalID: 5270040348764143634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_dead_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 594
+        width: 260
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e45e222ebdb556b0800000000000000
+      internalID: -5308127961471363872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_dead_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 175
+        width: 260
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07adb8d8b9b3ad300800000000000000
+      internalID: 277599866317429360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_dead_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 188
+        width: 260
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61937d9700cb90bf0800000000000000
+      internalID: -357547985169073898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_dead_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 187
+        width: 260
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d535f0a4e0ff5c630800000000000000
+      internalID: 3946841085297251165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_dead_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 202
+        width: 260
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a303dc8744ed3b700800000000000000
+      internalID: 555031564762558522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: efb769e9585b1474d8d89c09e18cfdbf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
