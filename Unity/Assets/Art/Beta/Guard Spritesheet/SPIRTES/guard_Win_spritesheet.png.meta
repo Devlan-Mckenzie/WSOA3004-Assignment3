@@ -80,6 +80,27 @@ TextureImporter:
   - first:
       213: 5218534354930046491
     second: guard_Win_spritesheet_25
+  - first:
+      213: 2635577031155028729
+    second: guard_Win_spritesheet_0
+  - first:
+      213: -3028116422876563676
+    second: guard_Win_spritesheet_1
+  - first:
+      213: 5838950366383468837
+    second: guard_Win_spritesheet_4
+  - first:
+      213: 2393831540689010493
+    second: guard_Win_spritesheet_5
+  - first:
+      213: 7348777634662487707
+    second: guard_Win_spritesheet_7
+  - first:
+      213: 5165169513918608679
+    second: guard_Win_spritesheet_9
+  - first:
+      213: 6249739079755022322
+    second: guard_Win_spritesheet_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -194,19 +215,19 @@ TextureImporter:
       name: guard_Win_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 592
-        y: 414
-        width: 222
-        height: 364
+        x: 268
+        y: 695
+        width: 230
+        height: 367
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa47442ed20c21040800000000000000
-      internalID: 4616963871310378154
+      spriteID: 9f29c209853739420800000000000000
+      internalID: 2635577031155028729
       vertices: []
       indices: 
       edges: []
@@ -215,124 +236,124 @@ TextureImporter:
       name: guard_Win_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 803
-        y: 404
-        width: 222
-        height: 364
+        x: 749
+        y: 645
+        width: 230
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 858072f974e3c46b0800000000000000
-      internalID: -5310801383242921896
+      spriteID: 4277ae33828f9f5d0800000000000000
+      internalID: -3028116422876563676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_Win_spritesheet_4
+      name: guard_Win_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1048
-        y: 402
-        width: 222
-        height: 364
+        x: 1134
+        y: 639
+        width: 230
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96592e4ad56a524f0800000000000000
-      internalID: -854093633188358807
+      spriteID: e91eadf4f1671c8f0800000000000000
+      internalID: -522006204942458466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_Win_spritesheet_5
+      name: guard_Win_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 337
-        y: 418
-        width: 222
-        height: 364
+        x: 1487
+        y: 652
+        width: 230
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5024c857eefec0480800000000000000
-      internalID: -8931500153529155067
+      spriteID: 6b69e6ab9e9329c60800000000000000
+      internalID: 7823379178713945782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_Win_spritesheet_7
+      name: guard_Win_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 63
-        y: 411
-        width: 222
-        height: 364
+        x: 220
+        y: 166
+        width: 230
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee885953d22fde490800000000000000
-      internalID: -7715244310629349138
+      spriteID: 291407c3a09f40f80800000000000000
+      internalID: -8141108404020035182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_Win_spritesheet_9
+      name: guard_Win_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 1285
-        y: 411
-        width: 222
-        height: 364
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 879
+        y: 150
+        width: 230
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5130801, y: 0.4756082}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff93b96df344adfb0800000000000000
-      internalID: -4622307026568267265
+      spriteID: b02d03730eba0b110800000000000000
+      internalID: 1274707674032820747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_Win_spritesheet_10
+      name: guard_Win_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 1504
-        y: 416
-        width: 222
-        height: 364
+        x: 1558
+        y: 137
+        width: 230
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a426e2075f7d8e610800000000000000
-      internalID: 1650806712580334154
+      spriteID: a6be8b99c96b894a0800000000000000
+      internalID: -6586313671319164054
       vertices: []
       indices: 
       edges: []
