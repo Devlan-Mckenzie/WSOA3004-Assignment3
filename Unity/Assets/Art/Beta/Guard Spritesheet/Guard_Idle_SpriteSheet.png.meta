@@ -134,36 +134,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guard_Idle_SpriteSheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 647
-        width: 8
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 261605b36c7f11740800000000000000
-      internalID: 5121146682067673442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Guard_Idle_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 94
-        y: 456
+        x: 97
+        y: 457
         width: 222
         height: 302
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,12 +158,12 @@ TextureImporter:
       name: Guard_Idle_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 349
+        x: 344
         y: 458
         width: 222
         height: 302
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,12 +179,12 @@ TextureImporter:
       name: Guard_Idle_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 627
+        x: 621
         y: 456
         width: 222
         height: 302
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,27 +192,6 @@ TextureImporter:
       bones: []
       spriteID: 502ea8063f63dfc00800000000000000
       internalID: 935964716487598597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Guard_Idle_SpriteSheet_4
-      rect:
-        serializedVersion: 2
-        x: 857
-        y: 656
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d463fb5d924d726c0800000000000000
-      internalID: -4168129653963278771
       vertices: []
       indices: 
       edges: []
@@ -247,7 +205,7 @@ TextureImporter:
         width: 222
         height: 302
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
