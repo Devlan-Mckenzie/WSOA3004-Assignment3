@@ -1,12 +1,51 @@
 fileFormatVersion: 2
 guid: bacd7757b3e11544f8a0a728ba781b0b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4895392713452485720
+    second: prisoner_walk_spritesheet_0
+  - first:
+      213: 5591357140987359495
+    second: prisoner_walk_spritesheet_1
+  - first:
+      213: -4338057483131743711
+    second: prisoner_walk_spritesheet_2
+  - first:
+      213: -6400241166292534622
+    second: prisoner_walk_spritesheet_3
+  - first:
+      213: 2051108787332742798
+    second: prisoner_walk_spritesheet_4
+  - first:
+      213: -589710147481398962
+    second: prisoner_walk_spritesheet_5
+  - first:
+      213: 5430149368025118521
+    second: prisoner_walk_spritesheet_6
+  - first:
+      213: -2876759700726567370
+    second: prisoner_walk_spritesheet_7
+  - first:
+      213: -393097050590708561
+    second: prisoner_walk_spritesheet_8
+  - first:
+      213: 3195540778747882597
+    second: prisoner_walk_spritesheet_9
+  - first:
+      213: 5871884095974554126
+    second: prisoner_walk_spritesheet_10
+  - first:
+      213: 6527342838679290793
+    second: prisoner_walk_spritesheet_11
+  - first:
+      213: 2010512467991069562
+    second: prisoner_walk_spritesheet_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +74,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +89,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +112,259 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 401
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a301a69342101cb0800000000000000
+      internalID: -4895392713452485720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 400
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70135e802bd789d40800000000000000
+      internalID: 5591357140987359495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 397
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa3d46b196cd27a0800000000000000
+      internalID: -6400241166292534622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 395
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e76a82390077c10800000000000000
+      internalID: 2051108787332742798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 403
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e419deacebde0d7f0800000000000000
+      internalID: -589710147481398962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 404
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937f27e7414cb5b40800000000000000
+      internalID: 5430149368025118521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 413
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ea80e3b42b318d0800000000000000
+      internalID: -2876759700726567370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 400
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac7941b0507b8af0800000000000000
+      internalID: -393097050590708561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 399
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a34d6897f1d7150800000000000000
+      internalID: 5871884095974554126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_walk_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 395
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a34baa7ab7c59a50800000000000000
+      internalID: 6527342838679290793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 723478bb5ffb5eb459417deffc85eddc
     internalID: 0
     vertices: []
     indices: 

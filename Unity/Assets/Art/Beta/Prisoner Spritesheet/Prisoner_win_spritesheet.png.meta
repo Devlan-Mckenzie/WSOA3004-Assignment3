@@ -1,12 +1,54 @@
 fileFormatVersion: 2
 guid: a60fd2a5a3bfb864d907d0b81c8c339e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 931756966706969611
+    second: Prisoner_win_spritesheet_0
+  - first:
+      213: -8651231059082363334
+    second: Prisoner_win_spritesheet_1
+  - first:
+      213: 2621035129683893201
+    second: Prisoner_win_spritesheet_2
+  - first:
+      213: 5790547238399415869
+    second: Prisoner_win_spritesheet_3
+  - first:
+      213: -226380634669251392
+    second: Prisoner_win_spritesheet_4
+  - first:
+      213: -2365747204148675394
+    second: Prisoner_win_spritesheet_5
+  - first:
+      213: 5733617102373498846
+    second: Prisoner_win_spritesheet_6
+  - first:
+      213: 214885354037588680
+    second: Prisoner_win_spritesheet_7
+  - first:
+      213: -7305834297101893716
+    second: Prisoner_win_spritesheet_8
+  - first:
+      213: -6006841477178783866
+    second: Prisoner_win_spritesheet_9
+  - first:
+      213: -4088424735823375544
+    second: Prisoner_win_spritesheet_10
+  - first:
+      213: 1093787559076859799
+    second: Prisoner_win_spritesheet_11
+  - first:
+      213: -3884523918606118744
+    second: Prisoner_win_spritesheet_12
+  - first:
+      213: -6256187942923282383
+    second: Prisoner_win_spritesheet_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +77,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +92,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +115,238 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Prisoner_win_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 407
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c709946044eec00800000000000000
+      internalID: 931756966706969611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_win_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 405
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eb19d1037a0f780800000000000000
+      internalID: -8651231059082363334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_win_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 407
+        width: 133
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbd0a84099cf5420800000000000000
+      internalID: 2621035129683893201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_win_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 405
+        width: 157
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4038e130cbbdcf0800000000000000
+      internalID: -226380634669251392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_win_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 412
+        width: 134
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfa3196066e19f40800000000000000
+      internalID: 5733617102373498846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_win_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 409
+        width: 133
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c238da471d6bf200800000000000000
+      internalID: 214885354037588680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_win_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 405
+        width: 133
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf306d2a667c9a90800000000000000
+      internalID: -7305834297101893716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_win_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 403
+        width: 135
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843d35a3d5ff247c0800000000000000
+      internalID: -4088424735823375544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_win_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 408
+        width: 136
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a059fdb316671ac0800000000000000
+      internalID: -3884523918606118744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a391eae300045f34bbdadc02321a8553
     internalID: 0
     vertices: []
     indices: 

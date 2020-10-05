@@ -1,12 +1,48 @@
 fileFormatVersion: 2
 guid: a7eb5c38bc1a9d1488bd9080984642ff
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7019193528301131152
+    second: prisoner_fighting_spritesheet_0
+  - first:
+      213: -204045889006232495
+    second: prisoner_fighting_spritesheet_1
+  - first:
+      213: -6828713484402314532
+    second: prisoner_fighting_spritesheet_2
+  - first:
+      213: -3198041376770831215
+    second: prisoner_fighting_spritesheet_3
+  - first:
+      213: 2947239271184455797
+    second: prisoner_fighting_spritesheet_4
+  - first:
+      213: 7038421563781902869
+    second: prisoner_fighting_spritesheet_5
+  - first:
+      213: -8683594625991498067
+    second: prisoner_fighting_spritesheet_6
+  - first:
+      213: -3887172539620249438
+    second: prisoner_fighting_spritesheet_7
+  - first:
+      213: 8303999054302235416
+    second: prisoner_fighting_spritesheet_8
+  - first:
+      213: -9111058246819310125
+    second: prisoner_fighting_spritesheet_9
+  - first:
+      213: 1410656617380167606
+    second: prisoner_fighting_spritesheet_10
+  - first:
+      213: -531671907086583247
+    second: prisoner_fighting_spritesheet_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +71,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +86,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +109,175 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: prisoner_fighting_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 411
+        width: 145
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0951c10235f296160800000000000000
+      internalID: 7019193528301131152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_fighting_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 408
+        width: 145
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c97e358551b2df0800000000000000
+      internalID: -204045889006232495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_fighting_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 409
+        width: 145
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cc290df464e93d0800000000000000
+      internalID: -3198041376770831215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_fighting_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 409
+        width: 145
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5127ba00f1f7da160800000000000000
+      internalID: 7038421563781902869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_fighting_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 409
+        width: 145
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0384b9b2dfd0ac0800000000000000
+      internalID: -3887172539620249438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_fighting_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 413
+        width: 145
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d511760cc40f8180800000000000000
+      internalID: -9111058246819310125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d82540b924c2e384d9b7fcc8178ab298
     internalID: 0
     vertices: []
     indices: 
