@@ -32,9 +32,20 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
-        rigidbody2D = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        if (Player == null)
+        {
+            Player = GameObject.FindGameObjectWithTag("Player");
+        }
+
+        if (rigidbody2D == null)
+        {
+            rigidbody2D = GetComponent<Rigidbody2D>();
+        }
+
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }        
     }
 
     // Update is called once per frame
@@ -46,7 +57,7 @@ public class EnemyController : MonoBehaviour
     void ChasePlayer()
     {
         range = Vector2.Distance(transform.position, Player.transform.position);
-        if (range < agroRange)
+        if (range < agroRange && Player.GetComponent<PlayerCombat>().isAlive)
         {
             if (range > minDistance)
             {                
@@ -66,6 +77,7 @@ public class EnemyController : MonoBehaviour
         else
         {
             isChasing = false;
+            rigidbody2D.velocity = Vector2.zero;
         }
         
 

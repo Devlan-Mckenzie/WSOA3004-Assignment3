@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -31,8 +32,12 @@ public class PlayerCombat : MonoBehaviour
     private float nextStaminaRegenTime = 0f;
     public float healthRegenRate = 1f;
     public float staminaRegenRate = 1f;
+
+    private Rigidbody2D rigidbody2D;
+    public bool isAlive = true;
     private void Start()
     {
+        rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
@@ -121,6 +126,8 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
+        rigidbody2D.velocity = Vector2.zero;
+        isAlive = false;
         animator.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
         GetComponent<CharacterControllerBeta>().enabled = false;
