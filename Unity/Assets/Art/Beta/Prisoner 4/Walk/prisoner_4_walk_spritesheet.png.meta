@@ -1,12 +1,102 @@
 fileFormatVersion: 2
 guid: f236d94319f1bd8488906cc3fffaa567
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -875333980548367320
+    second: prisoner_4_walk_spritesheet_0
+  - first:
+      213: 3638899621839710119
+    second: prisoner_4_walk_spritesheet_1
+  - first:
+      213: -7109672358452609899
+    second: prisoner_4_walk_spritesheet_2
+  - first:
+      213: 2707885180710025755
+    second: prisoner_4_walk_spritesheet_3
+  - first:
+      213: 4523005294066499752
+    second: prisoner_4_walk_spritesheet_4
+  - first:
+      213: -1616123393642270585
+    second: prisoner_4_walk_spritesheet_5
+  - first:
+      213: 5437388627103299087
+    second: prisoner_4_walk_spritesheet_6
+  - first:
+      213: 3118272288326540877
+    second: prisoner_4_walk_spritesheet_7
+  - first:
+      213: 6710311271959967916
+    second: prisoner_4_walk_spritesheet_8
+  - first:
+      213: -3672144004259765341
+    second: prisoner_4_walk_spritesheet_9
+  - first:
+      213: 2566278149065125141
+    second: prisoner_4_walk_spritesheet_10
+  - first:
+      213: 3538574107900002048
+    second: prisoner_4_walk_spritesheet_11
+  - first:
+      213: 453740841691148867
+    second: prisoner_4_walk_spritesheet_12
+  - first:
+      213: -7729767769212627113
+    second: prisoner_4_walk_spritesheet_13
+  - first:
+      213: -3452305610234652596
+    second: prisoner_4_walk_spritesheet_14
+  - first:
+      213: -5909649924738923063
+    second: prisoner_4_walk_spritesheet_15
+  - first:
+      213: 937160699552449921
+    second: prisoner_4_walk_spritesheet_16
+  - first:
+      213: -4040508727103958990
+    second: prisoner_4_walk_spritesheet_17
+  - first:
+      213: 6786458913516784848
+    second: prisoner_4_walk_spritesheet_18
+  - first:
+      213: -8714971788560890056
+    second: prisoner_4_walk_spritesheet_19
+  - first:
+      213: -227887660006631696
+    second: prisoner_4_walk_spritesheet_20
+  - first:
+      213: -6372933720575880468
+    second: prisoner_4_walk_spritesheet_21
+  - first:
+      213: 1391087033915468749
+    second: prisoner_4_walk_spritesheet_22
+  - first:
+      213: -8538302838782431348
+    second: prisoner_4_walk_spritesheet_23
+  - first:
+      213: -1701843994677541523
+    second: prisoner_4_walk_spritesheet_24
+  - first:
+      213: 2266613646701120851
+    second: prisoner_4_walk_spritesheet_25
+  - first:
+      213: 8763610644057033576
+    second: prisoner_4_walk_spritesheet_26
+  - first:
+      213: -5642235680329109558
+    second: prisoner_4_walk_spritesheet_27
+  - first:
+      213: -458230595840101749
+    second: prisoner_4_walk_spritesheet_28
+  - first:
+      213: -1698228702221235382
+    second: prisoner_4_walk_spritesheet_29
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +125,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +140,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +163,247 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 398
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cf595e1603ad3f0800000000000000
+      internalID: -875333980548367320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 393
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cb40d98ae555d90800000000000000
+      internalID: -7109672358452609899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 401
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a08b0ed951f4ce30800000000000000
+      internalID: 4523005294066499752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 399
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06bd38d52c757b40800000000000000
+      internalID: 5437388627103299087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 410
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca839719c80df1d50800000000000000
+      internalID: 6710311271959967916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 394
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dafdd31604d9320800000000000000
+      internalID: 2566278149065125141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 393
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342761934e20c4600800000000000000
+      internalID: 453740841691148867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 390
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4810eda652f610d0800000000000000
+      internalID: -3452305610234652596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 395
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5c50144b4bcfda0800000000000000
+      internalID: -5909649924738923063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_walk_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 398
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a72f052de7ff7230800000000000000
+      internalID: 3638899621839710119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a03e9bc2c457a0941a524c8a8130ad91
     internalID: 0
     vertices: []
     indices: 

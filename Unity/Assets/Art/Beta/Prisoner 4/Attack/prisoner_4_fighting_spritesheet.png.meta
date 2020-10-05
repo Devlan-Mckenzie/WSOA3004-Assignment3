@@ -1,12 +1,246 @@
 fileFormatVersion: 2
 guid: db46ba8e14a71524ba69e65a91ad2def
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7779699095346255679
+    second: prisoner_4_fighting_spritesheet_0
+  - first:
+      213: 2311488441066837660
+    second: prisoner_4_fighting_spritesheet_1
+  - first:
+      213: -943350606953981565
+    second: prisoner_4_fighting_spritesheet_2
+  - first:
+      213: 7600044936763470692
+    second: prisoner_4_fighting_spritesheet_3
+  - first:
+      213: 1011284491519091833
+    second: prisoner_4_fighting_spritesheet_4
+  - first:
+      213: 3178940137582280540
+    second: prisoner_4_fighting_spritesheet_5
+  - first:
+      213: -2315102243003869506
+    second: prisoner_4_fighting_spritesheet_6
+  - first:
+      213: 6823545291239564618
+    second: prisoner_4_fighting_spritesheet_7
+  - first:
+      213: -1564881513218646303
+    second: prisoner_4_fighting_spritesheet_8
+  - first:
+      213: 38270647418409063
+    second: prisoner_4_fighting_spritesheet_9
+  - first:
+      213: 2635663813048691977
+    second: prisoner_4_fighting_spritesheet_10
+  - first:
+      213: 6652386880385423213
+    second: prisoner_4_fighting_spritesheet_11
+  - first:
+      213: -7279884298582288659
+    second: prisoner_4_fighting_spritesheet_12
+  - first:
+      213: 8202278548190545993
+    second: prisoner_4_fighting_spritesheet_13
+  - first:
+      213: -2164751578380800546
+    second: prisoner_4_fighting_spritesheet_14
+  - first:
+      213: 3731810179766989525
+    second: prisoner_4_fighting_spritesheet_15
+  - first:
+      213: -9140316716944862568
+    second: prisoner_4_fighting_spritesheet_16
+  - first:
+      213: -7874744625348568676
+    second: prisoner_4_fighting_spritesheet_17
+  - first:
+      213: 2919599872225721068
+    second: prisoner_4_fighting_spritesheet_18
+  - first:
+      213: 4781081010470956839
+    second: prisoner_4_fighting_spritesheet_19
+  - first:
+      213: -2487757667821388643
+    second: prisoner_4_fighting_spritesheet_20
+  - first:
+      213: -6085622662506198575
+    second: prisoner_4_fighting_spritesheet_21
+  - first:
+      213: -1425323381662356094
+    second: prisoner_4_fighting_spritesheet_22
+  - first:
+      213: 3795688778434066975
+    second: prisoner_4_fighting_spritesheet_23
+  - first:
+      213: 7664517988136015444
+    second: prisoner_4_fighting_spritesheet_24
+  - first:
+      213: 2657892494964507991
+    second: prisoner_4_fighting_spritesheet_25
+  - first:
+      213: 2737347783081403562
+    second: prisoner_4_fighting_spritesheet_26
+  - first:
+      213: 3770596762289527718
+    second: prisoner_4_fighting_spritesheet_27
+  - first:
+      213: 5273924396965662416
+    second: prisoner_4_fighting_spritesheet_28
+  - first:
+      213: -4787911248114161889
+    second: prisoner_4_fighting_spritesheet_29
+  - first:
+      213: 161017680190603810
+    second: prisoner_4_fighting_spritesheet_30
+  - first:
+      213: -6263565892855892268
+    second: prisoner_4_fighting_spritesheet_31
+  - first:
+      213: -8204835289174731281
+    second: prisoner_4_fighting_spritesheet_32
+  - first:
+      213: 33730275261587704
+    second: prisoner_4_fighting_spritesheet_33
+  - first:
+      213: -8360055249907469700
+    second: prisoner_4_fighting_spritesheet_34
+  - first:
+      213: 3071375106567818635
+    second: prisoner_4_fighting_spritesheet_35
+  - first:
+      213: -1528801484377181191
+    second: prisoner_4_fighting_spritesheet_36
+  - first:
+      213: -1974598591987083114
+    second: prisoner_4_fighting_spritesheet_37
+  - first:
+      213: 452570572394076775
+    second: prisoner_4_fighting_spritesheet_38
+  - first:
+      213: 4063588251486387701
+    second: prisoner_4_fighting_spritesheet_39
+  - first:
+      213: -3157677468209533070
+    second: prisoner_4_fighting_spritesheet_40
+  - first:
+      213: 7090414701305189540
+    second: prisoner_4_fighting_spritesheet_41
+  - first:
+      213: 6210051933801358385
+    second: prisoner_4_fighting_spritesheet_42
+  - first:
+      213: 6958010092750165112
+    second: prisoner_4_fighting_spritesheet_43
+  - first:
+      213: 5700330768893778448
+    second: prisoner_4_fighting_spritesheet_44
+  - first:
+      213: -695149157787017443
+    second: prisoner_4_fighting_spritesheet_45
+  - first:
+      213: -205359546141515769
+    second: prisoner_4_fighting_spritesheet_46
+  - first:
+      213: -4137172498796141048
+    second: prisoner_4_fighting_spritesheet_47
+  - first:
+      213: 2045674501530339705
+    second: prisoner_4_fighting_spritesheet_48
+  - first:
+      213: 3820078770377830501
+    second: prisoner_4_fighting_spritesheet_49
+  - first:
+      213: 5902294556454453517
+    second: prisoner_4_fighting_spritesheet_50
+  - first:
+      213: 4376154848431669457
+    second: prisoner_4_fighting_spritesheet_51
+  - first:
+      213: 7537134469826733985
+    second: prisoner_4_fighting_spritesheet_52
+  - first:
+      213: 176846034871852699
+    second: prisoner_4_fighting_spritesheet_53
+  - first:
+      213: 5158513009000299303
+    second: prisoner_4_fighting_spritesheet_54
+  - first:
+      213: 1674063796944742211
+    second: prisoner_4_fighting_spritesheet_55
+  - first:
+      213: -6769132140500016974
+    second: prisoner_4_fighting_spritesheet_56
+  - first:
+      213: -858260973661443068
+    second: prisoner_4_fighting_spritesheet_57
+  - first:
+      213: 3594139176043234745
+    second: prisoner_4_fighting_spritesheet_58
+  - first:
+      213: -6944738603055892943
+    second: prisoner_4_fighting_spritesheet_59
+  - first:
+      213: 2784865889371796296
+    second: prisoner_4_fighting_spritesheet_60
+  - first:
+      213: 794995498311945613
+    second: prisoner_4_fighting_spritesheet_61
+  - first:
+      213: 4704117079256821680
+    second: prisoner_4_fighting_spritesheet_62
+  - first:
+      213: -3018006727171878677
+    second: prisoner_4_fighting_spritesheet_63
+  - first:
+      213: 785153850731818050
+    second: prisoner_4_fighting_spritesheet_64
+  - first:
+      213: 7424543487615745566
+    second: prisoner_4_fighting_spritesheet_65
+  - first:
+      213: -2192741397291871375
+    second: prisoner_4_fighting_spritesheet_66
+  - first:
+      213: 853473028718702709
+    second: prisoner_4_fighting_spritesheet_67
+  - first:
+      213: -5465546849933319012
+    second: prisoner_4_fighting_spritesheet_68
+  - first:
+      213: 1176699541392573606
+    second: prisoner_4_fighting_spritesheet_69
+  - first:
+      213: 3308498661284397970
+    second: prisoner_4_fighting_spritesheet_70
+  - first:
+      213: 6251086086911185920
+    second: prisoner_4_fighting_spritesheet_71
+  - first:
+      213: 2585699864032881153
+    second: prisoner_4_fighting_spritesheet_72
+  - first:
+      213: -8303758400193205108
+    second: prisoner_4_fighting_spritesheet_73
+  - first:
+      213: 4214699742002059429
+    second: prisoner_4_fighting_spritesheet_74
+  - first:
+      213: 4964700037143579725
+    second: prisoner_4_fighting_spritesheet_75
+  - first:
+      213: 4769262496007360641
+    second: prisoner_4_fighting_spritesheet_76
+  - first:
+      213: 223955348989732694
+    second: prisoner_4_fighting_spritesheet_77
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -33,15 +267,15 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +284,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +307,163 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: prisoner_4_fighting_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 404
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8657234e4f80490800000000000000
+      internalID: -7779699095346255679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_fighting_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 402
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389dbddfe9b88e2f0800000000000000
+      internalID: -943350606953981565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_fighting_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 407
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9746bd313edc80e00800000000000000
+      internalID: 1011284491519091833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_fighting_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 404
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb65b03a6ca1fdfd0800000000000000
+      internalID: -2315102243003869506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_fighting_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 407
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eed6090e8c684ae0800000000000000
+      internalID: -1564881513218646303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_4_fighting_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 407
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760d2b873f6f78000800000000000000
+      internalID: 38270647418409063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ea63de6cec98cbd4dbdbe8295f1c0d37
     internalID: 0
     vertices: []
     indices: 

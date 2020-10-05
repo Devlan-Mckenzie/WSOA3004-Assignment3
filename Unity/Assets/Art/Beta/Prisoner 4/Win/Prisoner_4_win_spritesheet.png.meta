@@ -1,12 +1,96 @@
 fileFormatVersion: 2
 guid: b48e9a833ded05443bd13aba4003ecec
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8193632330999261613
+    second: Prisoner_4_win_spritesheet_0
+  - first:
+      213: 9000295888379111760
+    second: Prisoner_4_win_spritesheet_1
+  - first:
+      213: 6428822168688552756
+    second: Prisoner_4_win_spritesheet_2
+  - first:
+      213: -193593606657776178
+    second: Prisoner_4_win_spritesheet_3
+  - first:
+      213: -5400161710228685735
+    second: Prisoner_4_win_spritesheet_4
+  - first:
+      213: 2080400658949347653
+    second: Prisoner_4_win_spritesheet_5
+  - first:
+      213: 7738676891613871977
+    second: Prisoner_4_win_spritesheet_6
+  - first:
+      213: 1607130856354056546
+    second: Prisoner_4_win_spritesheet_7
+  - first:
+      213: -2008772394307712597
+    second: Prisoner_4_win_spritesheet_8
+  - first:
+      213: 4199276964701472346
+    second: Prisoner_4_win_spritesheet_9
+  - first:
+      213: -8337017906160946110
+    second: Prisoner_4_win_spritesheet_10
+  - first:
+      213: -4725894919342045446
+    second: Prisoner_4_win_spritesheet_11
+  - first:
+      213: -273318488786951891
+    second: Prisoner_4_win_spritesheet_12
+  - first:
+      213: -6420952198281007716
+    second: Prisoner_4_win_spritesheet_13
+  - first:
+      213: -2849533510021204322
+    second: Prisoner_4_win_spritesheet_14
+  - first:
+      213: 3639815378904468341
+    second: Prisoner_4_win_spritesheet_15
+  - first:
+      213: -5864736931301835057
+    second: Prisoner_4_win_spritesheet_16
+  - first:
+      213: -3723932385464583984
+    second: Prisoner_4_win_spritesheet_17
+  - first:
+      213: -1064745818268792451
+    second: Prisoner_4_win_spritesheet_18
+  - first:
+      213: -2261255158990390788
+    second: Prisoner_4_win_spritesheet_19
+  - first:
+      213: 4508925418962796216
+    second: Prisoner_4_win_spritesheet_20
+  - first:
+      213: 6915178502837369879
+    second: Prisoner_4_win_spritesheet_21
+  - first:
+      213: 8283679170836414940
+    second: Prisoner_4_win_spritesheet_22
+  - first:
+      213: -7491984656528129356
+    second: Prisoner_4_win_spritesheet_23
+  - first:
+      213: -3994198520995424038
+    second: Prisoner_4_win_spritesheet_24
+  - first:
+      213: -4028784788725726265
+    second: Prisoner_4_win_spritesheet_25
+  - first:
+      213: 8154061278109383099
+    second: Prisoner_4_win_spritesheet_26
+  - first:
+      213: 8347548658372340322
+    second: Prisoner_4_win_spritesheet_27
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +119,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +134,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +157,226 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Prisoner_4_win_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 402
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9ed5d7131a5b170800000000000000
+      internalID: 8193632330999261613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_win_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 409
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b66d873b3c73950800000000000000
+      internalID: 6428822168688552756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_win_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 405
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c372c2985ce05b0800000000000000
+      internalID: -5400161710228685735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_win_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 409
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f3b24b1ad456b60800000000000000
+      internalID: 7738676891613871977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_win_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 405
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba98daa76286f14e0800000000000000
+      internalID: -2008772394307712597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_win_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 404
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244b431c266fc4c80800000000000000
+      internalID: -8337017906160946110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_win_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 402
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21ae45584af43cf0800000000000000
+      internalID: -273318488786951891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_win_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 404
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d62bdcef134e6a0800000000000000
+      internalID: -6420952198281007716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_win_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 403
+        width: 130
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e963d9fbe5c6478d0800000000000000
+      internalID: -2849533510021204322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ce930a37b20f9e34da02397f904055f4
     internalID: 0
     vertices: []
     indices: 

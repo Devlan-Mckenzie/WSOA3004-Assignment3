@@ -1,12 +1,87 @@
 fileFormatVersion: 2
 guid: bb6dd2b83d6a6a54eb0499d3128e3731
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -752185265525113665
+    second: Prisoner_4_dead_spritesheet_0
+  - first:
+      213: -2016933818894230970
+    second: Prisoner_4_dead_spritesheet_1
+  - first:
+      213: 2203240781432680233
+    second: Prisoner_4_dead_spritesheet_2
+  - first:
+      213: 3917886075997354281
+    second: Prisoner_4_dead_spritesheet_3
+  - first:
+      213: -486690695817019850
+    second: Prisoner_4_dead_spritesheet_4
+  - first:
+      213: 5141956839271802407
+    second: Prisoner_4_dead_spritesheet_5
+  - first:
+      213: 8587495902515365494
+    second: Prisoner_4_dead_spritesheet_6
+  - first:
+      213: 2582792053633098684
+    second: Prisoner_4_dead_spritesheet_7
+  - first:
+      213: 3347885274947677069
+    second: Prisoner_4_dead_spritesheet_8
+  - first:
+      213: -1118655937716464792
+    second: Prisoner_4_dead_spritesheet_9
+  - first:
+      213: -3214339908428283045
+    second: Prisoner_4_dead_spritesheet_10
+  - first:
+      213: 7165925134968514373
+    second: Prisoner_4_dead_spritesheet_11
+  - first:
+      213: -1902713926178116126
+    second: Prisoner_4_dead_spritesheet_12
+  - first:
+      213: -8957495166436403457
+    second: Prisoner_4_dead_spritesheet_13
+  - first:
+      213: -7575854354116198396
+    second: Prisoner_4_dead_spritesheet_14
+  - first:
+      213: -7836017593273961671
+    second: Prisoner_4_dead_spritesheet_15
+  - first:
+      213: 473682175661932493
+    second: Prisoner_4_dead_spritesheet_16
+  - first:
+      213: 2473169992636839593
+    second: Prisoner_4_dead_spritesheet_17
+  - first:
+      213: 6265259735695898667
+    second: Prisoner_4_dead_spritesheet_18
+  - first:
+      213: -4375411166584025400
+    second: Prisoner_4_dead_spritesheet_19
+  - first:
+      213: 4534675155693776266
+    second: Prisoner_4_dead_spritesheet_20
+  - first:
+      213: 2392325546953294556
+    second: Prisoner_4_dead_spritesheet_21
+  - first:
+      213: 103670275331132848
+    second: Prisoner_4_dead_spritesheet_22
+  - first:
+      213: 7429268176248241350
+    second: Prisoner_4_dead_spritesheet_23
+  - first:
+      213: -870658778347786197
+    second: Prisoner_4_dead_spritesheet_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +110,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +125,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +148,205 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Prisoner_4_dead_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 744
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcb71b7c73bf85f0800000000000000
+      internalID: -752185265525113665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_dead_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 741
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a565db0696204e0800000000000000
+      internalID: -2016933818894230970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_dead_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 738
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9297546d0a02f5630800000000000000
+      internalID: 3917886075997354281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_dead_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 735
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726af278086eb5740800000000000000
+      internalID: 5141956839271802407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_dead_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 154
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce4b75d9ba6743c0800000000000000
+      internalID: -4375411166584025400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_dead_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 147
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8daae247076eee30800000000000000
+      internalID: 4534675155693776266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_dead_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 168
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd01eee09f407100800000000000000
+      internalID: 103670275331132848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prisoner_4_dead_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 133
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20310c347ccae3f0800000000000000
+      internalID: -870658778347786197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: df9d769c70eb8b9488bf9aaa4788d86d
     internalID: 0
     vertices: []
     indices: 
