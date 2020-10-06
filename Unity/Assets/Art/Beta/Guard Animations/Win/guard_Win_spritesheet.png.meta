@@ -215,10 +215,10 @@ TextureImporter:
       name: guard_Win_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 268
-        y: 695
-        width: 230
-        height: 367
+        x: 195
+        y: 704
+        width: 320
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,9 +236,9 @@ TextureImporter:
       name: guard_Win_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 741
-        y: 681
-        width: 230
+        x: 664
+        y: 680
+        width: 320
         height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -257,9 +257,9 @@ TextureImporter:
       name: guard_Win_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 658
-        width: 230
+        x: 1061
+        y: 655
+        width: 320
         height: 370
       alignment: 9
       pivot: {x: 0.5, y: 0.5383664}
@@ -278,9 +278,9 @@ TextureImporter:
       name: guard_Win_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1487
-        y: 652
-        width: 230
+        x: 1443
+        y: 648
+        width: 320
         height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -299,9 +299,9 @@ TextureImporter:
       name: guard_Win_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 220
-        y: 168
-        width: 230
+        x: 172
+        y: 178
+        width: 320
         height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -320,9 +320,9 @@ TextureImporter:
       name: guard_Win_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 879
-        y: 150
-        width: 230
+        x: 795
+        y: 147
+        width: 320
         height: 370
       alignment: 9
       pivot: {x: 0.5130801, y: 0.4756082}
@@ -341,9 +341,9 @@ TextureImporter:
       name: guard_Win_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 140
-        width: 230
+        x: 1477
+        y: 142
+        width: 320
         height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

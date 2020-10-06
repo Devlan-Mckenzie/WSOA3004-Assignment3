@@ -11,7 +11,7 @@ public class EnemyController : MonoBehaviour
 
     private Animator animator;
     private GameObject Player;
-    private bool facingRight = false;    
+    private bool facingRight = true;    
    
     public float minDistance = 1f;
     private float range;

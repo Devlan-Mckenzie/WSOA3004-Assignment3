@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HeavyBandit_Run
+  m_Name: Prisoner_1_Walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -21,7 +21,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 89f869cf61a771e40bbc282a5c7add2f, type: 2}
+  m_Motion: {fileID: 7400000, guid: 954118515466a4d4a938a3d249c424c7, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -34,7 +34,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HeavyBandit_Hurt
+  m_Name: Prisoner_1_Hurt
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -49,7 +49,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 22ab788fa3464374b9f8c6f542ca4290, type: 2}
+  m_Motion: {fileID: 7400000, guid: d93ace4911713614b9a4cfba8977ee20, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -97,13 +97,13 @@ AnimatorStateMachine:
     m_Position: {x: 400, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6600761885606914136}
-    m_Position: {x: 67.84314, y: -93.2381, z: 0}
+    m_Position: {x: 130, y: -60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8977156297513687731}
-    m_Position: {x: 146.40656, y: -244.8838, z: 0}
+    m_Position: {x: 130, y: -150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6411057605622684650}
-    m_Position: {x: 30, y: 120, z: 0}
+    m_Position: {x: 130, y: 110, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -3709707746388581894}
@@ -111,9 +111,9 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 370, y: 260, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_AnyStatePosition: {x: 150, y: 30, z: 0}
+  m_EntryPosition: {x: 420, y: 190, z: 0}
+  m_ExitPosition: {x: 620, y: 190, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -1543440967293967193}
 --- !u!1101 &-3709707746388581894
@@ -173,7 +173,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HeavyBandit_CombatIdle
+  m_Name: Prisoner_1_CombatIdle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -187,7 +187,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9681041169dffab4f975b055976010cb, type: 2}
+  m_Motion: {fileID: 7400000, guid: a4cf7501eaddefe478ef291fb0e9d2fd, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -224,7 +224,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy
+  m_Name: Prisoner 1
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Chasing
@@ -232,25 +232,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Hurt
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isDead
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Attack
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -318,7 +318,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HeavyBandit_Attack
+  m_Name: Prisoner_1_Attack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -332,7 +332,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 55855508312d92143a67a54f910896a0, type: 2}
+  m_Motion: {fileID: 7400000, guid: cca03109be161954d9c8a3c046bc6dbb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -345,7 +345,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HeavyBandit_Death
+  m_Name: Prisoner_1_Death
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -358,7 +358,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9adbb6eb25891a14b892bd7583d64ce7, type: 2}
+  m_Motion: {fileID: 7400000, guid: c341d496b4d63524c8ab2854e4e9f7e7, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
