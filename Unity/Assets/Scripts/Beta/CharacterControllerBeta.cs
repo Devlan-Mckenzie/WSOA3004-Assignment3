@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterControllerBeta : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class CharacterControllerBeta : MonoBehaviour
 
     private Animator animator;
     private bool facingRight = true;
-
+    public Canvas canvas;
 
     // Start is called before the first frame update
     void Start()
@@ -66,5 +67,7 @@ public class CharacterControllerBeta : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+
+        canvas.GetComponent<CanvasController>().CanvasFlip();
     }
 }
