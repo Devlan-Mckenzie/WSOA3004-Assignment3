@@ -170,10 +170,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 465
-        width: 240
-        height: 310
+        x: 0
+        y: 456
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 572
-        y: 534
-        width: 240
-        height: 310
+        x: 496
+        y: 528
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 500
-        width: 240
-        height: 310
+        x: 1010
+        y: 497
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +233,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 446
-        y: 111
-        width: 240
-        height: 310
+        x: 347
+        y: 105
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 887
-        y: 107
-        width: 240
-        height: 310
+        x: 793
+        y: 102
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 1264
-        y: 107
-        width: 240
-        height: 310
+        x: 1204
+        y: 102
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,10 +296,10 @@ TextureImporter:
       name: guard_Walk_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 1653
-        y: 150
-        width: 240
-        height: 310
+        x: 1567
+        y: 141
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
