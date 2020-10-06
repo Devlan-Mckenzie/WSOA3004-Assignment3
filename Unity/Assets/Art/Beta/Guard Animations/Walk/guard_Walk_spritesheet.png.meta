@@ -212,7 +212,7 @@ TextureImporter:
       name: guard_Walk_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1091
+        x: 1067
         y: 500
         width: 240
         height: 310
@@ -225,27 +225,6 @@ TextureImporter:
       bones: []
       spriteID: a1dd5e55c85ceb730800000000000000
       internalID: 4016865124188282138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guard_Walk_spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 1265
-        y: 714
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c31951f542885450800000000000000
-      internalID: 6077750934049985475
       vertices: []
       indices: 
       edges: []

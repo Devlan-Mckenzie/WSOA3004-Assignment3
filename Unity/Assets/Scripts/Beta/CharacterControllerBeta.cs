@@ -10,7 +10,7 @@ public class CharacterControllerBeta : MonoBehaviour
     private new Rigidbody2D rigidbody2D;
 
     private Animator animator;
-    private bool facingRight = false;
+    private bool facingRight = true;
 
 
     // Start is called before the first frame update
