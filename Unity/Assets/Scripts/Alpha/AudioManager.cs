@@ -27,6 +27,7 @@ public class AudioManager : MonoBehaviour
             currentSound.audioSource.volume = currentSound.volume;
             currentSound.audioSource.pitch = currentSound.pitch;
             currentSound.audioSource.loop = currentSound.loop;
+           //currentSound.audioSource.PlayOneShot(currentSound.audioClip);
         }
     }
     public void Start()
@@ -43,6 +44,6 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-        s.audioSource.Play();  
+        s.audioSource.PlayOneShot(s.audioClip);  
     }
 }
