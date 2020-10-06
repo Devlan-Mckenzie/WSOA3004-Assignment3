@@ -137,10 +137,10 @@ TextureImporter:
       name: Guard_Pain_Spritesheet1_0
       rect:
         serializedVersion: 2
-        x: 54
-        y: 396
-        width: 230
-        height: 310
+        x: 386
+        y: 704
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,10 +158,10 @@ TextureImporter:
       name: Guard_Pain_Spritesheet1_1
       rect:
         serializedVersion: 2
-        x: 353
-        y: 396
-        width: 230
-        height: 310
+        x: 525
+        y: 163
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: Guard_Pain_Spritesheet1_3
       rect:
         serializedVersion: 2
-        x: 676
-        y: 398
-        width: 230
-        height: 310
+        x: 874
+        y: 699
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Guard_Pain_Spritesheet1_4
       rect:
         serializedVersion: 2
-        x: 947
-        y: 391
-        width: 230
-        height: 310
+        x: 1437
+        y: 700
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: Guard_Pain_Spritesheet1_6
       rect:
         serializedVersion: 2
-        x: 1227
-        y: 401
-        width: 230
-        height: 310
+        x: 1223
+        y: 150
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
