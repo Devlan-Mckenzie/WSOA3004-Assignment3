@@ -79,7 +79,7 @@ public class RoomTriggers : MonoBehaviour
 
         }
 
-        if(Roomtrigger.gameObject.tag == "AlarmSwitch" && Input.GetKeyDown(KeyCode.E))
+        if(Roomtrigger.gameObject.tag == "Alarm Trigger" && Input.GetKeyDown(KeyCode.E))
         {
             //plays the alarm sound
             SoundAlarm();

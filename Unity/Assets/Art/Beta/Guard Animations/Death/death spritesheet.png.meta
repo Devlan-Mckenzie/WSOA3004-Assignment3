@@ -423,9 +423,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 60
-        y: 742
-        width: 360
-        height: 323
+        y: 743
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,10 +443,10 @@ TextureImporter:
       name: death spritesheet_2
       rect:
         serializedVersion: 2
-        x: 818
-        y: 757
-        width: 360
-        height: 323
+        x: 828
+        y: 747
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +464,10 @@ TextureImporter:
       name: death spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1552
+        x: 1570
         y: 402
-        width: 360
-        height: 323
+        width: 320
+        height: 320
       alignment: 9
       pivot: {x: 0.53486836, y: 0.5242888}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +485,10 @@ TextureImporter:
       name: death spritesheet_13
       rect:
         serializedVersion: 2
-        x: 309
-        y: 402
-        width: 360
-        height: 323
+        x: 315
+        y: 406
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +506,10 @@ TextureImporter:
       name: death spritesheet_16
       rect:
         serializedVersion: 2
-        x: 954
-        y: 383
-        width: 360
-        height: 323
+        x: 970
+        y: 380
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,10 +527,10 @@ TextureImporter:
       name: death spritesheet_26
       rect:
         serializedVersion: 2
-        x: 34
-        y: 36
-        width: 360
-        height: 323
+        x: 31
+        y: 27
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,10 +548,10 @@ TextureImporter:
       name: death spritesheet_28
       rect:
         serializedVersion: 2
-        x: 657
-        y: 50
-        width: 360
-        height: 323
+        x: 665
+        y: 58
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: death spritesheet_37
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 30
-        width: 360
-        height: 323
+        x: 1167
+        y: 52
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: death spritesheet_40
       rect:
         serializedVersion: 2
-        x: 1671
-        y: 8
-        width: 360
-        height: 323
+        x: 1694
+        y: 53
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
