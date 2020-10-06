@@ -34,6 +34,8 @@ public class PlayerCombat : MonoBehaviour
 
     private Rigidbody2D PlayerRB2D;
     public bool isAlive = true;
+
+    private GameObject Prisoner;
     private void Start()
     {
         PlayerRB2D = GetComponent<Rigidbody2D>();
@@ -43,6 +45,8 @@ public class PlayerCombat : MonoBehaviour
 
         currentStamina = maxStamina;
         staminaBar.SetMaxStamina(maxStamina);
+
+        Prisoner = GameObject.FindGameObjectWithTag("Enemy");
     }
 
     // Update is called once per frame
@@ -128,8 +132,14 @@ public class PlayerCombat : MonoBehaviour
         PlayerRB2D.velocity = Vector2.zero;
         isAlive = false;
         animator.SetBool("isDead", true);
+        Prisoner.GetComponent<Enemy>().EnemyWon();
         GetComponent<Collider2D>().enabled = false;
         GetComponent<CharacterControllerBeta>().enabled = false;
         this.enabled = false;
+    }
+
+    public void PlayerWon()
+    {
+        animator.SetTrigger("Won");
     }
 }
