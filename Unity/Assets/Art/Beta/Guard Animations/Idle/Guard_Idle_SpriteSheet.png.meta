@@ -137,9 +137,9 @@ TextureImporter:
       name: Guard_Idle_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 452
-        width: 240
+        x: 30
+        y: 450
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -158,9 +158,9 @@ TextureImporter:
       name: Guard_Idle_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 616
-        y: 453
-        width: 240
+        x: 560
+        y: 449
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -179,9 +179,9 @@ TextureImporter:
       name: Guard_Idle_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 452
-        width: 240
+        x: 981
+        y: 449
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -200,9 +200,9 @@ TextureImporter:
       name: Guard_Idle_SpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 1476
-        y: 454
-        width: 240
+        x: 1414
+        y: 449
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

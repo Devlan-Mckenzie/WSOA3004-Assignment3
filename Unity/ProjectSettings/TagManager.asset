@@ -21,6 +21,7 @@ TagManager:
   - Room trigger
   - Switch trigger
   - WeaponsLocker
+  - Alarm Trigger
   layers:
   - Default
   - TransparentFX

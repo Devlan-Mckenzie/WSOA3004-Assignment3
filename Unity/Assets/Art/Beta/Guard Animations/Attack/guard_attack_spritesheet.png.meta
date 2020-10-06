@@ -152,9 +152,9 @@ TextureImporter:
       name: guard_attack_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 119
-        y: 674
-        width: 245
+        x: 58
+        y: 667
+        width: 320
         height: 320
       alignment: 9
       pivot: {x: 0.4871916, y: 0.5245167}
@@ -173,9 +173,9 @@ TextureImporter:
       name: guard_attack_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 617
-        y: 676
-        width: 245
+        x: 578
+        y: 668
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -194,9 +194,9 @@ TextureImporter:
       name: guard_attack_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1103
-        y: 677
-        width: 245
+        x: 1065
+        y: 679
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -215,9 +215,9 @@ TextureImporter:
       name: guard_attack_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1580
+        x: 1518
         y: 680
-        width: 245
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -236,9 +236,9 @@ TextureImporter:
       name: guard_attack_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 312
-        y: 202
-        width: 245
+        x: 259
+        y: 197
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -257,9 +257,9 @@ TextureImporter:
       name: guard_attack_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 942
+        x: 881
         y: 207
-        width: 245
+        width: 320
         height: 320
       alignment: 9
       pivot: {x: 0.46797922, y: 0.5098068}
@@ -278,9 +278,9 @@ TextureImporter:
       name: guard_attack_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 1525
-        y: 207
-        width: 245
+        x: 1457
+        y: 208
+        width: 320
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
