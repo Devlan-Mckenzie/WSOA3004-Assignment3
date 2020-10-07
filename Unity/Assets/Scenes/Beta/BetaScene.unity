@@ -1107,6 +1107,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prisoner 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2351250529291611208, guid: a8f8dd24539d2314ba4879933d3c0f96, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351250529291611208, guid: a8f8dd24539d2314ba4879933d3c0f96, type: 3}
+      propertyPath: m_Size.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351250529291611208, guid: a8f8dd24539d2314ba4879933d3c0f96, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351250529291611208, guid: a8f8dd24539d2314ba4879933d3c0f96, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2351250529291611210, guid: a8f8dd24539d2314ba4879933d3c0f96, type: 3}
       propertyPath: attackRange
       value: 0.4
@@ -1273,6 +1289,22 @@ PrefabInstance:
       propertyPath: attackRange
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 4225613540643695507, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225613540643695507, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
+      propertyPath: m_Size.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225613540643695507, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225613540643695507, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4225613540643695509, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
       propertyPath: m_Name
       value: Prisoner 1
@@ -1353,6 +1385,22 @@ PrefabInstance:
     - target: {fileID: 4672323562067784612, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
       propertyPath: attackRange
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672323562067784614, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672323562067784614, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: m_Size.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672323562067784614, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672323562067784614, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4672323562067784619, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1466,6 +1514,22 @@ PrefabInstance:
     - target: {fileID: 5787591114307121628, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
       propertyPath: attackRange
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787591114307121630, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
+      propertyPath: m_Size.y
+      value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787591114307121630, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
+      propertyPath: m_Size.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787591114307121630, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787591114307121630, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
