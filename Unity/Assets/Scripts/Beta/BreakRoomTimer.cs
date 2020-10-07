@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BreakRoomTimer : MonoBehaviour
 {
@@ -15,15 +16,21 @@ public class BreakRoomTimer : MonoBehaviour
         
     }
 
+    public void changescene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     // Update is called once per frame
     void Update()
     {
         timer -= Time.deltaTime;
 
-        if (timer <= 0)
+        if (timer <= 0 && LightsOn.activeSelf)
         {
             LightsOn.SetActive(false);
             LightsOff.SetActive(true);
+            Invoke("changescene", 1.5f);
         }
     }
 }
