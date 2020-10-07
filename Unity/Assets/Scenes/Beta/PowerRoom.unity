@@ -691,6 +691,49 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9109315860012387995, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
   m_PrefabInstance: {fileID: 2025430168}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &356186174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356186173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - audioClip: {fileID: 8300000, guid: c720d15829c0d854782b4f6ea949282d, type: 3}
+    volume: 5
+    pitch: 0.8
+    name: Footstep_01
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 4e0c67586d7d9a645a967543ba207e83, type: 3}
+    volume: 5
+    pitch: 0.75
+    name: Footstep_02
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 6626211babbfabc40ab4fd35f20b901a, type: 3}
+    volume: 5
+    pitch: 1
+    name: Batton
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_with_Grunt
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: d89622737e9bac44b95984a49877b841, type: 3}
+    volume: 5
+    pitch: 1
+    name: PlayerDeath_
+    loop: 0
+    audioSource: {fileID: 0}
 --- !u!114 &356186182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1450,6 +1493,8 @@ MonoBehaviour:
   SwitchingOnGenerator: {fileID: 0}
   OpenArmory: {fileID: 0}
   ClosedArmory: {fileID: 0}
+  poweroff: {fileID: 0}
+  poweron: {fileID: 0}
 --- !u!61 &1187333310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1658,7 +1703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1544541281
 MonoBehaviour:
   m_ObjectHideFlags: 0
