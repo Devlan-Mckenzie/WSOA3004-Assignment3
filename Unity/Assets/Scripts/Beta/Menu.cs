@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1;
     }
     
     public void Closegame()
@@ -35,5 +36,6 @@ public class Menu : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
 }
