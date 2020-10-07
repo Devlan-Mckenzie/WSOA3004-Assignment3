@@ -32,6 +32,10 @@ public class RoomTriggers : MonoBehaviour
     public Animator SwitchingOnGenerator;
 
     public static float health;
+
+    public GameObject OpenArmory;
+    public GameObject ClosedArmory;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,43 +56,42 @@ public class RoomTriggers : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D Roomtrigger)
     {
-        if (Roomtrigger.gameObject.tag == "Room trigger")
+        if (FindObjectOfType<Enemy>().currentHealth <= 0)
         {
-            
-            PressToUseButton.SetActive(true);
-            
-        }
-
-        if (Roomtrigger.gameObject.tag == "Switch trigger" && Input.GetKeyDown(KeyCode.E))
-        {
-            //if E is pressed while the player is within the switch trigger , it will switch on the lights and set the instruction UI to false
-            LightSwitch();
-            Debug.Log("Room Trigger hit");
-            PressToUseButton.SetActive(false);
-
-            if (CablePossession)
+            if (Roomtrigger.gameObject.tag == "Room trigger")
             {
-                CablePlacement();
+
+                PressToUseButton.SetActive(true);
+
+            }
+
+            if (Roomtrigger.gameObject.tag == "Switch trigger" && Input.GetKeyDown(KeyCode.E))
+            {
+                //if E is pressed while the player is within the switch trigger , it will switch on the lights and set the instruction UI to false
+                LightSwitch();
+                Debug.Log("Room Trigger hit");
+                PressToUseButton.SetActive(false);
+
+                if (CablePossession)
+                {
+                    CablePlacement();
+                }
+            }
+
+            if (Roomtrigger.gameObject.tag == "WeaponsLocker" && Input.GetKeyDown(KeyCode.E))
+            {
+                //plays animation to lock the weapons away 
+                LockWeapons();
+
+            }
+
+            if (Roomtrigger.gameObject.tag == "Alarm Trigger" && Input.GetKeyDown(KeyCode.E))
+            {
+                //plays the alarm sound
+                SoundAlarm();
+
             }
         }
-
-        if (Roomtrigger.gameObject.tag == "WeaponsLocker" && Input.GetKeyDown(KeyCode.E))
-        {
-            //plays animation to lock the weapons away 
-            LockWeapons();
-
-        }
-
-        if(Roomtrigger.gameObject.tag == "Alarm Trigger" && Input.GetKeyDown(KeyCode.E))
-        {
-            //plays the alarm sound
-            SoundAlarm();
-
-        }
-
-        
-
-
     }
 
     private void OnTriggerExit2D(Collider2D Roomtrigger)
@@ -96,7 +99,7 @@ public class RoomTriggers : MonoBehaviour
         if (Roomtrigger.gameObject.tag == "Room trigger")
         {
             PressToUseButton.SetActive(false);
-            Invoke("exitgame", 1);
+            
         }
     }
 
@@ -110,7 +113,9 @@ public class RoomTriggers : MonoBehaviour
         RoomCounter += 1;
         //SwitchingOnGenerator.Switch = true;
 
-        
+        Invoke("exitroom", 1.5f);
+
+
     }
 
     public void LockWeapons()
@@ -121,16 +126,26 @@ public class RoomTriggers : MonoBehaviour
         //put ui in to indicate that this has been done
         //just a simple text plus a sound ?
         //ClosingLockers.Switch = true;
+        if (OpenArmory.activeSelf)
+        {
+            OpenArmory.SetActive(false);
+            ClosedArmory.SetActive(true);
+        }
+        Invoke("exitroom", 1.5f);
+
     }
 
     public void SoundAlarm()
     {
         //play sound for alarm
         RoomCounter += 1;
+        Invoke("exitroom", 1.5f);
         Alarm = true;
         AlarmSound.Play();
+        
 
-       
+
+
     }
 
     public void CablePlacement()
@@ -143,7 +158,9 @@ public class RoomTriggers : MonoBehaviour
             GeneratorLighting.SetActive(false);
             GlobalLighting.SetActive(true);
             Debug.Log("Lights are back on");
-            
+            Invoke("exitroom", 1.5f);
+
+
         }
         //PlacingCable.Switch = true;
 

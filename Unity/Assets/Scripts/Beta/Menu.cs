@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1;
     }
     
     public void Closegame()
@@ -15,9 +16,10 @@ public class Menu : MonoBehaviour
         Application.Quit();
     }
 
-    public void next2()
+    public void resume()
     {
-        SceneManager.LoadScene(4);
+        Time.timeScale = 1;
+        this.gameObject.SetActive(false);
     }
 
     public void rules()
@@ -28,5 +30,12 @@ public class Menu : MonoBehaviour
     public void next()
     {
         SceneManager.LoadScene(3);
+    }
+
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
 }
