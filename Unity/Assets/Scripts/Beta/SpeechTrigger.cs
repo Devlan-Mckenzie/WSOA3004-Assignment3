@@ -22,6 +22,9 @@ public class SpeechTrigger : MonoBehaviour
 
     private float Timer;
 
+    public bool EnemyWinning;
+    public bool PlayerWinning;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -84,6 +87,7 @@ public class SpeechTrigger : MonoBehaviour
             Timer += Time.deltaTime;
             EnemyBanter();
             Invoke("PlayerBanter", 3);
+            
             if (Timer > 6)
             {
                 PlayerSpeechBubble.SetActive(false);
