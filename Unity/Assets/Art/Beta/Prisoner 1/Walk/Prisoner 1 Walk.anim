@@ -95,14 +95,7 @@ AnimationClip:
   m_Events:
   - time: 0.33333334
     functionName: Play
-    data: Footstep_01
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.5833333
-    functionName: Play
-    data: 
+    data: Footstep_[Type.03]
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

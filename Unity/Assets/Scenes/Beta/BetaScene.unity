@@ -185,6 +185,54 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5691160307743569567, guid: 5afa2e7a9b03a3e409a4d7f17e05950f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5afa2e7a9b03a3e409a4d7f17e05950f, type: 3}
+--- !u!1 &69124311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4225613540643695509, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
+  m_PrefabInstance: {fileID: 4225613541964444341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &69124318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69124311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - audioClip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    name: 
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 87dfe3b68942d1c42a6081c17cb276f5, type: 3}
+    volume: 5
+    pitch: 1
+    name: Footstep_[Type.03]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: f368eb303f5e0fd49a634cc1ed7aaefc, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_[Type.01]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_with_Grunt
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: d89622737e9bac44b95984a49877b841, type: 3}
+    volume: 5
+    pitch: 1
+    name: PrisonerDeath_
+    loop: 0
+    audioSource: {fileID: 0}
 --- !u!1 &513702543 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5691160307743569554, guid: 5afa2e7a9b03a3e409a4d7f17e05950f, type: 3}
@@ -278,6 +326,54 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &610965141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5787591114307121616, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
+  m_PrefabInstance: {fileID: 5787591114779601111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &610965148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610965141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - audioClip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    name: 
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 87dfe3b68942d1c42a6081c17cb276f5, type: 3}
+    volume: 5
+    pitch: 1
+    name: Footstep_[Type.03]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: f368eb303f5e0fd49a634cc1ed7aaefc, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_[Type.01]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_with_Grunt
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: d89622737e9bac44b95984a49877b841, type: 3}
+    volume: 5
+    pitch: 1
+    name: PrisonerDeath_
+    loop: 0
+    audioSource: {fileID: 0}
 --- !u!4 &752785678 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5787591114307121625, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
@@ -355,6 +451,60 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &958487346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9109315860012387995, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+  m_PrefabInstance: {fileID: 3625660405663027424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &958487355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958487346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - audioClip: {fileID: 8300000, guid: c720d15829c0d854782b4f6ea949282d, type: 3}
+    volume: 5
+    pitch: 0.8
+    name: Footstep_[OneShot.01]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 4e0c67586d7d9a645a967543ba207e83, type: 3}
+    volume: 5
+    pitch: 0.75
+    name: Footstep_[OneShot.01]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 6626211babbfabc40ab4fd35f20b901a, type: 3}
+    volume: 0
+    pitch: 0
+    name: Batton
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    name: 
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_with_Grunt
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: d89622737e9bac44b95984a49877b841, type: 3}
+    volume: 5
+    pitch: 1
+    name: PlayerDeath
+    loop: 0
+    audioSource: {fileID: 0}
 --- !u!4 &1015783865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4672323562067784619, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
@@ -690,6 +840,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1461869689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4672323562067784608, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+  m_PrefabInstance: {fileID: 4672323562528789010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1461869696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461869689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - audioClip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    name: 
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 87dfe3b68942d1c42a6081c17cb276f5, type: 3}
+    volume: 5
+    pitch: 1
+    name: Footstep_[Type.03]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: f368eb303f5e0fd49a634cc1ed7aaefc, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_[Type.01]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_with_Grunt
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: d89622737e9bac44b95984a49877b841, type: 3}
+    volume: 5
+    pitch: 1
+    name: PrisonerDeath_
+    loop: 0
+    audioSource: {fileID: 0}
 --- !u!1 &1521013172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1222,54 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!1 &2082412782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2351250529291611206, guid: a8f8dd24539d2314ba4879933d3c0f96, type: 3}
+  m_PrefabInstance: {fileID: 2351250530390942113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2082412789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082412782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - audioClip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    name: 
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 87dfe3b68942d1c42a6081c17cb276f5, type: 3}
+    volume: 5
+    pitch: 1
+    name: Footstep_[Type.03]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: f368eb303f5e0fd49a634cc1ed7aaefc, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_[Type.01]
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_with_Grunt
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: d89622737e9bac44b95984a49877b841, type: 3}
+    volume: 5
+    pitch: 1
+    name: PrisonerDeath_
+    loop: 0
+    audioSource: {fileID: 0}
 --- !u!1 &2084667485
 GameObject:
   m_ObjectHideFlags: 0
