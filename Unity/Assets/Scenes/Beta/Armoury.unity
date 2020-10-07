@@ -364,7 +364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &162345422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2653,8 +2653,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 47.74408}
-  m_SizeDelta: {x: 0, y: 95.48816}
+  m_AnchoredPosition: {x: 0, y: 68.099976}
+  m_SizeDelta: {x: -247.504, y: 99.07579}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2000858113
 MonoBehaviour:
@@ -2689,7 +2689,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press E to use
+  m_Text: 'Teddy bro, these F*#king prisoners have stolen our sacred weapons!
+
+    We
+    have to lock the rest away!
+
+    (Press E to lock armour gates)'
 --- !u!222 &2000858114
 CanvasRenderer:
   m_ObjectHideFlags: 0
