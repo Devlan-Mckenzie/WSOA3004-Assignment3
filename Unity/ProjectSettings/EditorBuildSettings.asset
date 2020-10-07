@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Beta/PowerRoom 2.unity
     guid: dae2f21553e17d0449bf7696320c9d4c
+  - enabled: 1
+    path: Assets/Scenes/Beta/WinScene.unity
+    guid: 26d10099147956a489ac1fa897883bc7
+  - enabled: 1
+    path: Assets/Scenes/Beta/DeathScene.unity
+    guid: b896c32fb23ad0449852e82c33d608a1
   m_configObjects: {}
