@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Alpha/MainMenu.unity
-    guid: 4f95928462edc3e4fa1a90438c535d61
-  - enabled: 0
-    path: Assets/Scenes/Alpha/LevelDesign.unity
-    guid: 9938ac6c44373774cb9bd9f243bad640
   - enabled: 1
     path: Assets/Scenes/Beta/MainMenu.unity
     guid: 305291c364929dc4ca5f98c8ef8b3fff
@@ -21,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Beta/PowerRoom.unity
     guid: f104cdfe23bd3c645ab90c0cf840fe9e
   - enabled: 1
+    path: Assets/Scenes/Beta/Armoury.unity
+    guid: 32e6d18bb6b127e4db6571a9fa733091
+  - enabled: 1
     path: Assets/Scenes/Beta/SecurityRoom.unity
     guid: 07f161bd44367244e823503a28f66858
+  - enabled: 1
+    path: Assets/Scenes/Beta/PowerRoom 2.unity
+    guid: dae2f21553e17d0449bf7696320c9d4c
   m_configObjects: {}
