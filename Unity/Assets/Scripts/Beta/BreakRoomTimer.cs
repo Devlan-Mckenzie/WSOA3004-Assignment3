@@ -8,8 +8,9 @@ public class BreakRoomTimer : MonoBehaviour
 
     public GameObject LightsOn;
     public GameObject LightsOff;
+    public GameObject TextCanvas;
 
-    public float timer = 15;
+    public float timer = 2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,13 @@ public class BreakRoomTimer : MonoBehaviour
         {
             LightsOn.SetActive(false);
             LightsOff.SetActive(true);
-            Invoke("changescene", 1.5f);
+            ShowCanvas();
+            Invoke("changescene", 10f);
         }
+    }
+
+    void ShowCanvas()
+    {
+        TextCanvas.SetActive(true);
     }
 }

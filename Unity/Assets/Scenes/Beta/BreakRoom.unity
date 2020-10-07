@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -416,8 +416,8 @@ Canvas:
   m_GameObject: {fileID: 225685658}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1184850273}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -425,7 +425,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1348421303
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &225685662
@@ -919,6 +919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LightsOn: {fileID: 702821590}
   LightsOff: {fileID: 1799895050}
+  TextCanvas: {fileID: 225685658}
   timer: 2
 --- !u!114 &1184850276
 MonoBehaviour:
@@ -985,8 +986,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -16.099976, y: 247}
-  m_SizeDelta: {x: 672.1972, y: 554.0242}
+  m_AnchoredPosition: {x: 2, y: 154}
+  m_SizeDelta: {x: 1822.7792, y: 1136.8849}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304462357
 MonoBehaviour:
