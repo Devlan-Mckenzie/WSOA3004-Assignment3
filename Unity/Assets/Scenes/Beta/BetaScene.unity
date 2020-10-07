@@ -502,7 +502,7 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: d89622737e9bac44b95984a49877b841, type: 3}
     volume: 5
     pitch: 1
-    name: PlayerDeath
+    name: PlayerDeath_
     loop: 0
     audioSource: {fileID: 0}
 --- !u!4 &1015783865 stripped

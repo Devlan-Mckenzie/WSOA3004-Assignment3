@@ -92,7 +92,7 @@ AnimationClip:
   m_Events:
   - time: 0
     functionName: Play
-    data: Player_Death
+    data: PlayerDeath_
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
