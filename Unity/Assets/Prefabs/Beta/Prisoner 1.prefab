@@ -123,7 +123,7 @@ MonoBehaviour:
   minDistance: 1
   agroRange: 3
   attackPoint: {fileID: 4225613541592233589}
-  attackDamage: 40
+  attackDamage: 25
   attackRange: 0.5
   playerLayer:
     serializedVersion: 2

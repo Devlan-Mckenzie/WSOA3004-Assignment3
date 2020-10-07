@@ -1105,6 +1105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prisoner 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4672323562067784612, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: attackDamage
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 4672323562067784619, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.79026294

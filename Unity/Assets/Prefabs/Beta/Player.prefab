@@ -803,7 +803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37497b77c570d204e91dd15dc30f5863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 40
+  attackDamage: 15
   attackStamina: 20
   attackPoint: {fileID: 8123445421905263447}
   attackRange: 1
@@ -819,8 +819,8 @@ MonoBehaviour:
   staminaBar: {fileID: 867965449560807730}
   healthRegen: 1
   staminaRegen: 1
-  healthRegenRate: 1
-  staminaRegenRate: 1
+  healthRegenRate: 8
+  staminaRegenRate: 8
   isAlive: 1
 --- !u!61 &8213882264912198734
 BoxCollider2D:
