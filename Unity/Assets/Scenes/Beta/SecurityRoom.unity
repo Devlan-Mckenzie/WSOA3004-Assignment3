@@ -1459,6 +1459,8 @@ MonoBehaviour:
   SwitchingOnGenerator: {fileID: 0}
   OpenArmory: {fileID: 0}
   ClosedArmory: {fileID: 0}
+  poweroff: {fileID: 0}
+  poweron: {fileID: 0}
 --- !u!61 &1285468127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2238,11 +2240,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9168644928453315164, guid: 9eb200853a95ac345a14521b4ed994d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.87
+      value: -6.02
       objectReference: {fileID: 0}
     - target: {fileID: 9168644928453315164, guid: 9eb200853a95ac345a14521b4ed994d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.45
+      value: 4.84
       objectReference: {fileID: 0}
     - target: {fileID: 9168644928453315164, guid: 9eb200853a95ac345a14521b4ed994d8, type: 3}
       propertyPath: m_LocalPosition.z
