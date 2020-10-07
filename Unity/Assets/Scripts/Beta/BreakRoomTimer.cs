@@ -9,7 +9,7 @@ public class BreakRoomTimer : MonoBehaviour
     public GameObject LightsOn;
     public GameObject LightsOff;
 
-    public float timer = 6;
+    public float timer = 15;
     // Start is called before the first frame update
     void Start()
     {
