@@ -14,6 +14,8 @@ public class CharacterControllerBeta : MonoBehaviour
     private bool facingRight = true;
     public Canvas canvas;
 
+    public ParticleSystem DustParticles;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,19 +53,22 @@ public class CharacterControllerBeta : MonoBehaviour
             {
                 // ... flip the player.
                 Flip();
+                
             }
             // Otherwise if the input is moving the player left and the player is facing right...
             else if (HorizontalMove < 0 && facingRight)
             {
                 // ... flip the player.
                 Flip();
+                
             }
         }
         
     }
 
     private void Flip()
-    {        
+    {
+        CreateDust();
         // Switch the way the player is labelled as facing.
         facingRight = !facingRight;
 
@@ -72,6 +77,11 @@ public class CharacterControllerBeta : MonoBehaviour
         theScale.x *= -1;
         transform.localScale = theScale;
 
-        canvas.GetComponent<CanvasController>().CanvasFlip();
+        canvas.GetComponent<CanvasController>().CanvasFlip();       
+    }
+
+    void CreateDust()
+    {
+        DustParticles.Play();
     }
 }

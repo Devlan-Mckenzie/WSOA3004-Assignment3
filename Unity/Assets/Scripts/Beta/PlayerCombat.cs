@@ -36,6 +36,9 @@ public class PlayerCombat : MonoBehaviour
     public bool isAlive = true;
 
     private GameObject Prisoner;
+
+    public ParticleSystem ThrustParticles;
+
     private void Start()
     {
         PlayerRB2D = GetComponent<Rigidbody2D>();
@@ -96,6 +99,7 @@ public class PlayerCombat : MonoBehaviour
 
         //Play attack animation
         animator.SetTrigger("Attack");
+        CreateThrustParticles();
 
         //Detect enemies hit
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
@@ -148,5 +152,9 @@ public class PlayerCombat : MonoBehaviour
     {
         healthBar.gameObject.SetActive(false);
         staminaBar.gameObject.SetActive(false);
+    }
+    void CreateThrustParticles()
+    {
+        ThrustParticles.Play();
     }
 }

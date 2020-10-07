@@ -13,14 +13,10 @@ public class AudioManager : MonoBehaviour
         if(m_instance == null)
         {
             m_instance = this;
-            Debug.Log("AudioManager instance assigned");
-            Debug.Log(this.name);
         }
         else
         {
             DontDestroyOnLoad(gameObject);
-            Debug.Log("AudioManager instance was found assigning dont destroy");
-            Debug.Log(this.name);
             return;
         }
         foreach (Sound currentSound in m_sounds)
@@ -50,4 +46,6 @@ public class AudioManager : MonoBehaviour
 
         s.audioSource.PlayOneShot(s.audioClip);  
     }
+
+  
 }
