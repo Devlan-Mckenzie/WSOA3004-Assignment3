@@ -132,6 +132,7 @@ public class PlayerCombat : MonoBehaviour
         PlayerRB2D.velocity = Vector2.zero;
         isAlive = false;
         animator.SetBool("isDead", true);
+        HideBars();
         Prisoner.GetComponent<Enemy>().EnemyWon();
         GetComponent<Collider2D>().enabled = false;
         GetComponent<CharacterControllerBeta>().enabled = false;
@@ -141,5 +142,11 @@ public class PlayerCombat : MonoBehaviour
     public void PlayerWon()
     {
         animator.SetTrigger("Won");
+    }
+
+    void HideBars()
+    {
+        healthBar.gameObject.SetActive(false);
+        staminaBar.gameObject.SetActive(false);
     }
 }

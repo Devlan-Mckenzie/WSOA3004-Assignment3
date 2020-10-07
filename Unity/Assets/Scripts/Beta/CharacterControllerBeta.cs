@@ -38,24 +38,28 @@ public class CharacterControllerBeta : MonoBehaviour
 
     void Move(float HorizontalMove, float VerticalMove)
     {
-        // Move the character in the horizontal axis
-        rigidbody2D.velocity = new Vector2(HorizontalMove * maxSpeed, rigidbody2D.velocity.y);
-
-        //Move the Character in the Vertical Axis
-        rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, VerticalMove * maxSpeed);
-
-        // If the input is moving the player right and the player is facing left...
-        if (HorizontalMove > 0 && !facingRight)
+        if (!animator.GetBool("isDead"))
         {
-            // ... flip the player.
-            Flip();           
+            // Move the character in the horizontal axis
+            rigidbody2D.velocity = new Vector2(HorizontalMove * maxSpeed, rigidbody2D.velocity.y);
+
+            //Move the Character in the Vertical Axis
+            rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, VerticalMove * maxSpeed);
+
+            // If the input is moving the player right and the player is facing left...
+            if (HorizontalMove > 0 && !facingRight)
+            {
+                // ... flip the player.
+                Flip();
+            }
+            // Otherwise if the input is moving the player left and the player is facing right...
+            else if (HorizontalMove < 0 && facingRight)
+            {
+                // ... flip the player.
+                Flip();
+            }
         }
-        // Otherwise if the input is moving the player left and the player is facing right...
-        else if (HorizontalMove < 0 && facingRight)
-        {
-            // ... flip the player.
-            Flip();           
-        }
+        
     }
 
     private void Flip()
