@@ -25,7 +25,7 @@ public class RoomTriggers : MonoBehaviour
     public bool Alarm = false;
     public bool CablePossession = false;
 
-    public AudioSource AlarmSound;
+    private AudioSource AlarmSound;
 
     public Animator ClosingLockers;
     public Animator PlacingCable;
@@ -144,8 +144,8 @@ public class RoomTriggers : MonoBehaviour
         RoomCounter += 1;
         Invoke("exitroom", 1.5f);
         Alarm = true;
-        AlarmSound.Play();
-        
+        //AlarmSound.Play();
+        FindObjectOfType<AudioManager>().Play("Alarm");
 
 
 
@@ -178,8 +178,8 @@ public class RoomTriggers : MonoBehaviour
     {
         //change the scene (go to next room)
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-        //playaudio for ben
+        //Play Exit Room Audio
+        FindObjectOfType<AudioManager>().Play("Door");
     }
 
     
