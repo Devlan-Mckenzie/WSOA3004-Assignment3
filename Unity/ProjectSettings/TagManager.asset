@@ -22,6 +22,7 @@ TagManager:
   - Switch trigger
   - WeaponsLocker
   - Alarm Trigger
+  - Final Trigger
   layers:
   - Default
   - TransparentFX

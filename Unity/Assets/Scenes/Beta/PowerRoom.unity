@@ -1658,7 +1658,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1544541281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2346,6 +2346,10 @@ PrefabInstance:
       propertyPath: PressToUseButton
       value: 
       objectReference: {fileID: 1980686355}
+    - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: attackRate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9109315860012387995, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_Name
       value: Player

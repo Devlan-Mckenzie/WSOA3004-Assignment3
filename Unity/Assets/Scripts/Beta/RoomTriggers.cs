@@ -35,6 +35,8 @@ public class RoomTriggers : MonoBehaviour
 
     public GameObject OpenArmory;
     public GameObject ClosedArmory;
+    public GameObject poweroff;
+    public GameObject poweron;
 
     // Start is called before the first frame update
     void Start()
@@ -56,8 +58,7 @@ public class RoomTriggers : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D Roomtrigger)
     {
-        if (FindObjectOfType<Enemy>().currentHealth <= 0)
-        {
+        
             if (Roomtrigger.gameObject.tag == "Room trigger")
             {
 
@@ -71,11 +72,7 @@ public class RoomTriggers : MonoBehaviour
                 LightSwitch();
                 Debug.Log("Room Trigger hit");
                 PressToUseButton.SetActive(false);
-
-                if (CablePossession)
-                {
-                    CablePlacement();
-                }
+                               
             }
 
             if (Roomtrigger.gameObject.tag == "WeaponsLocker" && Input.GetKeyDown(KeyCode.E))
@@ -91,7 +88,12 @@ public class RoomTriggers : MonoBehaviour
                 SoundAlarm();
 
             }
-        }
+
+            if(Roomtrigger.gameObject.tag == "Final Trigger" && Input.GetKeyDown(KeyCode.E))
+            {
+                CablePlacement();
+            }
+        
     }
 
     private void OnTriggerExit2D(Collider2D Roomtrigger)
@@ -132,6 +134,7 @@ public class RoomTriggers : MonoBehaviour
             ClosedArmory.SetActive(true);
         }
         Invoke("exitroom", 1.5f);
+        
 
     }
 
@@ -158,7 +161,13 @@ public class RoomTriggers : MonoBehaviour
             GeneratorLighting.SetActive(false);
             GlobalLighting.SetActive(true);
             Debug.Log("Lights are back on");
-            Invoke("exitroom", 1.5f);
+            Invoke("exitroom", 2.5f);
+
+            if (poweroff.activeSelf)
+            {
+                poweroff.SetActive(false);
+                poweron.SetActive(true); 
+            }
 
 
         }
@@ -169,6 +178,8 @@ public class RoomTriggers : MonoBehaviour
     {
         //change the scene (go to next room)
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        //playaudio for ben
     }
 
     

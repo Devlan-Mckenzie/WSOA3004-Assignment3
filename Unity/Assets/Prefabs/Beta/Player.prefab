@@ -810,7 +810,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 1024
-  attackRate: 2
+  attackRate: 1
   maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 2544832298589232254}
@@ -818,7 +818,7 @@ MonoBehaviour:
   currentStamina: 0
   staminaBar: {fileID: 867965449560807730}
   healthRegen: 1
-  staminaRegen: 1
+  staminaRegen: 2
   healthRegenRate: 1
   staminaRegenRate: 1
   isAlive: 1
