@@ -806,7 +806,7 @@ MonoBehaviour:
   attackDamage: 40
   attackStamina: 20
   attackPoint: {fileID: 8123445421905263447}
-  attackRange: 0.55
+  attackRange: 1
   enemyLayers:
     serializedVersion: 2
     m_Bits: 1024
