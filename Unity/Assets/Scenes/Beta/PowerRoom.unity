@@ -961,7 +961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624824497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.52710027, y: -0.3910746, z: 11.148439}
+  m_LocalPosition: {x: -0.17710027, y: 1.0289254, z: 11.148439}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 853914782}
@@ -1067,7 +1067,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655983568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.0820174, y: 0.639035, z: 132.4113}
+  m_LocalPosition: {x: 2.0820174, y: 2.06, z: 132.4113}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1733958005}
@@ -1739,7 +1739,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412822843}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.35, y: 1.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1187333308}
@@ -2189,7 +2189,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1544541281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2287,6 +2287,8 @@ MonoBehaviour:
   PlayerSpeechBubble: {fileID: 1179494162}
   EnemySpeech: {fileID: 2125014788}
   PlayerSpeech: {fileID: 161881132}
+  EnemyWinning: 0
+  PlayerWinning: 0
 --- !u!114 &1544541286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2701,11 +2703,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4225613540643695510, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.0320177
+      value: 2.71
       objectReference: {fileID: 0}
     - target: {fileID: 4225613540643695510, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.2503343
+      value: -5.25
       objectReference: {fileID: 0}
     - target: {fileID: 4225613540643695510, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3032,7 +3034,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4312452974750264131, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.8417068
+      value: -2.54
       objectReference: {fileID: 0}
     - target: {fileID: 4312452974750264131, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_LocalPosition.z
