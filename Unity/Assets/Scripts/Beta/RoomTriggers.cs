@@ -139,9 +139,10 @@ public class RoomTriggers : MonoBehaviour
     {
         //play sound for alarm
         RoomCounter += 1;
+        Invoke("exitroom", 1.5f);
         Alarm = true;
         AlarmSound.Play();
-        Invoke("exitroom", 1.5f);
+        
 
 
 
