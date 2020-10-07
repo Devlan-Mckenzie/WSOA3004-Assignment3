@@ -128,7 +128,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 2048
-  attackRate: 0.5
+  attackRate: 0.25
 --- !u!50 &4225613540643695505
 Rigidbody2D:
   serializedVersion: 4

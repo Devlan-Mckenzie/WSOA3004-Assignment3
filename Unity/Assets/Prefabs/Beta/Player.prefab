@@ -818,7 +818,7 @@ MonoBehaviour:
   currentStamina: 0
   staminaBar: {fileID: 867965449560807730}
   healthRegen: 1
-  staminaRegen: 2
+  staminaRegen: 1
   healthRegenRate: 1
   staminaRegenRate: 1
   isAlive: 1
@@ -874,3 +874,5 @@ MonoBehaviour:
   SwitchingOnGenerator: {fileID: 0}
   OpenArmory: {fileID: 0}
   ClosedArmory: {fileID: 0}
+  poweroff: {fileID: 0}
+  poweron: {fileID: 0}
