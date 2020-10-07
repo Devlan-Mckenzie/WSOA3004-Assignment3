@@ -32,6 +32,10 @@ public class RoomTriggers : MonoBehaviour
     public Animator SwitchingOnGenerator;
 
     public static float health;
+
+    public GameObject OpenArmory;
+    public GameObject ClosedArmory;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -96,7 +100,7 @@ public class RoomTriggers : MonoBehaviour
         if (Roomtrigger.gameObject.tag == "Room trigger")
         {
             PressToUseButton.SetActive(false);
-            Invoke("exitgame", 1);
+            
         }
     }
 
@@ -110,7 +114,9 @@ public class RoomTriggers : MonoBehaviour
         RoomCounter += 1;
         //SwitchingOnGenerator.Switch = true;
 
-        
+        Invoke("exitgame", 1.5f);
+
+
     }
 
     public void LockWeapons()
@@ -121,6 +127,13 @@ public class RoomTriggers : MonoBehaviour
         //put ui in to indicate that this has been done
         //just a simple text plus a sound ?
         //ClosingLockers.Switch = true;
+        if (OpenArmory.activeSelf)
+        {
+            OpenArmory.SetActive(false);
+            ClosedArmory.SetActive(true);
+        }
+        Invoke("exitgame", 1.5f);
+
     }
 
     public void SoundAlarm()
@@ -129,8 +142,10 @@ public class RoomTriggers : MonoBehaviour
         RoomCounter += 1;
         Alarm = true;
         AlarmSound.Play();
+        Invoke("exitgame", 1.5f);
 
-       
+
+
     }
 
     public void CablePlacement()
@@ -143,7 +158,9 @@ public class RoomTriggers : MonoBehaviour
             GeneratorLighting.SetActive(false);
             GlobalLighting.SetActive(true);
             Debug.Log("Lights are back on");
-            
+            Invoke("exitgame", 1.5f);
+
+
         }
         //PlacingCable.Switch = true;
 
