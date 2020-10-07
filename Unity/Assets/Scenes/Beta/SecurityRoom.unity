@@ -1822,19 +1822,19 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: c720d15829c0d854782b4f6ea949282d, type: 3}
     volume: 5
     pitch: 0.8
-    name: Footstep_[OneShot.01]
+    name: Footstep_01
     loop: 0
     audioSource: {fileID: 0}
   - audioClip: {fileID: 8300000, guid: 4e0c67586d7d9a645a967543ba207e83, type: 3}
     volume: 5
     pitch: 0.75
-    name: Footstep_[OneShot.02]]
+    name: Footstep_02
     loop: 0
     audioSource: {fileID: 0}
   - audioClip: {fileID: 8300000, guid: 6626211babbfabc40ab4fd35f20b901a, type: 3}
     volume: 5
     pitch: 1
-    name: Battton
+    name: Batton
     loop: 0
     audioSource: {fileID: 0}
   - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
