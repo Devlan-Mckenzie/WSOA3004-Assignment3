@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -317180667656351309
-    second: keyboard-tomatorush-zaroa-33_0
+    second: escape button
   - first:
       213: -5873378482782167844
     second: keyboard-tomatorush-zaroa-33_1
@@ -46,7 +46,7 @@ TextureImporter:
     second: keyboard-tomatorush-zaroa-33_13
   - first:
       213: 2348818711296038734
-    second: keyboard-tomatorush-zaroa-33_14
+    second: w button
   - first:
       213: 3411352740648668848
     second: keyboard-tomatorush-zaroa-33_15
@@ -88,7 +88,7 @@ TextureImporter:
     second: keyboard-tomatorush-zaroa-33_27
   - first:
       213: 3335318708060096840
-    second: keyboard-tomatorush-zaroa-33_28
+    second: D button
   - first:
       213: -5699570538995770869
     second: keyboard-tomatorush-zaroa-33_29
@@ -124,13 +124,13 @@ TextureImporter:
     second: keyboard-tomatorush-zaroa-33_39
   - first:
       213: -9002685611856811667
-    second: keyboard-tomatorush-zaroa-33_40
+    second: s button
   - first:
       213: -6220657952129154388
     second: keyboard-tomatorush-zaroa-33_41
   - first:
       213: 3581588335699642327
-    second: keyboard-tomatorush-zaroa-33_42
+    second: a button
   - first:
       213: 6460558487519516965
     second: keyboard-tomatorush-zaroa-33_43
@@ -178,7 +178,7 @@ TextureImporter:
     second: keyboard-tomatorush-zaroa-33_57
   - first:
       213: -5798905379173714883
-    second: keyboard-tomatorush-zaroa-33_0
+    second: escape button
   - first:
       213: 2857136153433338147
     second: keyboard-tomatorush-zaroa-33_1
@@ -220,7 +220,7 @@ TextureImporter:
     second: keyboard-tomatorush-zaroa-33_13
   - first:
       213: 4771870012924188581
-    second: keyboard-tomatorush-zaroa-33_14
+    second: w button
   - first:
       213: 369321693815920296
     second: keyboard-tomatorush-zaroa-33_15
@@ -262,7 +262,7 @@ TextureImporter:
     second: keyboard-tomatorush-zaroa-33_27
   - first:
       213: 5321137326844855212
-    second: keyboard-tomatorush-zaroa-33_28
+    second: D button
   - first:
       213: -4037501459139100675
     second: keyboard-tomatorush-zaroa-33_29
@@ -298,13 +298,13 @@ TextureImporter:
     second: keyboard-tomatorush-zaroa-33_39
   - first:
       213: -5097408592290841702
-    second: keyboard-tomatorush-zaroa-33_40
+    second: s button
   - first:
       213: 2372636951489556483
     second: keyboard-tomatorush-zaroa-33_41
   - first:
       213: -8579141055321094081
-    second: keyboard-tomatorush-zaroa-33_42
+    second: a button
   - first:
       213: -2690983115450584061
     second: keyboard-tomatorush-zaroa-33_43
@@ -449,36 +449,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: keyboard-tomatorush-zaroa-33_21
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 248
-        width: 58
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04635c232af370f60800000000000000
-      internalID: 8000433228916012608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: keyboard-tomatorush-zaroa-33_22
       rect:
         serializedVersion: 2
-        x: 199
-        y: 250
-        width: 57
-        height: 57
-      alignment: 9
-      pivot: {x: 0.3334811, y: 0.39646187}
+        x: 379
+        y: 248
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -494,8 +473,8 @@ TextureImporter:
       name: keyboard-tomatorush-zaroa-33_23
       rect:
         serializedVersion: 2
-        x: 259
-        y: 247
+        x: 439
+        y: 248
         width: 59
         height: 61
       alignment: 0
@@ -512,12 +491,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: keyboard-tomatorush-zaroa-33_28
+      name: D button
       rect:
         serializedVersion: 2
-        x: 228
-        y: 186
-        width: 57
+        x: 227
+        y: 187
+        width: 59
         height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -533,34 +512,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: keyboard-tomatorush-zaroa-33_29
+      name: s button
       rect:
         serializedVersion: 2
-        x: 105
-        y: 186
-        width: 62
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dff74e380d9e7f7c0800000000000000
-      internalID: -4037501459139100675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: keyboard-tomatorush-zaroa-33_40
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 64
-        width: 101
-        height: 57
+        x: 166
+        y: 185
+        width: 60
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,27 +549,6 @@ TextureImporter:
       bones: []
       spriteID: c1525406ed1ee9c30800000000000000
       internalID: 4368177033810093340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: keyboard-tomatorush-zaroa-33_53
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 59
-        width: 311
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64bd0eb003dd6af10800000000000000
-      internalID: 2280753459737189190
       vertices: []
       indices: 
       edges: []
@@ -675,6 +612,153 @@ TextureImporter:
       bones: []
       spriteID: 04ce19603a51dadc0800000000000000
       internalID: -3626218335029302208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escape button
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d8befcd5299bf0800000000000000
+      internalID: -317180667656351309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w button
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 252
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4757906c2ea89020800000000000000
+      internalID: 2348818711296038734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_24
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 248
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9117c12e6f9013870800000000000000
+      internalID: 8660714514370294041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_25
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 248
+        width: 240
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d274205ff519f140800000000000000
+      internalID: 4753855067971678930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 124
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2022e0d88cba9a0800000000000000
+      internalID: -6220657952129154388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a button
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 186
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d74f018d9b54b130800000000000000
+      internalID: 3581588335699642327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-tomatorush-zaroa-33_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 249
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b91ff6bb67e250e0800000000000000
+      internalID: -2282507611305731663
       vertices: []
       indices: 
       edges: []
