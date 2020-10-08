@@ -1236,7 +1236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[2]
-      value: '"I never like you and your ugly teddy bear anyways."'
+      value: '"Your teddy bear belongs to me now."'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[3]

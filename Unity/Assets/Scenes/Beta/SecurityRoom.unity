@@ -2604,11 +2604,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9168644928453315164, guid: 9eb200853a95ac345a14521b4ed994d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.28
+      value: 8.58
       objectReference: {fileID: 0}
     - target: {fileID: 9168644928453315164, guid: 9eb200853a95ac345a14521b4ed994d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.19
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 9168644928453315164, guid: 9eb200853a95ac345a14521b4ed994d8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3170,15 +3170,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[0]
-      value: a
+      value: '"If you leave me alone ill talk to the big boss and get you a raise."'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[1]
-      value: b
+      value: '"Not interested in negotiations I see."'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[2]
-      value: c
+      value: '"Literally, no one liked you!"'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[3]
@@ -3186,15 +3186,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[0]
-      value: a
+      value: '"WELL WELL, IT''S THE WEAKEST PRISONER IN THIS JOINT. LOL THIS WILL
+        BE A BREEZE!""'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[1]
-      value: b
+      value: '"YOU PUNCH SOFTER THAN MY GRANDMA AND SHE''S DEAD."'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[2]
-      value: c
+      value: '"TAKE THAT YOU STINKY WHITE COLLARED RICH BOY."'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[3]
