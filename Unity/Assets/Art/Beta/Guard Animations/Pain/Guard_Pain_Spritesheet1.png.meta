@@ -158,8 +158,8 @@ TextureImporter:
       name: Guard_Pain_Spritesheet1_1
       rect:
         serializedVersion: 2
-        x: 516
-        y: 149
+        x: 525
+        y: 163
         width: 320
         height: 320
       alignment: 0
@@ -179,7 +179,7 @@ TextureImporter:
       name: Guard_Pain_Spritesheet1_3
       rect:
         serializedVersion: 2
-        x: 869
+        x: 874
         y: 699
         width: 320
         height: 320
@@ -200,8 +200,8 @@ TextureImporter:
       name: Guard_Pain_Spritesheet1_4
       rect:
         serializedVersion: 2
-        x: 1429
-        y: 674
+        x: 1437
+        y: 700
         width: 320
         height: 320
       alignment: 0
@@ -221,8 +221,8 @@ TextureImporter:
       name: Guard_Pain_Spritesheet1_6
       rect:
         serializedVersion: 2
-        x: 1204
-        y: 149
+        x: 1223
+        y: 150
         width: 320
         height: 320
       alignment: 0

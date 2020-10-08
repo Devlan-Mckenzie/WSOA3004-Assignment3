@@ -1126,6 +1126,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &779515877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1316,6 +1317,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
+=======
+>>>>>>> 0974b913959bbcac7627778827fd488c49a507a2
 --- !u!1 &807947127
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,11 +2149,10 @@ MonoBehaviour:
   EnemyWords: []
   PlayerSpeech: {fileID: 161881132}
   PlayerWords: []
-  HealthThreshold: 60
   EnemyWinning: 0
   PlayerWinning: 0
-  CommentFade: 6
-  ReplyTime: 3
+  show: 1
+  k: 0
 --- !u!114 &1544541286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2852,7 +2854,7 @@ PrefabInstance:
       objectReference: {fileID: 1980686355}
     - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: attackRate
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: ThrustParticles

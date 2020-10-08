@@ -32,18 +32,6 @@ TextureImporter:
   - first:
       213: -7061569014079814825
     second: prisoner_Idle_spritesheet_9
-  - first:
-      213: -7063981798321453635
-    second: prisoner_Idle_spritesheet_0
-  - first:
-      213: 4866609419913331747
-    second: prisoner_Idle_spritesheet_1
-  - first:
-      213: 9161490975195540399
-    second: prisoner_Idle_spritesheet_3
-  - first:
-      213: 6225061792897032058
-    second: prisoner_Idle_spritesheet_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -158,10 +146,10 @@ TextureImporter:
       name: prisoner_Idle_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 68
-        y: 429
-        width: 128
-        height: 257
+        x: 34
+        y: 406
+        width: 130
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db589332bf1b7fd90800000000000000
-      internalID: -7063981798321453635
+      spriteID: a7d6a6d5bf2d02e90800000000000000
+      internalID: -7052405039416316550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prisoner_Idle_spritesheet_2
+      name: prisoner_Idle_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 771
-        y: 426
-        width: 128
-        height: 257
+        x: 261
+        y: 399
+        width: 130
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 580350301ec3ea450800000000000000
-      internalID: 6101881482249580677
+      spriteID: 9e1a8c83d611c3840800000000000000
+      internalID: 5205054430135230953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prisoner_Idle_spritesheet_4
+      name: prisoner_Idle_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1476
-        y: 425
-        width: 128
-        height: 257
+        x: 471
+        y: 408
+        width: 130
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,8 +199,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9713835de51a933f0800000000000000
-      internalID: -920527220144328327
+      spriteID: 49796424d1c070bc0800000000000000
+      internalID: -3817068839367698540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_Idle_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 398
+        width: 130
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b07eeda9497e7a0800000000000000
+      internalID: -6347941756869866738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prisoner_Idle_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 397
+        width: 130
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e671e09d096e9d10800000000000000
+      internalID: 2134258780406380265
       vertices: []
       indices: 
       edges: []

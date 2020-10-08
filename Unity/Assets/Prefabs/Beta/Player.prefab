@@ -683,7 +683,6 @@ Transform:
   m_Children:
   - {fileID: 8123445421905263447}
   - {fileID: 8328219281772475102}
-  - {fileID: 1151686462703564917}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -727,12 +726,12 @@ SpriteRenderer:
   m_SortingLayerID: 1604381467
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4276827874280966434, guid: 37c487e84d0f4b941b007cbf2cbb80f7, type: 3}
+  m_Sprite: {fileID: 602483355799446732, guid: dba7705354f668249a7b25056081b700, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 1.5, y: 1.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -752,7 +751,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 10
   canvas: {fileID: 3625660404634563912}
-  DustParticles: {fileID: 0}
 --- !u!50 &406621962595928755
 Rigidbody2D:
   serializedVersion: 4
@@ -812,15 +810,15 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 1024
-  attackRate: 1.5
+  attackRate: 2
   maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 2544832298589232254}
   maxStamina: 100
   currentStamina: 0
   staminaBar: {fileID: 867965449560807730}
-  healthRegen: 4
-  staminaRegen: 4
+  healthRegen: 1
+  staminaRegen: 1
   healthRegenRate: 1
   staminaRegenRate: 1
   isAlive: 1
@@ -841,8 +839,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 3}
-    newSize: {x: 3, y: 3}
+    oldSize: {x: 3.2, y: 3.2}
+    newSize: {x: 1.5, y: 1.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -870,6 +868,7 @@ MonoBehaviour:
   died: 0
   Alarm: 0
   CablePossession: 0
+  AlarmSound: {fileID: 0}
   ClosingLockers: {fileID: 0}
   PlacingCable: {fileID: 0}
   SwitchingOnGenerator: {fileID: 0}
@@ -877,67 +876,3 @@ MonoBehaviour:
   ClosedArmory: {fileID: 0}
   poweroff: {fileID: 0}
   poweron: {fileID: 0}
-  generatorunplugged: {fileID: 0}
-  generatorplugged: {fileID: 0}
---- !u!1001 &3172860810772897233
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 4312452974750264131}
-    m_Modifications:
-    - target: {fileID: 1005808557128447126, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_Name
-      value: Shadow
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
---- !u!4 &1151686462703564917 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2590652412472731044, guid: 8da4a659906eeee42ac7fc479ac6a437, type: 3}
-  m_PrefabInstance: {fileID: 3172860810772897233}
-  m_PrefabAsset: {fileID: 0}
