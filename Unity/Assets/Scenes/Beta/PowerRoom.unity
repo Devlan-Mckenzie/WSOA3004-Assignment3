@@ -1228,7 +1228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[0]
-      value: '"Yes Boris, if you''re not careful you''ll end up just like them! "'
+      value: '"Yes Boris, if you''re not careful you''ll end up just like them."'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[1]
@@ -1241,6 +1241,14 @@ PrefabInstance:
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[3]
       value: d
+      objectReference: {fileID: 0}
+    - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
+      propertyPath: CommentFade
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
+      propertyPath: ReplyTime
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328771, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: m_Name

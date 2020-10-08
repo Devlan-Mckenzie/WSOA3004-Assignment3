@@ -439,8 +439,8 @@ MonoBehaviour:
   HealthThreshold: 60
   EnemyWinning: 0
   PlayerWinning: 0
-  CommentFade: 6
-  ReplyTime: 3
+  CommentFade: 4
+  ReplyTime: 4
 --- !u!114 &378428794603328768
 MonoBehaviour:
   m_ObjectHideFlags: 0
