@@ -16,9 +16,10 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            DontDestroyOnLoad(gameObject);
+           // DontDestroyOnLoad(gameObject);
             return;
         }
+
         foreach (Sound currentSound in m_sounds)
         {
             currentSound.audioSource = gameObject.AddComponent<AudioSource>();
@@ -35,6 +36,7 @@ public class AudioManager : MonoBehaviour
         Play("Theme");
         
     }
+
     public void Play(string name) 
     {
         Sound s = Array.Find(m_sounds, sound => sound.name == name);
