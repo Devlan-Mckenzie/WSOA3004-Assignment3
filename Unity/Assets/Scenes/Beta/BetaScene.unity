@@ -1578,7 +1578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: attackRate
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8213882264912198734, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_Offset.y
