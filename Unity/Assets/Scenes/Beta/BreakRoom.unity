@@ -384,7 +384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &225685659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -472,6 +472,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3530246971730284915, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     - target: {fileID: 3530246972198702600, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -568,6 +572,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3530246972328267683, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    - target: {fileID: 3530246972392543736, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
 --- !u!4 &422743569 stripped
@@ -1053,7 +1065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1304462356
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1070,7 +1082,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 2, y: 154}
+  m_AnchoredPosition: {x: 0, y: 224.91}
   m_SizeDelta: {x: 1822.7792, y: 1136.8849}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304462357
@@ -1094,7 +1106,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: eb5b1ac11d10b384e8fc1671faf65603, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -1107,7 +1119,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Teddy now is our time to SHINE! There is NO way that I will not be the
-    BEST fricking employee of the month and year!
+    BEST darn employee of the month and year!
 
 
     It''s go time... lets figure

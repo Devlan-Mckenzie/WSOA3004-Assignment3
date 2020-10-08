@@ -2127,7 +2127,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press E to use
+  m_Text: 'Let me sound the alarm on this computer!
+
+    (Press E to use)'
 --- !u!222 &1592478988
 CanvasRenderer:
   m_ObjectHideFlags: 0
