@@ -24,12 +24,12 @@ public class Menu : MonoBehaviour
 
     public void rules()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(8);
     }
 
     public void next()
     {
-        SceneManager.LoadScene(3);
+        //SceneManager.LoadScene(3);
     }
 
 
