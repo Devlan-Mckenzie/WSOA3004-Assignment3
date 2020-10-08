@@ -23,6 +23,7 @@ TagManager:
   - WeaponsLocker
   - Alarm Trigger
   - Final Trigger
+  - Prisoner
   layers:
   - Default
   - TransparentFX
