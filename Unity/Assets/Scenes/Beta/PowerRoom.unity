@@ -611,8 +611,8 @@ Camera:
   m_GameObject: {fileID: 321197314}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1135,7 +1135,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 378428793641252372, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 378428793641252373, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: m_LocalScale.x
@@ -1156,6 +1156,14 @@ PrefabInstance:
     - target: {fileID: 378428793677101170, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: m_Color.a
       value: 0.15686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 378428793677101173, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 378428793677101173, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 378428793816452172, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1203,8 +1211,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[0]
-      value: LOOK AT ALL THESE DEAD WARDENS... OH WELL GUESS THEY WON'T STAND A CHANCE
-        TO GET EMPLOYEE OF THE MONTH. HAHA!
+      value: '"LOOK AT ALL THESE DEAD WARDENS... OH WELL GUESS THEY WON''T STAND
+        A CHANCE TO GET EMPLOYEE OF THE MONTH. HAHA!"  '
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[1]
@@ -1220,7 +1228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[0]
-      value: a
+      value: '"Yes Boris, if you''re not careful you''ll end up just like them! "'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[1]
@@ -2378,19 +2386,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -55.09
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0000011921
+      value: -0.000005722
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 87.81598
+      value: 65.10797
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 154.99298
+      value: 139.6872
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_AnchorMin.x
