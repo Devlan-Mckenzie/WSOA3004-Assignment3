@@ -18,6 +18,7 @@ public class EnemyHealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        EnemyHealth.value = FindObjectOfType<Enemy>().currentHealth;
+        EnemyHealth.value = GetComponentInParent<Enemy>().currentHealth; 
+        
     }
 }
