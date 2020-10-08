@@ -38,6 +38,9 @@ public class RoomTriggers : MonoBehaviour
     public GameObject poweroff;
     public GameObject poweron;
 
+    public GameObject generatorunplugged;
+    public GameObject generatorplugged;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -58,7 +61,8 @@ public class RoomTriggers : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D Roomtrigger)
     {
-        
+        if(FindObjectOfType<Enemy>().currentHealth <= 0)
+        {
             if (Roomtrigger.gameObject.tag == "Room trigger")
             {
 
@@ -72,7 +76,7 @@ public class RoomTriggers : MonoBehaviour
                 LightSwitch();
                 Debug.Log("Room Trigger hit");
                 PressToUseButton.SetActive(false);
-                               
+
             }
 
             if (Roomtrigger.gameObject.tag == "WeaponsLocker" && Input.GetKeyDown(KeyCode.E))
@@ -89,10 +93,13 @@ public class RoomTriggers : MonoBehaviour
 
             }
 
-            if(Roomtrigger.gameObject.tag == "Final Trigger" && Input.GetKeyDown(KeyCode.E))
+            if (Roomtrigger.gameObject.tag == "Final Trigger" && Input.GetKeyDown(KeyCode.E))
             {
                 CablePlacement();
             }
+        }
+        
+            
         
     }
 
@@ -116,6 +123,9 @@ public class RoomTriggers : MonoBehaviour
         //SwitchingOnGenerator.Switch = true;
 
         Invoke("exitroom", 1.5f);
+        generatorplugged.SetActive(true);
+        generatorunplugged.SetActive(false);
+       
 
 
     }

@@ -13,11 +13,11 @@ public class SpeechTrigger : MonoBehaviour
     //public Text speech;
 
     public Text EnemySpeech;
-    private string EnemyWords;
+    public string[] EnemyWords;
     private float EnemyHealth;
 
     public Text PlayerSpeech;
-    private string PlayerWords;
+    public string[] PlayerWords;
     private float PlayerHealth;
 
     private float Timer;
@@ -25,11 +25,19 @@ public class SpeechTrigger : MonoBehaviour
     public bool EnemyWinning;
     public bool PlayerWinning;
 
+    public bool show=true;
+    
+
+
+    public int k;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        EnemyWords= "Some quippy shit";
-        PlayerWords = "even more quippy shit!!!!!!!";
+        //EnemyWords= "Some quippy shit";
+        //PlayerWords = "even more quippy shit!!!!!!!";
+        show = true;
         
     }
 
@@ -51,7 +59,10 @@ public class SpeechTrigger : MonoBehaviour
             PlayerSpeechBubble.SetActive(false);
         }
 
-        EnemySpeech.text = EnemyWords;
+        //k = SceneManager.GetActiveScene().buildIndex;
+        
+
+        EnemySpeech.text = EnemyWords[k];
     }
 
     public void PlayerBanter()
@@ -71,41 +82,61 @@ public class SpeechTrigger : MonoBehaviour
         {
             EnemySpeechBubble.SetActive(false);
         }
-        PlayerSpeech.text = PlayerWords;
+        PlayerSpeech.text = PlayerWords[k];
     }
     // Update is called once per frame
     void Update()
     {
         
 
-        EnemyHealth = FindObjectOfType<Enemy>().currentHealth;
-        PlayerHealth = FindObjectOfType<PlayerCombat>().currentHealth;
-
-        if(EnemyHealth <= 60 && EnemyHealth >20)
+        Enemy[] EnemyHealth = FindObjectsOfType<Enemy>();
+        foreach (Enemy H in EnemyHealth)
         {
-            GeneralSpeechUI.SetActive(true);
-            Timer += Time.deltaTime;
-            EnemyBanter();
-            Invoke("PlayerBanter", 3);
-            
-            if (Timer > 6)
+
+           
+            PlayerHealth = FindObjectOfType<PlayerCombat>().currentHealth;
+
+            if (H.currentHealth < FindObjectOfType<PlayerCombat>().currentHealth)
             {
-                PlayerSpeechBubble.SetActive(false);
-                GeneralSpeechUI.SetActive(false);
+                PlayerWinning = true;
+                EnemyWinning = false;
+
+            }
+
+            else if (H.currentHealth > FindObjectOfType<PlayerCombat>().currentHealth)
+            {
+                PlayerWinning = false;
+                EnemyWinning = true;
+            }
+
+            if (H.currentHealth <= 60 && PlayerWinning && show)
+            {
+                GeneralSpeechUI.SetActive(true);
+                Timer += Time.deltaTime;
+                EnemyBanter();
+                Invoke("PlayerBanter", 3);
+                show = false;
+
+
+            }
+
+            else if (PlayerHealth <= 60 && EnemyWinning && show)
+            {
+                Timer += Time.deltaTime;
+                PlayerBanter();
+                Invoke("EnemyBanter", 3);
+                GeneralSpeechUI.SetActive(true);
+                show = false;
+                
             }
         }
 
-        else if (PlayerHealth <= 60 && PlayerHealth>20)
+        if (Timer > 6)
         {
-            Timer += Time.deltaTime;
-            PlayerBanter();
-            Invoke("EnemyBanter", 3);
-            GeneralSpeechUI.SetActive(true);
-            if (Timer > 6)
-            {
-                EnemySpeechBubble.SetActive(false);
-                GeneralSpeechUI.SetActive(false);
-            }
+            PlayerSpeechBubble.SetActive(false);
+            EnemySpeechBubble.SetActive(false);
+            GeneralSpeechUI.SetActive(false);
+
         }
     }
 }
