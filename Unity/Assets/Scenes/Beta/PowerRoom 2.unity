@@ -2190,21 +2190,21 @@ MonoBehaviour:
   PlayerSpeechBubble: {fileID: 823999457}
   EnemySpeech: {fileID: 1753112629}
   EnemyWords:
-  - i got some good indoor if anyone is interested?
-  - i got some good indoor if anyone is interested?
-  - i got some good indoor if anyone is interested?
-  - i got some good indoor if anyone is interested?
+  - 'Enemycomment 1 '
+  - 'Enemycomment 2 '
+  - Enemycomment 3
+  - Enemycomment 4
   PlayerSpeech: {fileID: 753580092}
   PlayerWords:
-  - i got some good indoor if anyone is interested?
-  - i got some good indoor if anyone is interested?
-  - i got some good indoor if anyone is interested?
-  - i got some good indoor if anyone is interested?
-  - i got some good indoor if anyone is interested?
+  - Player Comment 1
+  - Player Comment 2
+  - Player Comment 3
+  - Player Comment 4
+  HealthThreshold: 60
   EnemyWinning: 0
   PlayerWinning: 0
-  show: 0
-  k: 3
+  CommentFade: 6
+  ReplyTime: 3
 --- !u!114 &1177871024
 MonoBehaviour:
   m_ObjectHideFlags: 0
