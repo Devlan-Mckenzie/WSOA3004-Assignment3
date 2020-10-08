@@ -25,7 +25,7 @@ public class SpeechTrigger : MonoBehaviour
     public bool EnemyWinning;
     public bool PlayerWinning;
 
-    public bool show=true;
+    private bool show=true;
     
 
 
@@ -36,9 +36,7 @@ public class SpeechTrigger : MonoBehaviour
     void Start()
     {
         //EnemyWords= "Some quippy shit";
-        //PlayerWords = "even more quippy shit!!!!!!!";
-        show = true;
-        
+        //PlayerWords = "even more quippy shit!!!!!!!";        
     }
 
     public void EnemyBanter()
