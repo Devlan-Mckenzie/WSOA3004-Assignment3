@@ -3209,24 +3209,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[0]
-      value: LOOK AT ALL THESE DEAD WARDENS... OH WELL GUESS THEY WON'T STAND A CHANCE
-        TO GET EMPLOYEE OF THE MONTH. HAHA!
+      value: ' "OH NOT YOU AGAIN! I THOUGHT WE SENT YOUR CRAZY ASS AWAY?"'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[0]
-      value: a
+      value: '"Unfortunately for you they sent me back. Now come here so I can end
+        you!"'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[1]
-      value: a
+      value: '"GOOD PUNCH BUT NOT GOOD ENOUGH!" '
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[1]
-      value: b
+      value: '"Straight to the gut, you''ll regret that!" '
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[2]
-      value: c
+      value: '"What grown man talks to a teddy bear keychain? You deserved what you
+        got!"'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[3]
@@ -3234,11 +3235,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[2]
-      value: b
+      value: '"DOESN''T SURPRISE ME THAT THIS FILTHY THIEF WAS HERE. BUT NOW... YOU
+        GONE FOREVER! MUAHAHAHA!"'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[3]
-      value: c
+      value: d
+      objectReference: {fileID: 0}
+    - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
+      propertyPath: CommentFade
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
+      propertyPath: ReplyTime
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328771, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: m_Name

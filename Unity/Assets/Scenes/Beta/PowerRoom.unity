@@ -1216,11 +1216,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[1]
-      value: b
+      value: '"YOU DESERVE CORPORAL PUNISHMENT FOR THAT PUNCH".'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[2]
-      value: c
+      value: '"TAKE THAT YOU BIG HEADED DRUG DEALER!"'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerWords.Array.data[3]
@@ -1232,11 +1232,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[1]
-      value: b
+      value: '"This is abuse!" '
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[2]
-      value: c
+      value: '"I never like you and your ugly teddy bear anyways."'
       objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemyWords.Array.data[3]
