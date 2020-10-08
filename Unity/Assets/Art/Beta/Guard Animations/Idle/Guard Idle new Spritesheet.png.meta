@@ -146,9 +146,9 @@ TextureImporter:
       name: Guard Idle new Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 384
-        width: 222
+        x: 290
+        y: 721
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -167,9 +167,9 @@ TextureImporter:
       name: Guard Idle new Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 321
-        y: 380
-        width: 222
+        x: 712
+        y: 722
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -185,12 +185,33 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Guard Idle new Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 720
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305d668ab0cf82510800000000000000
+      internalID: 1524745600865064195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Guard Idle new Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 594
-        y: 384
-        width: 222
+        x: 1578
+        y: 719
+        width: 273
         height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -206,33 +227,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard Idle new Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 858
-        y: 383
-        width: 222
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e761d28f5562f8db0800000000000000
-      internalID: -4787565728193767810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Guard Idle new Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 1174
-        y: 383
-        width: 222
+        x: 110
+        y: 297
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -251,9 +251,9 @@ TextureImporter:
       name: Guard Idle new Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 1415
-        y: 383
-        width: 222
+        x: 705
+        y: 301
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -272,9 +272,9 @@ TextureImporter:
       name: Guard Idle new Spritesheet_9
       rect:
         serializedVersion: 2
-        x: 1695
-        y: 385
-        width: 222
+        x: 1396
+        y: 298
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -292,7 +292,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 67905ad70a13ce0418aa4e01ffbe32fd
+    spriteID: bf0fb213fb2605c4daef2585f2079a13
     internalID: 0
     vertices: []
     indices: 
