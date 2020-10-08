@@ -1587,6 +1587,8 @@ MonoBehaviour:
   ClosedArmory: {fileID: 0}
   poweroff: {fileID: 0}
   poweron: {fileID: 0}
+  generatorunplugged: {fileID: 0}
+  generatorplugged: {fileID: 0}
 --- !u!61 &1187333310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1951,9 +1953,13 @@ MonoBehaviour:
   EnemySpeechBubble: {fileID: 341844932}
   PlayerSpeechBubble: {fileID: 1179494162}
   EnemySpeech: {fileID: 2125014788}
+  EnemyWords: []
   PlayerSpeech: {fileID: 161881132}
+  PlayerWords: []
   EnemyWinning: 0
   PlayerWinning: 0
+  show: 1
+  k: 0
 --- !u!114 &1544541286
 MonoBehaviour:
   m_ObjectHideFlags: 0
