@@ -3523,6 +3523,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
+      propertyPath: ReplyTime
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 378428794603328771, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: m_Name
       value: General UI
