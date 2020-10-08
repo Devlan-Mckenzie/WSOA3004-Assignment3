@@ -567,8 +567,8 @@ Camera:
   m_GameObject: {fileID: 321197314}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2017,7 +2017,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 47.74408}
+  m_AnchoredPosition: {x: 0, y: 65}
   m_SizeDelta: {x: -35.870117, y: 95.48816}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298577838
@@ -4098,19 +4098,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -24
+      value: -0.0000021458
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.85821
+      value: -0.0000023842
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 102.44531
+      value: 51.568764
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 154.99298
+      value: 146.6742
       objectReference: {fileID: 0}
     - target: {fileID: 1684643693905583515, guid: 1b797f00eee24cf41939cc3bbf5e58ef, type: 3}
       propertyPath: m_AnchorMin.x
