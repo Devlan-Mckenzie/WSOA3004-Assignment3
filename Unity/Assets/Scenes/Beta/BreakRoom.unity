@@ -1113,12 +1113,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Teddy now is our time to SHINE! There is NO way that I will not be the
+  m_Text: '"Teddy now is our time to SHINE! There is NO way that I will not be the
     BEST darn employee of the month and year!
 
 
     It''s go time... lets figure
-    out why the power has turned off in this shitty old prison! '
+    out why the power has turned off in this shitty old prison!"'
 --- !u!222 &1304462358
 CanvasRenderer:
   m_ObjectHideFlags: 0

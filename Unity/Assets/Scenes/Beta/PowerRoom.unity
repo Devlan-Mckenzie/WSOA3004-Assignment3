@@ -903,7 +903,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Teddy help me find the generator switch then we will have temporary power.
+  m_Text: '"Teddy help me find the generator switch then we will have temporary power."
 
     (Press
     E)'
