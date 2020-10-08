@@ -37,7 +37,6 @@ public class PlayerCombat : MonoBehaviour
 
     private GameObject Prisoner;
 
-    public ParticleSystem ThrustParticles;
 
     private void Start()
     {
@@ -56,11 +55,11 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         if (Time.time >= nextAttackTime)
-        {
+        {            
             if (Input.GetKeyDown(KeyCode.Mouse0) && currentStamina >= attackStamina)
             {
                 Attack();
-                nextAttackTime = Time.time + 1f / attackRate;
+                nextAttackTime = Time.time + 1f / attackRate;                
             }
         }
         HealthRegen();
@@ -99,7 +98,6 @@ public class PlayerCombat : MonoBehaviour
 
         //Play attack animation
         animator.SetTrigger("Attack");
-        CreateThrustParticles();
 
         //Detect enemies hit
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
@@ -152,9 +150,5 @@ public class PlayerCombat : MonoBehaviour
     {
         healthBar.gameObject.SetActive(false);
         staminaBar.gameObject.SetActive(false);
-    }
-    void CreateThrustParticles()
-    {
-        ThrustParticles.Play();
     }
 }
