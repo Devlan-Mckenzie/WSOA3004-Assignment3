@@ -76,6 +76,11 @@ public class PlayerCombat : MonoBehaviour
                 healthBar.SetHealth(currentHealth);
                 nextHealthRegenTime = Time.time + 1f / healthRegenRate;
             }
+
+            if (currentHealth > maxHealth)
+            {
+                currentHealth = maxHealth;
+            }
         }
     }
 
@@ -83,11 +88,16 @@ public class PlayerCombat : MonoBehaviour
     {
         if (Time.time >= nextStaminaRegenTime)
         {
-            if (currentStamina < maxHealth)
+            if (currentStamina < maxStamina)
             {
                 currentStamina += staminaRegen;
                 staminaBar.SetStamina(currentStamina);
                 nextStaminaRegenTime = Time.time + 1f / staminaRegenRate;
+            }
+
+            if (currentStamina > maxStamina)
+            {
+                currentStamina = maxStamina;
             }
         }
     }
