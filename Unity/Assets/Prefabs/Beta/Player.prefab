@@ -726,12 +726,12 @@ SpriteRenderer:
   m_SortingLayerID: 1604381467
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 602483355799446732, guid: dba7705354f668249a7b25056081b700, type: 3}
+  m_Sprite: {fileID: 4276827874280966434, guid: 37c487e84d0f4b941b007cbf2cbb80f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.5, y: 1.5}
+  m_Size: {x: 3, y: 3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -751,6 +751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 10
   canvas: {fileID: 3625660404634563912}
+  DustParticles: {fileID: 0}
 --- !u!50 &406621962595928755
 Rigidbody2D:
   serializedVersion: 4
@@ -839,8 +840,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.2, y: 3.2}
-    newSize: {x: 1.5, y: 1.5}
+    oldSize: {x: 3, y: 3}
+    newSize: {x: 3, y: 3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -868,7 +869,6 @@ MonoBehaviour:
   died: 0
   Alarm: 0
   CablePossession: 0
-  AlarmSound: {fileID: 0}
   ClosingLockers: {fileID: 0}
   PlacingCable: {fileID: 0}
   SwitchingOnGenerator: {fileID: 0}
@@ -876,3 +876,5 @@ MonoBehaviour:
   ClosedArmory: {fileID: 0}
   poweroff: {fileID: 0}
   poweron: {fileID: 0}
+  generatorunplugged: {fileID: 0}
+  generatorplugged: {fileID: 0}
