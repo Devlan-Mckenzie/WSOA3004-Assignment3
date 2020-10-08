@@ -364,7 +364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &162345422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2902,10 +2902,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Teddy bro, these F*#king prisoners have stolen our sacred weapons!
+  m_Text: 'Teddy bro, these prisoners have stolen our weapons!
 
-    We
-    have to lock the rest away!
+    We have to lock
+    the rest away!
 
     (Press E to lock armour gates)'
 --- !u!222 &2000858114
