@@ -2584,6 +2584,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 655983569}
     m_Modifications:
+    - target: {fileID: 4225613540643695504, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 132992349}
     - target: {fileID: 4225613540643695509, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
       propertyPath: m_Name
       value: Prisoner 1

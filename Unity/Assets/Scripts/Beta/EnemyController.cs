@@ -26,7 +26,7 @@ public class EnemyController : MonoBehaviour
     public float attackRate = 2f;
     private float nextAttackTime = 0f;
 
-
+    public Canvas canvas;
 
 
     // Start is called before the first frame update
@@ -130,6 +130,8 @@ public class EnemyController : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+        canvas.GetComponent<CanvasController>().CanvasFlip();
+
     }
 
 }

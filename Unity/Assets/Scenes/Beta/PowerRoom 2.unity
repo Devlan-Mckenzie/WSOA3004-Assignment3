@@ -2327,6 +2327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prisoner 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2351250529291611210, guid: a8f8dd24539d2314ba4879933d3c0f96, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1901060922}
     - target: {fileID: 2351250529291611215, guid: a8f8dd24539d2314ba4879933d3c0f96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.1396937
@@ -2567,6 +2571,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 755903860}
     m_Modifications:
+    - target: {fileID: 4225613540643695504, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 844298023}
     - target: {fileID: 4225613540643695509, guid: 6d645b3cade9de048b40f42af9b4f422, type: 3}
       propertyPath: m_Name
       value: Prisoner 1

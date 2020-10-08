@@ -1253,6 +1253,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1941023993}
     m_Modifications:
+    - target: {fileID: 1163803511796377914, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4672323562067784608, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
       propertyPath: m_Name
       value: Prisoner 3
@@ -1261,6 +1265,10 @@ PrefabInstance:
       propertyPath: attackDamage
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 4672323562067784612, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1210669852}
     - target: {fileID: 4672323562067784619, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.79026294
