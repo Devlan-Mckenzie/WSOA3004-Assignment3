@@ -794,6 +794,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1151686462703564917, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1934817838942580857, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: DustParticles
       value: 
@@ -805,6 +809,14 @@ PrefabInstance:
     - target: {fileID: 3174650803398242310, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443794213549231672, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1604381467
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443794213549231672, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3769407888720450802, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1078,6 +1090,10 @@ PrefabInstance:
     - target: {fileID: 5787591114307121625, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974925074428620086, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
