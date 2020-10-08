@@ -1,28 +1,37 @@
 fileFormatVersion: 2
-guid: dba7705354f668249a7b25056081b700
+guid: 37c487e84d0f4b941b007cbf2cbb80f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5121146682067673442
-    second: Guard_Idle_SpriteSheet_0
+      213: 4276827874280966434
+    second: Guard Idle new Spritesheet_0
   - first:
-      213: 602483355799446732
-    second: Guard_Idle_SpriteSheet_1
+      213: 1030842328835000313
+    second: Guard Idle new Spritesheet_1
   - first:
-      213: -9058823206083356766
-    second: Guard_Idle_SpriteSheet_2
+      213: 1524745600865064195
+    second: Guard Idle new Spritesheet_2
   - first:
-      213: 935964716487598597
-    second: Guard_Idle_SpriteSheet_3
+      213: 3993147724816067106
+    second: Guard Idle new Spritesheet_3
   - first:
-      213: -4168129653963278771
-    second: Guard_Idle_SpriteSheet_4
+      213: -4787565728193767810
+    second: Guard Idle new Spritesheet_4
   - first:
-      213: 1574693467610392939
-    second: Guard_Idle_SpriteSheet_5
+      213: -1851138205705209642
+    second: Guard Idle new Spritesheet_5
   - first:
-      213: 1651445706680334719
-    second: Guard_Idle_SpriteSheet_6
+      213: -7263112357348863184
+    second: Guard Idle new Spritesheet_6
+  - first:
+      213: 6608281423062645247
+    second: Guard Idle new Spritesheet_7
+  - first:
+      213: -5993110102839828138
+    second: Guard Idle new Spritesheet_8
+  - first:
+      213: 7760305844415706200
+    second: Guard Idle new Spritesheet_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -134,85 +143,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guard_Idle_SpriteSheet_1
+      name: Guard Idle new Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 450
-        width: 320
-        height: 320
+        x: 290
+        y: 721
+        width: 300
+        height: 300
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc4e2858b637c5800800000000000000
-      internalID: 602483355799446732
+      spriteID: 2298104ca485a5b30800000000000000
+      internalID: 4276827874280966434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_Idle_SpriteSheet_2
+      name: Guard Idle new Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 560
-        y: 449
-        width: 320
-        height: 320
+        x: 712
+        y: 722
+        width: 300
+        height: 300
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a7165e2a48984280800000000000000
-      internalID: -9058823206083356766
+      spriteID: 9f785ade2a94e4e00800000000000000
+      internalID: 1030842328835000313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_Idle_SpriteSheet_3
+      name: Guard Idle new Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 981
-        y: 449
-        width: 320
-        height: 320
+        x: 1149
+        y: 720
+        width: 300
+        height: 300
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 502ea8063f63dfc00800000000000000
-      internalID: 935964716487598597
+      spriteID: 305d668ab0cf82510800000000000000
+      internalID: 1524745600865064195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_Idle_SpriteSheet_5
+      name: Guard Idle new Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1414
-        y: 449
-        width: 320
-        height: 320
+        x: 1578
+        y: 719
+        width: 273
+        height: 300
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b69ab0f9d5f6ad510800000000000000
-      internalID: 1574693467610392939
+      spriteID: 22a2259f2b28a6730800000000000000
+      internalID: 3993147724816067106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard Idle new Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 297
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9367d21f455bb50800000000000000
+      internalID: 6608281423062645247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard Idle new Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 301
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6516d644d1234dca0800000000000000
+      internalID: -5993110102839828138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard Idle new Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 298
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85439c4bc0522bb60800000000000000
+      internalID: 7760305844415706200
       vertices: []
       indices: 
       edges: []
@@ -220,7 +292,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: bf0fb213fb2605c4daef2585f2079a13
     internalID: 0
     vertices: []
     indices: 

@@ -1,67 +1,25 @@
 fileFormatVersion: 2
-guid: ae939f42bf81ea7408b8a0ba02a0ec6d
+guid: cf20f8d05c828314d9f695f2f41303d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 536548862949747710
-    second: prisoner_4_Idle_spritesheet_0
+      213: 6879806242838088178
+    second: prisoner_Idle_spritesheet_blue_0
   - first:
-      213: -7963761183598823850
-    second: prisoner_4_Idle_spritesheet_1
+      213: -1223786633756461378
+    second: prisoner_Idle_spritesheet_blue_1
   - first:
-      213: -5846879203538459583
-    second: prisoner_4_Idle_spritesheet_2
+      213: -4708200860810427281
+    second: prisoner_Idle_spritesheet_blue_2
   - first:
-      213: 719307198186732866
-    second: prisoner_4_Idle_spritesheet_3
+      213: -6507389789998521240
+    second: prisoner_Idle_spritesheet_blue_3
   - first:
-      213: 4710820531744369613
-    second: prisoner_4_Idle_spritesheet_4
+      213: -5008006613357602416
+    second: prisoner_Idle_spritesheet_blue_4
   - first:
-      213: 6908826737470743707
-    second: prisoner_4_Idle_spritesheet_5
-  - first:
-      213: 4146670127748793054
-    second: prisoner_4_Idle_spritesheet_6
-  - first:
-      213: 154618708611350200
-    second: prisoner_4_Idle_spritesheet_7
-  - first:
-      213: 1750826466963784482
-    second: prisoner_4_Idle_spritesheet_8
-  - first:
-      213: -283160119256671103
-    second: prisoner_4_Idle_spritesheet_9
-  - first:
-      213: -9050615484481351953
-    second: prisoner_4_Idle_spritesheet_10
-  - first:
-      213: -5232061566858914398
-    second: prisoner_4_Idle_spritesheet_11
-  - first:
-      213: -7637283480386744709
-    second: prisoner_4_Idle_spritesheet_12
-  - first:
-      213: 7502384482171463172
-    second: prisoner_4_Idle_spritesheet_13
-  - first:
-      213: 8871809141352413987
-    second: prisoner_4_Idle_spritesheet_14
-  - first:
-      213: -1973188698328190397
-    second: prisoner_4_Idle_spritesheet_15
-  - first:
-      213: -1355138239328769266
-    second: prisoner_4_Idle_spritesheet_16
-  - first:
-      213: -3483843661590427569
-    second: prisoner_4_Idle_spritesheet_17
-  - first:
-      213: 8976747223253274749
-    second: prisoner_4_Idle_spritesheet_18
-  - first:
-      213: -3203521732722266476
-    second: prisoner_4_Idle_spritesheet_19
+      213: -208283292163267485
+    second: prisoner_Idle_spritesheet_blue_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -146,6 +104,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -161,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prisoner_4_Idle_spritesheet_0
+      name: prisoner_Idle_spritesheet_blue_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 402
-        width: 130
-        height: 260
+        x: 68
+        y: 429
+        width: 128
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efb62cc1954327700800000000000000
-      internalID: 536548862949747710
+      spriteID: 2f901ebb35bf97f50800000000000000
+      internalID: 6879806242838088178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prisoner_4_Idle_spritesheet_2
+      name: prisoner_Idle_spritesheet_blue_2
       rect:
         serializedVersion: 2
-        x: 258
-        y: 404
-        width: 130
-        height: 260
+        x: 771
+        y: 426
+        width: 128
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 144a87ca756bbdea0800000000000000
-      internalID: -5846879203538459583
+      spriteID: f64c430234c19aeb0800000000000000
+      internalID: -4708200860810427281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prisoner_4_Idle_spritesheet_4
+      name: prisoner_Idle_spritesheet_blue_4
       rect:
         serializedVersion: 2
-        x: 471
-        y: 409
-        width: 130
-        height: 260
+        x: 1476
+        y: 425
+        width: 128
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,50 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcb6d3b8052306140800000000000000
-      internalID: 4710820531744369613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: prisoner_4_Idle_spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 398
-        width: 130
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed2c03dd28eeb8930800000000000000
-      internalID: 4146670127748793054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: prisoner_4_Idle_spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 394
-        width: 130
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2238aba356f2c4810800000000000000
-      internalID: 1750826466963784482
+      spriteID: 099530ac48cff7ab0800000000000000
+      internalID: -5008006613357602416
       vertices: []
       indices: 
       edges: []
@@ -268,7 +196,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 409a3b8795bcf7d47aba42923e70ed58
+    spriteID: a351c3ca320a5b64b9af707970eea52f
     internalID: 0
     vertices: []
     indices: 
