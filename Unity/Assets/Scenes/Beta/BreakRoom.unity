@@ -275,10 +275,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1151686462703564917, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1934817838942580857, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: DustParticles
       value: 
@@ -358,14 +354,6 @@ PrefabInstance:
     - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: ThrustParticles
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8213882264912198734, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8213882264912198734, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9109315860012387995, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_Name
@@ -1230,6 +1218,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPaused: 0
   PauseMenu: {fileID: 207907408}
+--- !u!114 &1961154890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961154888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - audioClip: {fileID: 8300000, guid: c720d15829c0d854782b4f6ea949282d, type: 3}
+    volume: 5
+    pitch: 0.8
+    name: Footstep_01
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 4e0c67586d7d9a645a967543ba207e83, type: 3}
+    volume: 5
+    pitch: 0.8
+    name: Footstep_02
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 1e6090a5d2a7e8444817cf177e665e85, type: 3}
+    volume: 0
+    pitch: 0
+    name: Batton
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_with_Grunt
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 1f1d81f64b97d894b9db30f6dddd0024, type: 3}
+    volume: 5
+    pitch: 1
+    name: PlayerDeath_
+    loop: 0
+    audioSource: {fileID: 0}
 --- !u!1 &2086068188
 GameObject:
   m_ObjectHideFlags: 0
