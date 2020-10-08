@@ -1914,49 +1914,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9109315860012387995, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
   m_PrefabInstance: {fileID: 1988171692}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1588099208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588099207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_sounds:
-  - audioClip: {fileID: 8300000, guid: c720d15829c0d854782b4f6ea949282d, type: 3}
-    volume: 5
-    pitch: 0.8
-    name: Footstep_01
-    loop: 0
-    audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: 4e0c67586d7d9a645a967543ba207e83, type: 3}
-    volume: 5
-    pitch: 0.75
-    name: Footstep_02
-    loop: 0
-    audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: 6626211babbfabc40ab4fd35f20b901a, type: 3}
-    volume: 5
-    pitch: 1
-    name: Batton
-    loop: 0
-    audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
-    volume: 5
-    pitch: 1
-    name: Punch_with_Grunt
-    loop: 0
-    audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: d89622737e9bac44b95984a49877b841, type: 3}
-    volume: 5
-    pitch: 1
-    name: PlayerDeath_
-    loop: 0
-    audioSource: {fileID: 0}
 --- !u!114 &1588099216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2626,6 +2583,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8452574542714020215, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[1].name
+      value: Footstep_[OneShot.02]
+      objectReference: {fileID: 0}
+    - target: {fileID: -8452574542714020215, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[1].loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8452574542714020215, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[2].name
+      value: ThrustSfx
+      objectReference: {fileID: 0}
+    - target: {fileID: -8452574542714020215, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[3].name
+      value: _Grunt
+      objectReference: {fileID: 0}
+    - target: {fileID: -8452574542714020215, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[0].volume
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -8452574542714020215, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[1].volume
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8452574542714020215, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 73fec99a314f3d247b7360aef16a8e16, type: 3}
+    - target: {fileID: -8452574542714020215, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7f0c4da97a920154b9f0db43b72469cb, type: 3}
     - target: {fileID: 1934817838942580857, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: DustParticles
       value: 
