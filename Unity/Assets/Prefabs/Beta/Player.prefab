@@ -933,6 +933,7 @@ GameObject:
   - component: {fileID: 8017061909348937373}
   - component: {fileID: 8213882264912198734}
   - component: {fileID: 6907892593015764182}
+  - component: {fileID: 6324857160797207857}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -1149,6 +1150,49 @@ MonoBehaviour:
   poweron: {fileID: 0}
   generatorunplugged: {fileID: 0}
   generatorplugged: {fileID: 0}
+--- !u!114 &6324857160797207857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9109315860012387995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - audioClip: {fileID: 8300000, guid: 2a8ccec8c849fb748b3627c83a9da9ca, type: 3}
+    volume: 3
+    pitch: 0.75
+    name: _Footstep.01
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 283995af03773f043860cdf3b2e30ad1, type: 3}
+    volume: 4
+    pitch: 0.8
+    name: _Footstep.02
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 60473fbe0e474fe4a8f200cafc92a336, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_with_Grunt
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: d7da341faac9ebc4e8974a2ed4b7e7f4, type: 3}
+    volume: 5
+    pitch: 1
+    name: ThrustSfx
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: ef9655ee935c7ce4f9a75eee9417230a, type: 3}
+    volume: 5
+    pitch: 1
+    name: PrisonerDeath_
+    loop: 0
+    audioSource: {fileID: 0}
 --- !u!1001 &3172860810772897233
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -80,7 +80,7 @@ AnimationClip:
   m_Events:
   - time: 0.16666667
     functionName: Play
-    data: Punch_[Type.01]
+    data: ThrustSfx
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
