@@ -28,6 +28,8 @@ public class EnemyController : MonoBehaviour
 
     public Canvas canvas;
 
+    public AudioSource punch_Hit;
+
 
     // Start is called before the first frame update
     void Start()
@@ -104,6 +106,7 @@ public class EnemyController : MonoBehaviour
         foreach (Collider2D player in hitPlayers)
         {
             player.GetComponent<PlayerCombat>().PlayerTakeDamage(attackDamage);
+            punch_Hit.Play();
         }
     }
 

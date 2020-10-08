@@ -25,7 +25,7 @@ public class RoomTriggers : MonoBehaviour
     public bool Alarm = false;
     public bool CablePossession = false;
 
-    private AudioSource AlarmSound;
+    public AudioSource AlarmSound;
 
     public Animator ClosingLockers;
     public Animator PlacingCable;
@@ -37,6 +37,8 @@ public class RoomTriggers : MonoBehaviour
     public GameObject ClosedArmory;
     public GameObject poweroff;
     public GameObject poweron;
+    public AudioSource Switchtoggle;
+    public AudioSource LockWeaponsSound;
 
     public GameObject generatorunplugged;
     public GameObject generatorplugged;
@@ -119,14 +121,14 @@ public class RoomTriggers : MonoBehaviour
         MinimalLighting.SetActive(false);
         GeneratorLighting.SetActive(true);
         //must insert animation here
+
+        Switchtoggle.Play();
         RoomCounter += 1;
         //SwitchingOnGenerator.Switch = true;
 
         Invoke("exitroom", 1.5f);
         generatorplugged.SetActive(true);
         generatorunplugged.SetActive(false);
-       
-
 
     }
 
@@ -137,6 +139,7 @@ public class RoomTriggers : MonoBehaviour
         Debug.Log("Locked weapons away");
         //put ui in to indicate that this has been done
         //just a simple text plus a sound ?
+        LockWeaponsSound.Play();
         //ClosingLockers.Switch = true;
         if (OpenArmory.activeSelf)
         {
@@ -189,7 +192,7 @@ public class RoomTriggers : MonoBehaviour
         //change the scene (go to next room)
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         //Play Exit Room Audio
-        FindObjectOfType<AudioManager>().Play("Door");
+        LockWeaponsSound.Play();
     }
 
     

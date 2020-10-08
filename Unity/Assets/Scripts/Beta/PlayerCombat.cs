@@ -36,7 +36,9 @@ public class PlayerCombat : MonoBehaviour
     public bool isAlive = true;
 
     private GameObject Prisoner;
+    public AudioSource hitSound;
 
+    public ParticleSystem ThrustParticles;
 
     private void Start()
     {
@@ -55,11 +57,11 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         if (Time.time >= nextAttackTime)
-        {            
+        {
             if (Input.GetKeyDown(KeyCode.Mouse0) && currentStamina >= attackStamina)
             {
                 Attack();
-                nextAttackTime = Time.time + 1f / attackRate;                
+                nextAttackTime = Time.time + 1f / attackRate;
             }
         }
         HealthRegen();
@@ -76,11 +78,6 @@ public class PlayerCombat : MonoBehaviour
                 healthBar.SetHealth(currentHealth);
                 nextHealthRegenTime = Time.time + 1f / healthRegenRate;
             }
-
-            if (currentHealth > maxHealth)
-            {
-                currentHealth = maxHealth;
-            }
         }
     }
 
@@ -88,16 +85,11 @@ public class PlayerCombat : MonoBehaviour
     {
         if (Time.time >= nextStaminaRegenTime)
         {
-            if (currentStamina < maxStamina)
+            if (currentStamina < maxHealth)
             {
                 currentStamina += staminaRegen;
                 staminaBar.SetStamina(currentStamina);
                 nextStaminaRegenTime = Time.time + 1f / staminaRegenRate;
-            }
-
-            if (currentStamina > maxStamina)
-            {
-                currentStamina = maxStamina;
             }
         }
     }
@@ -116,6 +108,7 @@ public class PlayerCombat : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            hitSound.Play();
         }
     }
 
@@ -161,4 +154,10 @@ public class PlayerCombat : MonoBehaviour
         healthBar.gameObject.SetActive(false);
         staminaBar.gameObject.SetActive(false);
     }
+    void CreateThrustParticles()
+    {
+        ThrustParticles.Play();
+    }
+
+ 
 }

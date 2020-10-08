@@ -131,6 +131,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   attackRate: 0.25
+  canvas: {fileID: 0}
+  punch_Hit: {fileID: 0}
 --- !u!50 &4225613540643695505
 Rigidbody2D:
   serializedVersion: 4
@@ -224,8 +226,8 @@ MonoBehaviour:
     loop: 0
     audioSource: {fileID: 0}
   - audioClip: {fileID: 8300000, guid: ef9655ee935c7ce4f9a75eee9417230a, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 5
+    pitch: 1
     name: PrisonerDeath_
     loop: 0
     audioSource: {fileID: 0}

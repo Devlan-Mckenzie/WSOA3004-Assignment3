@@ -9,7 +9,7 @@ public class Sound
     [Range(0f, 5f)]
     public float volume;
 
-    [Range(0f, 1f)]
+    [Range(0f, 2f)]
     public float pitch;
 
     public string name;

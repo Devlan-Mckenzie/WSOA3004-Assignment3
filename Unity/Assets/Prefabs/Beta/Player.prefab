@@ -1095,6 +1095,8 @@ MonoBehaviour:
   healthRegenRate: 1
   staminaRegenRate: 1
   isAlive: 1
+  hitSound: {fileID: 0}
+  ThrustParticles: {fileID: 0}
 --- !u!61 &8213882264912198734
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1141,6 +1143,7 @@ MonoBehaviour:
   died: 0
   Alarm: 0
   CablePossession: 0
+  AlarmSound: {fileID: 0}
   ClosingLockers: {fileID: 0}
   PlacingCable: {fileID: 0}
   SwitchingOnGenerator: {fileID: 0}
@@ -1148,6 +1151,8 @@ MonoBehaviour:
   ClosedArmory: {fileID: 0}
   poweroff: {fileID: 0}
   poweron: {fileID: 0}
+  Switchtoggle: {fileID: 0}
+  LockWeaponsSound: {fileID: 0}
   generatorunplugged: {fileID: 0}
   generatorplugged: {fileID: 0}
 --- !u!114 &6324857160797207857
@@ -1175,7 +1180,7 @@ MonoBehaviour:
     name: _Footstep.02
     loop: 0
     audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: 60473fbe0e474fe4a8f200cafc92a336, type: 3}
+  - audioClip: {fileID: 8300000, guid: 8a956f07e594dd148a7ab5c97ddba153, type: 3}
     volume: 5
     pitch: 1
     name: Punch_with_Grunt
