@@ -1,37 +1,25 @@
 fileFormatVersion: 2
-guid: f2c7669d19f994d49b04665790a680e1
+guid: eb38616099089d14a843e49a9c8d77c7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3564714538024187317
-    second: prisoner_2_Idle_spritesheet_0
+      213: -144124375272709365
+    second: prisoner_Idle_spritesheet_green_0
   - first:
-      213: 7431927886225062281
-    second: prisoner_2_Idle_spritesheet_1
+      213: -515449020372377332
+    second: prisoner_Idle_spritesheet_green_1
   - first:
-      213: -5444974148612476477
-    second: prisoner_2_Idle_spritesheet_2
+      213: 124801399113165573
+    second: prisoner_Idle_spritesheet_green_2
   - first:
-      213: -2599534084780173327
-    second: prisoner_2_Idle_spritesheet_3
+      213: 2401963459923697593
+    second: prisoner_Idle_spritesheet_green_3
   - first:
-      213: 3187541963375849231
-    second: prisoner_2_Idle_spritesheet_4
+      213: -8765617005482018035
+    second: prisoner_Idle_spritesheet_green_4
   - first:
-      213: -4102685861597186620
-    second: prisoner_2_Idle_spritesheet_5
-  - first:
-      213: 8411427728381457919
-    second: prisoner_2_Idle_spritesheet_6
-  - first:
-      213: -8316369075383545979
-    second: prisoner_2_Idle_spritesheet_7
-  - first:
-      213: -588573611304881369
-    second: prisoner_2_Idle_spritesheet_8
-  - first:
-      213: -4710354705715926573
-    second: prisoner_2_Idle_spritesheet_9
+      213: 216477027296440208
+    second: prisoner_Idle_spritesheet_green_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -116,6 +104,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -131,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prisoner_2_Idle_spritesheet_0
+      name: prisoner_Idle_spritesheet_green_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 406
-        width: 130
-        height: 260
+        x: 68
+        y: 429
+        width: 128
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b53a945cf8687130800000000000000
-      internalID: 3564714538024187317
+      spriteID: b032560f4a7fffdf0800000000000000
+      internalID: -144124375272709365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prisoner_2_Idle_spritesheet_1
+      name: prisoner_Idle_spritesheet_green_2
       rect:
         serializedVersion: 2
-        x: 263
-        y: 404
-        width: 130
-        height: 260
+        x: 771
+        y: 426
+        width: 128
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 989b3c65903832760800000000000000
-      internalID: 7431927886225062281
+      spriteID: 50bac9516326bb100800000000000000
+      internalID: 124801399113165573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prisoner_2_Idle_spritesheet_3
+      name: prisoner_Idle_spritesheet_green_4
       rect:
         serializedVersion: 2
-        x: 471
-        y: 408
-        width: 130
-        height: 260
+        x: 1476
+        y: 425
+        width: 128
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,50 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f75827d5899cebd0800000000000000
-      internalID: -2599534084780173327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: prisoner_2_Idle_spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 696
-        y: 398
-        width: 130
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c57b7222f45017c0800000000000000
-      internalID: -4102685861597186620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: prisoner_2_Idle_spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 395
-        width: 130
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58f48b05362569c80800000000000000
-      internalID: -8316369075383545979
+      spriteID: d0bfe1796c54a5680800000000000000
+      internalID: -8765617005482018035
       vertices: []
       indices: 
       edges: []
@@ -238,7 +196,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 5a138e0a112622e4ea93d4e2931a9056
     internalID: 0
     vertices: []
     indices: 
