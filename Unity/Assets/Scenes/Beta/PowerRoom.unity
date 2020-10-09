@@ -2054,6 +2054,7 @@ MonoBehaviour:
   LockWeaponsSound: {fileID: 0}
   generatorunplugged: {fileID: 0}
   generatorplugged: {fileID: 0}
+  SceneChangeDelay: 3
 --- !u!61 &1187333310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3012,7 +3013,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 205f43450479df34699390edd2671b63, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3306,6 +3307,10 @@ PrefabInstance:
       propertyPath: LockWeaponsSound
       value: 
       objectReference: {fileID: 332764878}
+    - target: {fileID: 6907892593015764182, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: SceneChangeDelay
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: attackRate
       value: 1.5
@@ -3474,7 +3479,19 @@ PrefabInstance:
     - target: {fileID: 3530246971730284915, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+      objectReference: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
+    - target: {fileID: 3530246971730284915, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530246971730284915, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530246971730284915, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3530246972198702600, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3571,13 +3588,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 3530246972198702604, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3530246972328267683, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+      objectReference: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
+    - target: {fileID: 3530246972328267683, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530246972328267683, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530246972328267683, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3530246972392543736, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+      objectReference: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
+    - target: {fileID: 3530246972392543736, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530246972392543736, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530246972392543736, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e0ea90f5f957f243b42b359a3627935, type: 3}

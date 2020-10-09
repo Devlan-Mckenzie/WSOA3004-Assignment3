@@ -9,10 +9,7 @@ public class PauseButton : MonoBehaviour
     public GameObject PauseMenu;
 
     //added this function because a death wasnt coded
-    public void deathscenechange()
-    {
-        SceneManager.LoadScene(7);
-    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -37,9 +34,6 @@ public class PauseButton : MonoBehaviour
             
         }
 
-        if (FindObjectOfType<PlayerCombat>().currentHealth <= 0)
-        {
-            Invoke("deathscenechange", 1.5f);
-        }
+        
     }
 }

@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 5
   minDistance: 1
-  agroRange: 5
+  agroRange: 3
   attackPoint: {fileID: 4672323560713947784}
   attackDamage: 40
   attackRange: 0.5
@@ -241,7 +241,7 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: 1ed349be634e77443b48dafdb0301266, type: 3}
     volume: 5
     pitch: 1
-    name: _Footsteps_Prisoner
+    name: Footstep_[Type.03]
     loop: 0
     audioSource: {fileID: 0}
   - audioClip: {fileID: 8300000, guid: d7da341faac9ebc4e8974a2ed4b7e7f4, type: 3}

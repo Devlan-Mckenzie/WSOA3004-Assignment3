@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -408,7 +408,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: eb5b1ac11d10b384e8fc1671faf65603, type: 3}
+    m_Font: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -618,7 +618,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 365.17285, y: 134.5221}
+  m_SizeDelta: {x: 258.46265, y: 81.15315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &305545347
 MonoBehaviour:
@@ -742,7 +742,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 60c46cc59def7b14ea5ffd21c6f6e303, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.314
+  m_Volume: 0.95
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1077,7 +1077,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fa95e6916b73b2d4a84d8a7e918503e2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1330,7 +1330,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -182.58643, y: 0}
-  m_SizeDelta: {x: 365.17285, y: 134.5221}
+  m_SizeDelta: {x: 213.99976, y: 67.811035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &536102772
 MonoBehaviour:
@@ -1635,7 +1635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1643,7 +1643,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: eb5b1ac11d10b384e8fc1671faf65603, type: 3}
+    m_Font: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -1664,6 +1664,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716578507}
   m_CullTransparentMesh: 0
+--- !u!1 &1017165949 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4672323562067784608, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+  m_PrefabInstance: {fileID: 1113660533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1017165950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017165949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - audioClip: {fileID: 8300000, guid: 1ed349be634e77443b48dafdb0301266, type: 3}
+    volume: 5
+    pitch: 1
+    name: Footstep_[Type.03
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: d7da341faac9ebc4e8974a2ed4b7e7f4, type: 3}
+    volume: 5
+    pitch: 1
+    name: ThrustSfx
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 8a956f07e594dd148a7ab5c97ddba153, type: 3}
+    volume: 5
+    pitch: 1
+    name: Punch_with_Grunt
+    loop: 0
+    audioSource: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: ef9655ee935c7ce4f9a75eee9417230a, type: 3}
+    volume: 5
+    pitch: 1
+    name: PrisonerDeath_
+    loop: 0
+    audioSource: {fileID: 0}
 --- !u!1001 &1113660533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1739,7 +1781,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7520266239097451978, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
 --- !u!4 &1113660534 stripped
 Transform:
@@ -1970,7 +2013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1978,7 +2021,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: eb5b1ac11d10b384e8fc1671faf65603, type: 3}
+    m_Font: {fileID: 12800000, guid: cdbb639cb19b0d84aae4f9676ed2a541, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -2065,6 +2108,7 @@ MonoBehaviour:
   LockWeaponsSound: {fileID: 0}
   generatorunplugged: {fileID: 0}
   generatorplugged: {fileID: 0}
+  SceneChangeDelay: 3
 --- !u!61 &1285468127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2549,49 +2593,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9109315860012387995, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
   m_PrefabInstance: {fileID: 1988171692}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1588099208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588099207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7dff9943f0927844993dfcf7e32cff7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_sounds:
-  - audioClip: {fileID: 8300000, guid: c720d15829c0d854782b4f6ea949282d, type: 3}
-    volume: 5
-    pitch: 0.8
-    name: Footstep_01
-    loop: 0
-    audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: 4e0c67586d7d9a645a967543ba207e83, type: 3}
-    volume: 5
-    pitch: 0.75
-    name: Footstep_02
-    loop: 0
-    audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: 6626211babbfabc40ab4fd35f20b901a, type: 3}
-    volume: 5
-    pitch: 1
-    name: Batton
-    loop: 0
-    audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: a5e45188ffee52e4cad86322e18bb9c4, type: 3}
-    volume: 5
-    pitch: 1
-    name: Punch_with_Grunt
-    loop: 0
-    audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: d89622737e9bac44b95984a49877b841, type: 3}
-    volume: 5
-    pitch: 1
-    name: PlayerDeath_
-    loop: 0
-    audioSource: {fileID: 0}
 --- !u!114 &1588099216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3358,6 +3359,10 @@ PrefabInstance:
       propertyPath: LockWeaponsSound
       value: 
       objectReference: {fileID: 619947504}
+    - target: {fileID: 6907892593015764182, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: SceneChangeDelay
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: ThrustParticles
       value: 
@@ -3409,7 +3414,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 182.58646, y: 0}
-  m_SizeDelta: {x: 365.1729, y: 134.5221}
+  m_SizeDelta: {x: 258.46265, y: 67.811035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2026509577
 MonoBehaviour:

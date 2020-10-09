@@ -43,6 +43,7 @@ public class RoomTriggers : MonoBehaviour
     public GameObject generatorunplugged;
     public GameObject generatorplugged;
 
+    public float SceneChangeDelay = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -126,7 +127,7 @@ public class RoomTriggers : MonoBehaviour
         RoomCounter += 1;
         //SwitchingOnGenerator.Switch = true;
 
-        Invoke("exitroom", 1.5f);
+        Invoke("exitroom", SceneChangeDelay);
         generatorplugged.SetActive(true);
         generatorunplugged.SetActive(false);
 
@@ -146,7 +147,7 @@ public class RoomTriggers : MonoBehaviour
             OpenArmory.SetActive(false);
             ClosedArmory.SetActive(true);
         }
-        Invoke("exitroom", 1.5f);
+        Invoke("exitroom", SceneChangeDelay);
         
 
     }
@@ -155,10 +156,10 @@ public class RoomTriggers : MonoBehaviour
     {
         //play sound for alarm
         RoomCounter += 1;
-        Invoke("exitroom", 1.5f);
+        Invoke("exitroom", SceneChangeDelay);
         Alarm = true;
-        //AlarmSound.Play();
-        FindObjectOfType<AudioManager>().Play("Alarm");
+        AlarmSound.Play();
+        //FindObjectOfType<AudioManager>().Play("Alarm");
 
 
 
@@ -174,7 +175,7 @@ public class RoomTriggers : MonoBehaviour
             GeneratorLighting.SetActive(false);
             GlobalLighting.SetActive(true);
             Debug.Log("Lights are back on");
-            Invoke("exitroom", 2.5f);
+            Invoke("exitroom", SceneChangeDelay);
 
             if (poweroff.activeSelf)
             {
@@ -195,7 +196,12 @@ public class RoomTriggers : MonoBehaviour
         LockWeaponsSound.Play();
     }
 
-    
+    public void deathscenechange()
+    {
+        SceneManager.LoadScene(7);
+    }
+
+
 
     // Update is called once per frame
     void Update()
@@ -220,19 +226,13 @@ public class RoomTriggers : MonoBehaviour
                 }
             }
         }
-        if (health <= 0)
-        {
-            died = true;
-        }
-
-        if (died)
+        if (FindObjectOfType<PlayerCombat>().currentHealth <= 0)
         {
             RoomCounter = 0;
+            Invoke("deathscenechange", SceneChangeDelay);
+
         }
 
-        if (Alarm)
-        {
-            //make the lights switch between white and red to increase game feel , will put it in once the level has been put together
-        }
+        
     }
 }
