@@ -240,7 +240,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.045790374, y: -0.85892653}
+  m_Offset: {x: 0.18000859, y: -1.2000859}
   m_SpriteTilingProperty:
     border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
     pivot: {x: 0.5, y: 0.5}
@@ -251,7 +251,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.96035504, y: 2.8516898}
+  m_Size: {x: 1.6634024, y: 3.5340085}
   m_EdgeRadius: 0
 --- !u!212 &44496285
 SpriteRenderer:
@@ -1722,7 +1722,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1062185570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2006,7 +2006,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 5.749585, y: -1.6726432}
+  m_Offset: {x: 5.749585, y: -2.0563788}
   m_SpriteTilingProperty:
     border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
     pivot: {x: 0.5, y: 0.5}
@@ -2017,7 +2017,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.4801426, y: 6.182616}
+  m_Size: {x: 3.4801426, y: 6.9500875}
   m_EdgeRadius: 0
 --- !u!212 &1187333311
 SpriteRenderer:
@@ -2146,7 +2146,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\"You idiots are fighting eachother what is wrong with you!?\nTeddy lets
-    kill these prisoners and turn the power back on. \nMWAHAHAHA\n*COUGH COUGH COUGH*\""
+    kill these prisoners and turn the power back on. \nMWAHAHAHA\n*COUGH COUGH COUGH*\"\n(Press
+    E)"
 --- !u!222 &1298577839
 CanvasRenderer:
   m_ObjectHideFlags: 0
