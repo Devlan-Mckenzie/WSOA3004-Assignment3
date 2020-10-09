@@ -1988,6 +1988,14 @@ PrefabInstance:
       propertyPath: attackRate
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: ShadowPlayerAlive
+      value: 
+      objectReference: {fileID: 3625660405663027427}
+    - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: ShadowPlayerDead
+      value: 
+      objectReference: {fileID: 3625660405663027426}
     - target: {fileID: 8213882264912198734, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_Offset.y
       value: -1
@@ -2009,6 +2017,16 @@ PrefabInstance:
 --- !u!4 &3625660405663027425 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4312452974750264131, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+  m_PrefabInstance: {fileID: 3625660405663027424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3625660405663027426 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7980783267407352510, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+  m_PrefabInstance: {fileID: 3625660405663027424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3625660405663027427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2449146300098160967, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
   m_PrefabInstance: {fileID: 3625660405663027424}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4225613541964444341

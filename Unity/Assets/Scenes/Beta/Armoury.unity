@@ -975,12 +975,30 @@ PrefabInstance:
       propertyPath: hitSound
       value: 
       objectReference: {fileID: 857994120}
+    - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: ShadowPlayerAlive
+      value: 
+      objectReference: {fileID: 605265747}
+    - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: ShadowPlayerDead
+      value: 
+      objectReference: {fileID: 605265746}
     - target: {fileID: 9109315860012387995, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+--- !u!1 &605265746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7980783267407352510, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+  m_PrefabInstance: {fileID: 605265745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &605265747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2449146300098160967, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+  m_PrefabInstance: {fileID: 605265745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &634488139
 GameObject:
   m_ObjectHideFlags: 0

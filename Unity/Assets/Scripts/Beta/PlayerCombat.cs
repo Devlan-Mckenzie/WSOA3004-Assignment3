@@ -40,6 +40,9 @@ public class PlayerCombat : MonoBehaviour
 
     public ParticleSystem ThrustParticles;
 
+    public GameObject ShadowPlayerAlive;
+    public GameObject ShadowPlayerDead;
+
     private void Start()
     {
         PlayerRB2D = GetComponent<Rigidbody2D>();
@@ -138,6 +141,7 @@ public class PlayerCombat : MonoBehaviour
         isAlive = false;
         animator.SetBool("isDead", true);
         HideBars();
+        SwapShadows();
         Prisoner.GetComponent<Enemy>().EnemyWon();
         GetComponent<Collider2D>().enabled = false;
         GetComponent<CharacterControllerBeta>().enabled = false;
@@ -153,6 +157,12 @@ public class PlayerCombat : MonoBehaviour
     {
         healthBar.gameObject.SetActive(false);
         staminaBar.gameObject.SetActive(false);
+    }
+
+    void SwapShadows()
+    {
+        ShadowPlayerAlive.SetActive(false);
+        ShadowPlayerDead.SetActive(true);
     }
     void CreateThrustParticles()
     {
