@@ -72,6 +72,9 @@ TagManager:
   - name: Interactables
     uniqueID: 1462895493
     locked: 0
+  - name: Shadow
+    uniqueID: 1327563865
+    locked: 0
   - name: Player
     uniqueID: 1604381467
     locked: 0

@@ -1183,6 +1183,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5787591114307121625, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
   m_PrefabInstance: {fileID: 673939751}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &673939753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5948085110368779268, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
+  m_PrefabInstance: {fileID: 673939751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &673939754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1597506536444046571, guid: c412a25493ee6c24ba3d3b4c75a86b43, type: 3}
+  m_PrefabInstance: {fileID: 673939751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &677646378 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 378428793641252373, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
@@ -3252,6 +3262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 0}
+  ShadowAlive: {fileID: 673939753}
+  ShadowDead: {fileID: 673939754}
   health: 0
 --- !u!1 &2000858111
 GameObject:

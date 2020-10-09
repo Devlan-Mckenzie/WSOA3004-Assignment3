@@ -956,6 +956,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 349833645}
+  ShadowAlive: {fileID: 1761736842}
+  ShadowDead: {fileID: 1113660535}
   health: 0
 --- !u!1 &405845634
 GameObject:
@@ -1673,6 +1675,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2633295769247107661, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4672323562067784608, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
       propertyPath: m_Name
       value: Prisoner 3
@@ -1738,6 +1744,11 @@ PrefabInstance:
 --- !u!4 &1113660534 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4672323562067784619, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+  m_PrefabInstance: {fileID: 1113660533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1113660535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4027678853400826443, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
   m_PrefabInstance: {fileID: 1113660533}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1148852527
@@ -3027,6 +3038,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9eb200853a95ac345a14521b4ed994d8, type: 3}
+--- !u!1 &1761736842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4476622051657644040, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+  m_PrefabInstance: {fileID: 1113660533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!198 &1764814194 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1133190443751698139, guid: eb21752d7b3ddfd4885d1817f106a9f9, type: 3}
