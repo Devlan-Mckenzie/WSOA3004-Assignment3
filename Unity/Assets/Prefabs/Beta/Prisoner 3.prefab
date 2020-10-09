@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 5
   minDistance: 1
-  agroRange: 3
+  agroRange: 5
   attackPoint: {fileID: 4672323560713947784}
   attackDamage: 40
   attackRange: 0.5
@@ -161,6 +161,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   attackRate: 1
+  canvas: {fileID: 0}
+  punch_Hit: {fileID: 0}
 --- !u!50 &4672323562067784615
 Rigidbody2D:
   serializedVersion: 4
