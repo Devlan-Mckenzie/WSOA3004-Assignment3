@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 5
   minDistance: 1
-  agroRange: 3
+  agroRange: 5
   attackPoint: {fileID: 4225613541592233589}
   attackDamage: 40
   attackRange: 0.5

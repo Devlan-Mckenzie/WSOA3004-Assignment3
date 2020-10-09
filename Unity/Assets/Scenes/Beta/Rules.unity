@@ -232,7 +232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 228.99998, y: -87}
+  m_AnchoredPosition: {x: 230, y: -74}
   m_SizeDelta: {x: 309.4567, y: 238.51984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92729737
@@ -1551,8 +1551,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 229, y: 122}
-  m_SizeDelta: {x: 313.8246, y: 194.31262}
+  m_AnchoredPosition: {x: 222.7, y: 139.5}
+  m_SizeDelta: {x: 301.3208, y: 159.29535}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1621205359
 MonoBehaviour:
@@ -1587,7 +1587,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Things For rules?
+  m_Text: 'The rules: '
 --- !u!222 &1621205360
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1883,7 +1883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1946,7 +1946,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 229, y: -87}
+  m_AnchoredPosition: {x: 226.77, y: -63}
   m_SizeDelta: {x: 309.4568, y: 238.51984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929866226
@@ -1982,25 +1982,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'you are the warden at a maximum security prison when the lights suddenly
-    go out. you have to find out why and how to fix it before the next employee of
-    the month is announced.
+  m_Text: '
+
+    The aim of the game is to make your way through each room and defeat
+    the prisoners that are in your way.
 
 
-    The aim of the game is to make your way through
-    each room and defeat the prisoners that are in your way.
+    Once the prisoners have been defeated
+    , speak to Teddy for guidance.
 
 
-    Once the prisoners
-    have been defeated , you must follow the instructions given to you on screen
-    and teddy must always listen to you.
+    "My soul mission is to get employee of the
+    month and nothing will stop me!"
 
 
-    You are now responsible for getting
-    Borris another employee of the month !
-
-    GoodLuck.... and do not forget to
-    let Teddy be your guide.'
+    GoodLuck.... and do not forget to let
+    Teddy be your guide.'
 --- !u!222 &1929866227
 CanvasRenderer:
   m_ObjectHideFlags: 0

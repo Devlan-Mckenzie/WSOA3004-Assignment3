@@ -158,8 +158,8 @@ public class RoomTriggers : MonoBehaviour
         RoomCounter += 1;
         Invoke("exitroom", SceneChangeDelay);
         Alarm = true;
-        //AlarmSound.Play();
-        FindObjectOfType<AudioManager>().Play("Alarm");
+        AlarmSound.Play();
+        //FindObjectOfType<AudioManager>().Play("Alarm");
 
 
 
