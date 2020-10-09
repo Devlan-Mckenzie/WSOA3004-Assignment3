@@ -1685,7 +1685,7 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: 1ed349be634e77443b48dafdb0301266, type: 3}
     volume: 5
     pitch: 1
-    name: Footstep_[Type.03
+    name: Footstep_[Type.03]
     loop: 0
     audioSource: {fileID: 0}
   - audioClip: {fileID: 8300000, guid: d7da341faac9ebc4e8974a2ed4b7e7f4, type: 3}
