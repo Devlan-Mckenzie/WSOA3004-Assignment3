@@ -30,6 +30,15 @@ public class EnemyController : MonoBehaviour
 
     public AudioSource punch_Hit;
 
+    public float KnockBackForce = 10f;
+    private Vector2 moveDirection;
+
+    private bool inPain = false;
+    public float PainLength = 2f;
+    private float PainTime = 0f;
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -54,17 +63,28 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         ChasePlayer();
+        AdjustHeight();
+
+        if (inPain)
+        {
+            PainTime += Time.deltaTime;
+            if (PainLength < PainTime )
+            {
+                PainTime = 0f;
+                inPain = false;
+            }
+        }
     }
 
     void ChasePlayer()
     {
         range = Vector2.Distance(transform.position, Player.transform.position);
-        if (range < agroRange && Player.GetComponent<PlayerCombat>().isAlive)
+        if (range < agroRange && Player.GetComponent<PlayerCombat>().isAlive && !inPain)
         {
             if (range > minDistance)
             {                
                 isChasing = true;
-                transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);                
             }
             else
             {
@@ -93,7 +113,7 @@ public class EnemyController : MonoBehaviour
         {
             // ... flip the player.
             Flip();
-        }
+        }     
 
     }
 
@@ -106,6 +126,10 @@ public class EnemyController : MonoBehaviour
         foreach (Collider2D player in hitPlayers)
         {
             player.GetComponent<PlayerCombat>().PlayerTakeDamage(attackDamage);
+            player.GetComponent<PlayerCombat>().SetInPain();
+            moveDirection = player.transform.position - this.transform.position;
+            player.GetComponent<Rigidbody2D>().AddForce(moveDirection * KnockBackForce); // added knock back force
+
             punch_Hit.Play();
         }
     }
@@ -136,5 +160,18 @@ public class EnemyController : MonoBehaviour
         canvas.GetComponent<CanvasController>().CanvasFlip();
 
     }
+
+    private void AdjustHeight()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x,Player.transform.position.y), maxSpeed * Time.deltaTime);
+    }
+
+   public void SetinPain()
+   {
+        inPain = true;
+   }
+
+    
+    
 
 }

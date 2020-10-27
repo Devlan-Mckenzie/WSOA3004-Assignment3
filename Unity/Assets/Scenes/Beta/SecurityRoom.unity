@@ -1737,6 +1737,14 @@ PrefabInstance:
       propertyPath: punch_Hit
       value: 
       objectReference: {fileID: 219451671}
+    - target: {fileID: 4672323562067784612, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: KnockBackForce
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672323562067784612, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
+      propertyPath: PainLength
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4672323562067784619, guid: 568d0d4651e26e54aae1939c44b02cf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.79026294
@@ -1835,7 +1843,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1133190443751698138, guid: eb21752d7b3ddfd4885d1817f106a9f9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1133190443751698138, guid: eb21752d7b3ddfd4885d1817f106a9f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3267,6 +3275,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1028735214965321396, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151686462703564917, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1934817838942580857, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: DustParticles
       value: 
@@ -3331,6 +3347,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4667964727546086284, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6907892593015764182, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: PressToUseButton
       value: 
@@ -3379,6 +3399,18 @@ PrefabInstance:
       propertyPath: ShadowPlayerDead
       value: 
       objectReference: {fileID: 1988171693}
+    - target: {fileID: 8017061909348937373, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: KnockBackForce
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123445421905263447, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328219281772475102, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9109315860012387995, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_Name
       value: Player
