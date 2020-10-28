@@ -12,7 +12,8 @@ public class CharacterControllerBeta : MonoBehaviour
 
     private Animator animator;
     private bool facingRight = true;
-    public Canvas canvas;
+    public Canvas Health_Stamina_Canvas;
+    public Canvas SpeechCanvas;
 
     public ParticleSystem DustParticles;
 
@@ -77,7 +78,8 @@ public class CharacterControllerBeta : MonoBehaviour
         theScale.x *= -1;
         transform.localScale = theScale;
 
-        canvas.GetComponent<CanvasController>().CanvasFlip();       
+        Health_Stamina_Canvas.GetComponent<CanvasController>().CanvasFlip();
+        SpeechCanvas.GetComponent<CanvasController>().CanvasFlip();
     }
 
     void CreateDust()
