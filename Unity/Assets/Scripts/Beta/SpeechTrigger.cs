@@ -39,6 +39,10 @@ public class SpeechTrigger : MonoBehaviour
     [Header("Time in seconds for reply from other person")]
     public float ReplyTime = 3f;
 
+    public Animator cameraAnimation;
+
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -73,7 +77,7 @@ public class SpeechTrigger : MonoBehaviour
         //    playerspeechbubble.setactive(false);
         //}
 
-
+        cameraAnimation.SetBool("CutScene1", true);
     }
 
     public void PlayerBanter()
@@ -102,6 +106,9 @@ public class SpeechTrigger : MonoBehaviour
         //{
         //    EnemySpeechBubble.SetActive(false);
         //}
+
+        cameraAnimation.SetBool("CutScene1", false);
+
     }
 
     // Update is called once per frame
@@ -124,6 +131,7 @@ public class SpeechTrigger : MonoBehaviour
                 EnemySpeechBubble.SetActive(false);
                 startTimerEnemy = false;
                 TimerEnemy = 0;
+                cameraAnimation.SetBool("CutScene1", false);
             }
         }
 
@@ -135,6 +143,7 @@ public class SpeechTrigger : MonoBehaviour
                 PlayerSpeechBubble.SetActive(false);
                 startTimerPlayer = false;
                 TimerPlayer = 0;
+                cameraAnimation.SetBool("CutScene1", false);
             }
         }
     }
