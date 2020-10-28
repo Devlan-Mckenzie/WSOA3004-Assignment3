@@ -52,6 +52,7 @@ public class PlayerCombat : MonoBehaviour
     private bool inPain = false;
     public float PainLength = 2f;
     private float PainTime = 0f;
+    private bool canTakeDmg = true;
 
     private void Start()
     {
@@ -88,6 +89,7 @@ public class PlayerCombat : MonoBehaviour
             {
                 PainTime = 0f;
                 inPain = false;
+                canTakeDmg = true;
             }
         }
     }
@@ -232,5 +234,14 @@ public class PlayerCombat : MonoBehaviour
         inPain = true;
     }
 
+    public bool CanTakeDamage()
+    {
+        return canTakeDmg;
+    }
+
+    public void DisableDamageTaken()
+    {
+        canTakeDmg = false;
+    }
  
 }
