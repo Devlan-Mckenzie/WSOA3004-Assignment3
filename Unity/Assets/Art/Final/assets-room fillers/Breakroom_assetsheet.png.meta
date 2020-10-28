@@ -1,12 +1,150 @@
 fileFormatVersion: 2
 guid: 5878733503313044caa66b656e218f4f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6773912455754421569
+    second: Breakroom_assetsheet_0
+  - first:
+      213: -1187807850731162718
+    second: Breakroom_assetsheet_1
+  - first:
+      213: -2521344594640592834
+    second: Breakroom_assetsheet_2
+  - first:
+      213: -1915083142251272568
+    second: Breakroom_assetsheet_3
+  - first:
+      213: -87647849154913509
+    second: Breakroom_assetsheet_4
+  - first:
+      213: -5868567605649733855
+    second: Breakroom_assetsheet_5
+  - first:
+      213: -8701996412176491650
+    second: Breakroom_assetsheet_6
+  - first:
+      213: 2429871884442433989
+    second: Breakroom_assetsheet_7
+  - first:
+      213: 3408744515018684622
+    second: Breakroom_assetsheet_8
+  - first:
+      213: 9199237687119981187
+    second: Breakroom_assetsheet_9
+  - first:
+      213: -1272237394501075823
+    second: Breakroom_assetsheet_10
+  - first:
+      213: -5023720921239576396
+    second: Breakroom_assetsheet_11
+  - first:
+      213: 6469150189726823559
+    second: Breakroom_assetsheet_12
+  - first:
+      213: -4824824804198193150
+    second: Breakroom_assetsheet_13
+  - first:
+      213: -3087364303473795156
+    second: Breakroom_assetsheet_14
+  - first:
+      213: -1129081094561072477
+    second: Breakroom_assetsheet_15
+  - first:
+      213: -4460512184133631231
+    second: Breakroom_assetsheet_16
+  - first:
+      213: 229969360801214854
+    second: Breakroom_assetsheet_17
+  - first:
+      213: -3069739229971448759
+    second: Breakroom_assetsheet_18
+  - first:
+      213: -4745019589984804165
+    second: Breakroom_assetsheet_19
+  - first:
+      213: 4716893507262191378
+    second: Breakroom_assetsheet_20
+  - first:
+      213: -8073119950892426129
+    second: Breakroom_assetsheet_21
+  - first:
+      213: -905081729200965358
+    second: Breakroom_assetsheet_22
+  - first:
+      213: 968687469208811703
+    second: Breakroom_assetsheet_23
+  - first:
+      213: 1519029211627402228
+    second: Breakroom_assetsheet_24
+  - first:
+      213: -1197435432533939160
+    second: Breakroom_assetsheet_25
+  - first:
+      213: -4848739448198765365
+    second: Breakroom_assetsheet_26
+  - first:
+      213: -6372886125630350465
+    second: Breakroom_assetsheet_27
+  - first:
+      213: -6604943089889840314
+    second: Breakroom_assetsheet_28
+  - first:
+      213: 4163722211338119997
+    second: Breakroom_assetsheet_29
+  - first:
+      213: -1646124862579991249
+    second: Breakroom_assetsheet_30
+  - first:
+      213: 5324502600283758934
+    second: Breakroom_assetsheet_31
+  - first:
+      213: 6011297270917528963
+    second: Breakroom_assetsheet_32
+  - first:
+      213: 1523031877212993841
+    second: Breakroom_assetsheet_33
+  - first:
+      213: -7669813566477241750
+    second: Breakroom_assetsheet_34
+  - first:
+      213: -4490642658942878612
+    second: Breakroom_assetsheet_35
+  - first:
+      213: 6542770767473707020
+    second: Breakroom_assetsheet_36
+  - first:
+      213: 6877006723586414275
+    second: Breakroom_assetsheet_37
+  - first:
+      213: 5733954222204596002
+    second: Breakroom_assetsheet_38
+  - first:
+      213: 23292865221911694
+    second: Breakroom_assetsheet_39
+  - first:
+      213: 6709288687133341276
+    second: Breakroom_assetsheet_40
+  - first:
+      213: -2855910161940319099
+    second: Breakroom_assetsheet_41
+  - first:
+      213: 69841066070703712
+    second: Breakroom_assetsheet_42
+  - first:
+      213: 8615142542112944183
+    second: Breakroom_assetsheet_43
+  - first:
+      213: 8061618093688946564
+    second: Breakroom_assetsheet_44
+  - first:
+      213: -5690581468106338833
+    second: Breakroom_assetsheet_45
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +173,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +188,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +211,184 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Breakroom_assetsheet_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 575
+        width: 401
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3bfb39d0f048fe0800000000000000
+      internalID: -1187807850731162718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakroom_assetsheet_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 822
+        width: 182
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30a8182372620dd0800000000000000
+      internalID: -2521344594640592834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakroom_assetsheet_3
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 850
+        width: 435
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88626c657024c65e0800000000000000
+      internalID: -1915083142251272568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakroom_assetsheet_42
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 152
+        width: 349
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ef0ed541028f000800000000000000
+      internalID: 69841066070703712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakroom_assetsheet_43
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 304
+        width: 437
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7307fff3f722f8770800000000000000
+      internalID: 8615142542112944183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakroom_assetsheet_44
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 358
+        width: 439
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ff035a1fe90ef60800000000000000
+      internalID: 8061618093688946564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakroom_assetsheet_45
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 63
+        width: 371
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedc9140e4ef601b0800000000000000
+      internalID: -5690581468106338833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e3645bc11ef5251448f4828b4d0957b7
     internalID: 0
     vertices: []
     indices: 
