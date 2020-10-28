@@ -62,18 +62,27 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ChasePlayer();
-        AdjustHeight();
-
-        if (inPain)
+        if (!FindObjectOfType<CharacterControllerBeta>().ActiveCutScene)
         {
-            PainTime += Time.deltaTime;
-            if (PainLength < PainTime )
+            ChasePlayer();
+            AdjustHeight();
+
+            if (inPain)
             {
-                PainTime = 0f;
-                inPain = false;
+                PainTime += Time.deltaTime;
+                if (PainLength < PainTime)
+                {
+                    PainTime = 0f;
+                    inPain = false;
+                }
             }
         }
+
+        else
+        {
+            rigidbody2D.velocity = Vector2.zero;
+        }
+       
     }
 
     void ChasePlayer()
@@ -145,7 +154,11 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        animator.SetBool("Chasing", isChasing);
+        if (!FindObjectOfType<CharacterControllerBeta>().ActiveCutScene)
+        {
+            animator.SetBool("Chasing", isChasing);
+        }
+       
     }
 
     private void Flip()

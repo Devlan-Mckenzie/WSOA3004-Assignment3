@@ -17,6 +17,10 @@ public class CharacterControllerBeta : MonoBehaviour
 
     public ParticleSystem DustParticles;
 
+    public bool ActiveCutScene=false;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,10 +31,18 @@ public class CharacterControllerBeta : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Read all the inputs 
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");        
-        Move(h, v);
+        if (!ActiveCutScene)
+        {
+            // Read all the inputs
+            float h = Input.GetAxis("Horizontal");
+            float v = Input.GetAxis("Vertical");
+            Move(h, v);
+        }
+
+        else
+        {
+            rigidbody2D.velocity = Vector2.zero;
+        }
     }
 
     private void FixedUpdate()

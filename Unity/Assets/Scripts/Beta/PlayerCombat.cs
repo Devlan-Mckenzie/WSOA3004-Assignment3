@@ -70,26 +70,30 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= nextAttackTime)
+        if (!FindObjectOfType<CharacterControllerBeta>().ActiveCutScene)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0) && currentStamina >= attackStamina && !inPain)
+            if (Time.time >= nextAttackTime)
             {
-                Attack();
-                nextAttackTime = Time.time + 1f / attackRate;
+                if (Input.GetKeyDown(KeyCode.Mouse0) && currentStamina >= attackStamina && !inPain)
+                {
+                    Attack();
+                    nextAttackTime = Time.time + 1f / attackRate;
+                }
             }
-        }
-        HealthRegen();
-        StaminaRegen();
+            HealthRegen();
+            StaminaRegen();
 
-        if (inPain)
-        {
-            PainTime += Time.deltaTime;
-            if (PainLength < PainTime)
+            if (inPain)
             {
-                PainTime = 0f;
-                inPain = false;
+                PainTime += Time.deltaTime;
+                if (PainLength < PainTime)
+                {
+                    PainTime = 0f;
+                    inPain = false;
+                }
             }
         }
+        
     }
 
     void HealthRegen()

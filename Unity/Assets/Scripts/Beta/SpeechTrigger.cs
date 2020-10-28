@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class SpeechTrigger : MonoBehaviour
 {
-    public GameObject GeneralSpeechUI;
+    //public GameObject GeneralSpeechUI;
+    [Header ("SpeeechBubbles")]
     public GameObject EnemySpeechBubble;
     public GameObject PlayerSpeechBubble;
 
@@ -63,21 +64,9 @@ public class SpeechTrigger : MonoBehaviour
         //Start the enemy timer for comments to fade
         startTimerEnemy = true;
 
-        //if (!enemyspeechbubble.activeself && !playerspeechbubble.activeself)
-        //{
-        //    enemyspeechbubble.setactive(true);
-        //}
-        //else if (!enemyspeechbubble.activeself && playerspeechbubble.activeself)
-        //{
-        //    playerspeechbubble.setactive(false);
-        //    enemyspeechbubble.setactive(true);
-        //}
-        //else if(enemyspeechbubble.activeself && playerspeechbubble.activeself)
-        //{
-        //    playerspeechbubble.setactive(false);
-        //}
-
-        cameraAnimation.SetBool("CutScene1", true);
+        cameraAnimation.SetInteger("CameraSelect", 2);
+        FindObjectOfType<CharacterControllerBeta>().ActiveCutScene = true;
+        
     }
 
     public void PlayerBanter()
@@ -91,23 +80,9 @@ public class SpeechTrigger : MonoBehaviour
         //start the player timer for comments to fade
         startTimerPlayer = true;
 
-        //if (!EnemySpeechBubble.activeSelf && !PlayerSpeechBubble.activeSelf)
-        //{
-        //    PlayerSpeechBubble.SetActive(true);
-        //}
+        cameraAnimation.SetInteger("CameraSelect",1);
+        FindObjectOfType<CharacterControllerBeta>().ActiveCutScene = true;
 
-        //else if (EnemySpeechBubble.activeSelf && !PlayerSpeechBubble.activeSelf)
-        //{
-        //    PlayerSpeechBubble.SetActive(true);
-        //    EnemySpeechBubble.SetActive(false);
-        //}
-
-        //else if (EnemySpeechBubble.activeSelf && PlayerSpeechBubble.activeSelf)
-        //{
-        //    EnemySpeechBubble.SetActive(false);
-        //}
-
-        cameraAnimation.SetBool("CutScene1", false);
 
     }
 
@@ -131,7 +106,9 @@ public class SpeechTrigger : MonoBehaviour
                 EnemySpeechBubble.SetActive(false);
                 startTimerEnemy = false;
                 TimerEnemy = 0;
-                cameraAnimation.SetBool("CutScene1", false);
+                cameraAnimation.SetInteger("CameraSelect", 0);
+                FindObjectOfType<CharacterControllerBeta>().ActiveCutScene = false;
+
             }
         }
 
@@ -143,7 +120,8 @@ public class SpeechTrigger : MonoBehaviour
                 PlayerSpeechBubble.SetActive(false);
                 startTimerPlayer = false;
                 TimerPlayer = 0;
-                cameraAnimation.SetBool("CutScene1", false);
+                cameraAnimation.SetInteger("CameraSelect", 0);
+                FindObjectOfType<CharacterControllerBeta>().ActiveCutScene = false;
             }
         }
     }
@@ -166,14 +144,14 @@ public class SpeechTrigger : MonoBehaviour
     {
         if (EnemyScript.currentHealth <= HealthThreshold && PlayerWinning && !hasPlayedHealthThreshold)
         {
-            GeneralSpeechUI.SetActive(true);            
+            //GeneralSpeechUI.SetActive(true);            
             EnemyBanter();
             Invoke("PlayerBanter", ReplyTime);
             hasPlayedHealthThreshold = true;
         }
         else if (PlayerHealth <= HealthThreshold && EnemyWinning && !hasPlayedHealthThreshold)
         {
-            GeneralSpeechUI.SetActive(true);
+            //GeneralSpeechUI.SetActive(true);
             PlayerBanter();
             Invoke("EnemyBanter", ReplyTime);
             hasPlayedHealthThreshold = true;
@@ -181,14 +159,14 @@ public class SpeechTrigger : MonoBehaviour
 
         if (EnemyScript.currentHealth <= 0 && !hasPlayedDeath)
         {
-            GeneralSpeechUI.SetActive(true);
+            //GeneralSpeechUI.SetActive(true);
             PlayerBanter();
             hasPlayedDeath = true;
         }
 
         if (PlayerHealth <= 0 && !hasPlayedDeath)
         {
-            GeneralSpeechUI.SetActive(true);
+            //GeneralSpeechUI.SetActive(true);
             EnemyBanter();
             hasPlayedDeath = true;
         }
