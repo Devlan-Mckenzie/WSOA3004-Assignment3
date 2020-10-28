@@ -1,12 +1,114 @@
 fileFormatVersion: 2
 guid: b626227b6f0d072439a5e78426e9333e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6324986206008961018
+    second: genRoom_Assetsheet_0
+  - first:
+      213: -3528569275474138848
+    second: genRoom_Assetsheet_1
+  - first:
+      213: 1894743388653183303
+    second: genRoom_Assetsheet_2
+  - first:
+      213: 6361769934890991672
+    second: genRoom_Assetsheet_3
+  - first:
+      213: -996143730082847345
+    second: genRoom_Assetsheet_4
+  - first:
+      213: -8306471805711589425
+    second: genRoom_Assetsheet_5
+  - first:
+      213: 5629348383694073137
+    second: genRoom_Assetsheet_6
+  - first:
+      213: 3674764780967979251
+    second: genRoom_Assetsheet_7
+  - first:
+      213: -449533601644799781
+    second: genRoom_Assetsheet_8
+  - first:
+      213: 1527205309832226994
+    second: genRoom_Assetsheet_9
+  - first:
+      213: 965751398448038556
+    second: genRoom_Assetsheet_10
+  - first:
+      213: 5050517716138323013
+    second: genRoom_Assetsheet_11
+  - first:
+      213: 547954992654526539
+    second: genRoom_Assetsheet_12
+  - first:
+      213: -6211220227359204101
+    second: genRoom_Assetsheet_13
+  - first:
+      213: -6266236321587094052
+    second: genRoom_Assetsheet_14
+  - first:
+      213: -7581525900071437147
+    second: genRoom_Assetsheet_15
+  - first:
+      213: -7360606940796780452
+    second: genRoom_Assetsheet_16
+  - first:
+      213: 4507811689120518292
+    second: genRoom_Assetsheet_17
+  - first:
+      213: 3592207102990668454
+    second: genRoom_Assetsheet_18
+  - first:
+      213: 1773574199658697910
+    second: genRoom_Assetsheet_19
+  - first:
+      213: 8243903659497934185
+    second: genRoom_Assetsheet_20
+  - first:
+      213: 1720514681710023632
+    second: genRoom_Assetsheet_21
+  - first:
+      213: -4896563262496541328
+    second: genRoom_Assetsheet_22
+  - first:
+      213: -3439014500518210185
+    second: genRoom_Assetsheet_23
+  - first:
+      213: 7552291560989541641
+    second: genRoom_Assetsheet_24
+  - first:
+      213: 3236087606857883679
+    second: genRoom_Assetsheet_25
+  - first:
+      213: 2949067486298356949
+    second: genRoom_Assetsheet_26
+  - first:
+      213: 6202496635272695009
+    second: genRoom_Assetsheet_27
+  - first:
+      213: 1599714427509301285
+    second: genRoom_Assetsheet_28
+  - first:
+      213: 1773157986144073330
+    second: genRoom_Assetsheet_29
+  - first:
+      213: -8772486018798929752
+    second: genRoom_Assetsheet_30
+  - first:
+      213: -8981598715428453072
+    second: genRoom_Assetsheet_31
+  - first:
+      213: -328719366468996006
+    second: genRoom_Assetsheet_32
+  - first:
+      213: -7442989481203394454
+    second: genRoom_Assetsheet_33
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +137,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +152,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +175,478 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_12
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1014
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b482312a92aba9700800000000000000
+      internalID: 547954992654526539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_13
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1014
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc98869c105dc9a0800000000000000
+      internalID: -6211220227359204101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_14
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1014
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd9625f34bd909a0800000000000000
+      internalID: -6266236321587094052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_15
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1014
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac71decc5209c690800000000000000
+      internalID: -7581525900071437147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_16
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1014
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50888a4cfed9d990800000000000000
+      internalID: -7360606940796780452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_17
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1014
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490d16c09d6fe8e30800000000000000
+      internalID: 4507811689120518292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_18
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1014
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2d46de3551ad130800000000000000
+      internalID: 3592207102990668454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_19
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1014
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4547976500d9810800000000000000
+      internalID: 1773574199658697910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_20
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1014
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dcae243ba386270800000000000000
+      internalID: 8243903659497934185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_21
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1014
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d39b22ccfe70e710800000000000000
+      internalID: 1720514681710023632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_22
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1014
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0757aa6e7a9eb0cb0800000000000000
+      internalID: -4896563262496541328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_23
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1014
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775d13f488a2640d0800000000000000
+      internalID: -3439014500518210185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_25
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1006
+        width: 250
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10eecc6884e8ec20800000000000000
+      internalID: 3236087606857883679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 534
+        width: 251
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcb77301413de820800000000000000
+      internalID: 2949067486298356949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_27
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 667
+        width: 324
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec0cf9d3d1b31650800000000000000
+      internalID: 6202496635272695009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_28
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 548
+        width: 392
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52062c1dbc3533610800000000000000
+      internalID: 1599714427509301285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_29
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 546
+        width: 162
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276b3c63bc58b9810800000000000000
+      internalID: 1773157986144073330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_30
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 23
+        width: 702
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8b86cc17ed14680800000000000000
+      internalID: -8772486018798929752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_31
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 288
+        width: 305
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03548cb0e83fa5380800000000000000
+      internalID: -8981598715428453072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_32
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 305
+        width: 305
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54f2d25a77207bf0800000000000000
+      internalID: -328719366468996006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: genRoom_Assetsheet_33
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 127
+        width: 115
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6817e1608035b890800000000000000
+      internalID: -7442989481203394454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

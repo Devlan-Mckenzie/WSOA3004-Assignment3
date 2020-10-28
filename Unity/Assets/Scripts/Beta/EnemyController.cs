@@ -97,7 +97,7 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
-                if (Time.time >= nextAttackTime)
+                if (Time.time >= nextAttackTime && Player.GetComponent<PlayerCombat>().CanTakeDamage())
                 {
                     Attack();
                     nextAttackTime = Time.time + 1f / attackRate;
@@ -135,6 +135,7 @@ public class EnemyController : MonoBehaviour
         foreach (Collider2D player in hitPlayers)
         {
             player.GetComponent<PlayerCombat>().PlayerTakeDamage(attackDamage);
+            player.GetComponent<PlayerCombat>().DisableDamageTaken();
             player.GetComponent<PlayerCombat>().SetInPain();
             moveDirection = player.transform.position - this.transform.position;
             player.GetComponent<Rigidbody2D>().AddForce(moveDirection * KnockBackForce); // added knock back force
