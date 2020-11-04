@@ -1147,8 +1147,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 10
-  canvas: {fileID: 3625660404634563912}
+  Health_Stamina_Canvas: {fileID: 0}
+  SpeechCanvas: {fileID: 0}
   DustParticles: {fileID: 0}
+  ActiveCutScene: 0
 --- !u!50 &406621962595928755
 Rigidbody2D:
   serializedVersion: 4
@@ -1228,6 +1230,9 @@ MonoBehaviour:
   - {fileID: 1445996695646339963}
   - {fileID: 1644187240810961375}
   - {fileID: 897264447886600564}
+  MultiAttackRange: 0.5
+  KnockBackForce: 10
+  PainLength: 2
 --- !u!61 &8213882264912198734
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1300,13 +1305,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_sounds:
-  - audioClip: {fileID: 8300000, guid: 2a8ccec8c849fb748b3627c83a9da9ca, type: 3}
-    volume: 2.5
-    pitch: 0.75
-    name: _Footstep.01
+  - audioClip: {fileID: 8300000, guid: 78839d6b61cac0347b5ac2a24f54b48b, type: 3}
+    volume: 3
+    pitch: 1
+    name: _Walk
     loop: 0
     audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: 283995af03773f043860cdf3b2e30ad1, type: 3}
+  - audioClip: {fileID: 0}
     volume: 3
     pitch: 0.8
     name: _Footstep.02

@@ -3727,6 +3727,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6324857160797207857, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324857160797207857, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_sounds.Array.data[0].volume
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6907892593015764182, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: PressToUseButton
       value: 

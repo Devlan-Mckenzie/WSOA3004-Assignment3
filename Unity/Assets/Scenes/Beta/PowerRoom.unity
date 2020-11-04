@@ -1828,7 +1828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1916211881
 Transform:
   m_ObjectHideFlags: 0
@@ -2175,6 +2175,46 @@ PrefabInstance:
     - target: {fileID: 4238775347925024434, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d7da341faac9ebc4e8974a2ed4b7e7f4, type: 3}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.data[1].volume
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.data[1].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.data[1].name
+      value: ThrustSfx
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef9655ee935c7ce4f9a75eee9417230a, type: 3}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.data[2].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.data[2].name
+      value: PlayerDeath_
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef9655ee935c7ce4f9a75eee9417230a, type: 3}
+    - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_sounds.Array.data[3].name
+      value: PlayerDeath_
       objectReference: {fileID: 0}
     - target: {fileID: 6833663983855182119, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
       propertyPath: PressToUseButton

@@ -1577,13 +1577,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_sounds:
-  - audioClip: {fileID: 8300000, guid: 2a8ccec8c849fb748b3627c83a9da9ca, type: 3}
-    volume: 2.5
-    pitch: 0.75
-    name: _Footstep.01
+  - audioClip: {fileID: 8300000, guid: 78839d6b61cac0347b5ac2a24f54b48b, type: 3}
+    volume: 4
+    pitch: 1
+    name: _Walk
     loop: 0
     audioSource: {fileID: 0}
-  - audioClip: {fileID: 8300000, guid: 283995af03773f043860cdf3b2e30ad1, type: 3}
+  - audioClip: {fileID: 0}
     volume: 3
     pitch: 0.8
     name: _Footstep.02
