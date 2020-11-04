@@ -1194,7 +1194,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1382924856}
   - component: {fileID: 1382924857}
-  - component: {fileID: 1382924858}
   m_Layer: 0
   m_Name: Main Menu Scene Audio
   m_TagString: Untagged
@@ -1229,7 +1228,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 68245c48153c312429e8016e7b15f26c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 0.3
+  m_Pitch: 0.45
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -1312,21 +1311,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!166 &1382924858
-AudioChorusFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1382924855}
-  m_Enabled: 1
-  m_DryMix: 0.5
-  m_WetMix1: 0.5
-  m_WetMix2: 0.5
-  m_WetMix3: 0.5
-  m_Delay: 40
-  m_Rate: 0.8
-  m_Depth: 0.8
 --- !u!1 &1423288983
 GameObject:
   m_ObjectHideFlags: 0
