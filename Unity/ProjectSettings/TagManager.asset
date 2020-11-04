@@ -36,10 +36,10 @@ TagManager:
   - Boxes
   - Enemy
   - Player
-  - 
-  - 
-  - 
-  - 
+  - Furniture
+  - GroundFloor
+  - Door
+  - BackGround
   - 
   - 
   - 
