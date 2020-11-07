@@ -11,6 +11,9 @@ public class SpeechTrigger : MonoBehaviour
     public GameObject EnemySpeechBubble;
     public GameObject PlayerSpeechBubble;
 
+    [Header("Image Behind Characters During Speech")]
+    public GameObject SpeedlinesBackground;
+
     //public Text speech;
 
     public Text EnemySpeech;
@@ -20,6 +23,7 @@ public class SpeechTrigger : MonoBehaviour
 
     private float EnemyHealth;
     private float PlayerHealth;
+
     [Header ("HP Threshold for comments")]
     public int HealthThreshold = 60;
 
@@ -61,6 +65,7 @@ public class SpeechTrigger : MonoBehaviour
         EnemyComment++;
         //Display enemy speech bubble if called 
         EnemySpeechBubble.SetActive(true);
+        SpeedlinesBackground.SetActive(true);
         //Start the enemy timer for comments to fade
         startTimerEnemy = true;
 
@@ -77,6 +82,7 @@ public class SpeechTrigger : MonoBehaviour
         PlayerComment++;
         //Display Player speech bubble if called 
         PlayerSpeechBubble.SetActive(true);
+        SpeedlinesBackground.SetActive(true);
         //start the player timer for comments to fade
         startTimerPlayer = true;
 
@@ -104,6 +110,7 @@ public class SpeechTrigger : MonoBehaviour
             if (TimerEnemy > CommentFade)
             {                
                 EnemySpeechBubble.SetActive(false);
+                SpeedlinesBackground.SetActive(false);
                 startTimerEnemy = false;
                 TimerEnemy = 0;
                 cameraAnimation.SetInteger("CameraSelect", 0);
@@ -118,6 +125,7 @@ public class SpeechTrigger : MonoBehaviour
             if (TimerPlayer > CommentFade)
             {
                 PlayerSpeechBubble.SetActive(false);
+                SpeedlinesBackground.SetActive(false);
                 startTimerPlayer = false;
                 TimerPlayer = 0;
                 cameraAnimation.SetInteger("CameraSelect", 0);
