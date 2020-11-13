@@ -7,14 +7,15 @@ using UnityEngine.SceneManagement;
 public class Instructions : MonoBehaviour
 {
     public GameObject SpeechBackground;
-    public Text intructions;
-    public string Instructionstext;
+    public Text instructions;
+    public string[] Instructionstext;
 
     public int RoomCounter;
     // Start is called before the first frame update
     void Start()
     {
         SpeechBackground = this.gameObject;
+        RoomCounter = SceneManager.GetActiveScene().buildIndex;
         
     }
     public void ShowInstructions()
@@ -24,36 +25,18 @@ public class Instructions : MonoBehaviour
             SpeechBackground.SetActive(true);
         }
 
-        if(RoomCounter == 0 && SpeechBackground.activeSelf)
+        if(SpeechBackground.activeSelf)
         {
-            Instructionstext = "Instructions for the firstroom";
+            instructions.text = Instructionstext[RoomCounter-1];
             
         }
-
-        else if (RoomCounter == 1 && SpeechBackground.activeSelf)
-        {
-            Instructionstext = "Instructions for the secondroom";
-
-        }
-
-        else if (RoomCounter == 2 && SpeechBackground.activeSelf)
-        {
-            Instructionstext = "Instructions for the thirdroom";
-
-        }
-
-        else if (RoomCounter == 3 && SpeechBackground.activeSelf)
-        {
-            Instructionstext = "Instructions for the finalroom";
-
-        }
-
+        
     }
 
     
     // Update is called once per frame
     void Update()
     {
-        
+        ShowInstructions();
     }
 }

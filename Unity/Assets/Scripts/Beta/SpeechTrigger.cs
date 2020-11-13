@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class SpeechTrigger : MonoBehaviour
 {
     //public GameObject GeneralSpeechUI;
-    [Header ("SpeeechBubbles")]
+    [Header ("SpeechBubbles")]
     public GameObject EnemySpeechBubble;
     public GameObject PlayerSpeechBubble;
 
@@ -15,9 +15,10 @@ public class SpeechTrigger : MonoBehaviour
     public GameObject SpeedlinesBackground;
 
     //public Text speech;
-
+    [Header ("")]
     public Text EnemySpeech;
     public string[] EnemyWords;
+    [Header("")]
     public Text PlayerSpeech;
     public string[] PlayerWords;
 

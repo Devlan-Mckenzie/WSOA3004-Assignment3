@@ -112,9 +112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c2bbccbb6398bd4e9e045741e5e8e81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GeneralSpeechUI: {fileID: 0}
   EnemySpeechBubble: {fileID: 0}
   PlayerSpeechBubble: {fileID: 0}
+  SpeedlinesBackground: {fileID: 0}
   EnemySpeech: {fileID: 0}
   EnemyWords:
   - 'Enemycomment 1 '
@@ -146,6 +146,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeechBackground: {fileID: 0}
-  intructions: {fileID: 0}
-  Instructionstext: 
+  instructions: {fileID: 0}
+  Instructionstext:
+  - break room
+  - power room
+  - armoury
+  - security room
+  - power room 2
   RoomCounter: 0
