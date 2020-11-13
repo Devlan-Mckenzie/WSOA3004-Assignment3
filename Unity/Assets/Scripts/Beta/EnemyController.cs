@@ -6,6 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField]
     private float maxSpeed = 10f;
+    public float mimicSpeed = 2f;
 
     private new Rigidbody2D rigidbody2D;
 
@@ -177,7 +178,7 @@ public class EnemyController : MonoBehaviour
 
     private void AdjustHeight()
     {
-        transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x,Player.transform.position.y), maxSpeed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x,Player.transform.position.y), mimicSpeed * Time.deltaTime);
     }
 
    public void SetinPain()
