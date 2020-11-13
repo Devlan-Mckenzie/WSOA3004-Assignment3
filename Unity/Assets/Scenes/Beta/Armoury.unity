@@ -906,6 +906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 628981433}
   - component: {fileID: 628981434}
+  - component: {fileID: 628981435}
   m_Layer: 0
   m_Name: armoury New
   m_TagString: Untagged
@@ -978,6 +979,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &628981435
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628981432}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.599999, y: -2.8101046}
+  - {x: -9.601353, y: -5.4042034}
+  - {x: 9.600964, y: -5.397433}
+  - {x: 9.600951, y: -2.8503928}
+  - {x: -9.6002035, y: -2.8098502}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &634488139
 GameObject:
   m_ObjectHideFlags: 0

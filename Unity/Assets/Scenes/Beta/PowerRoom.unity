@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 17083216}
   - component: {fileID: 17083217}
-  - component: {fileID: 17083218}
   - component: {fileID: 17083219}
   m_Layer: 0
   m_Name: Power Room new
@@ -207,28 +206,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!68 &17083218
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17083215}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -3.19}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -9.599999, y: 0}
-  - {x: 9.599999, y: 0}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!68 &17083219
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -245,8 +222,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: -5.44}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -9.599999, y: 0}
-  - {x: 9.599999, y: 0}
+  - {x: -9.599995, y: 0.040007114}
+  - {x: -9.599839, y: 2.3394797}
+  - {x: 9.600146, y: 2.2805896}
+  - {x: 9.630787, y: 0.043121338}
+  - {x: -9.6, y: 0.039998055}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -2578,6 +2558,10 @@ PrefabInstance:
       propertyPath: punch_Hit
       value: 
       objectReference: {fileID: 1177697805}
+    - target: {fileID: 1707503940156153145, guid: faf50645266436e4385a6666a48e4cdd, type: 3}
+      propertyPath: maxSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1707503940156153148, guid: faf50645266436e4385a6666a48e4cdd, type: 3}
       propertyPath: m_Name
       value: Prisoner 1
