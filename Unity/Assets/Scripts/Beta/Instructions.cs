@@ -8,9 +8,10 @@ public class Instructions : MonoBehaviour
 {
     public GameObject SpeechBackground;
     public Text instructions;
+    [Header("5 Rooms and instructions for each")]
     public string[] Instructionstext;
 
-    public int RoomCounter;
+    private int RoomCounter;
     // Start is called before the first frame update
     void Start()
     {
