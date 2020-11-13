@@ -8,7 +8,7 @@ public class RoomTriggers : MonoBehaviour
 {
     //this is the ui to let player know that they can press the E to use a switch
     public GameObject PressToUseButton;
-    public Rigidbody2D Player;
+    private Rigidbody2D Player;
 
     //this should be assigned to the 3 different types of lighting that will be included in the first room
 
@@ -59,6 +59,17 @@ public class RoomTriggers : MonoBehaviour
         {
             CablePossession = true;
         }
+
+        if (FindObjectOfType<Enemy>().currentHealth <= 0)
+        {
+            if (collision.gameObject.tag == "Room trigger")
+            {
+
+                PressToUseButton.SetActive(true);
+
+            }
+        }
+            
     }
 
 
