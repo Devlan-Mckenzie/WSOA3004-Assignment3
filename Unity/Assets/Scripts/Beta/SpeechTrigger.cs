@@ -46,8 +46,11 @@ public class SpeechTrigger : MonoBehaviour
     public float ReplyTime = 3f;
 
     public Animator cameraAnimation;
+    public int PlayerZoomCount = 0;
+    public int EnemyZoomCount = 0;
 
-    
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -66,13 +69,19 @@ public class SpeechTrigger : MonoBehaviour
         EnemyComment++;
         //Display enemy speech bubble if called 
         EnemySpeechBubble.SetActive(true);
-        SpeedlinesBackground.SetActive(true);
+        
         //Start the enemy timer for comments to fade
         startTimerEnemy = true;
-
-        cameraAnimation.SetInteger("CameraSelect", 2);
-        FindObjectOfType<CharacterControllerBeta>().ActiveCutScene = true;
+        EnemyZoomCount++;
         
+        FindObjectOfType<CharacterControllerBeta>().ActiveCutScene = true;
+        if (EnemyZoomCount !=2)
+        {
+            
+            cameraAnimation.SetInteger("CameraSelect", 2);
+            SpeedlinesBackground.SetActive(true);
+        }
+
     }
 
     public void PlayerBanter()
@@ -83,13 +92,18 @@ public class SpeechTrigger : MonoBehaviour
         PlayerComment++;
         //Display Player speech bubble if called 
         PlayerSpeechBubble.SetActive(true);
-        SpeedlinesBackground.SetActive(true);
+        
         //start the player timer for comments to fade
         startTimerPlayer = true;
-
-        cameraAnimation.SetInteger("CameraSelect",1);
+        PlayerZoomCount++;
+        
         FindObjectOfType<CharacterControllerBeta>().ActiveCutScene = true;
-
+        if (PlayerZoomCount!=2)
+        {
+            
+            cameraAnimation.SetInteger("CameraSelect", 1);
+            SpeedlinesBackground.SetActive(true);
+        }
 
     }
 

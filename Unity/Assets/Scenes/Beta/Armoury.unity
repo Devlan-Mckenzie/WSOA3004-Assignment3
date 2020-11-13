@@ -2726,6 +2726,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1373910540964688819, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3244120657237501431, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2786,6 +2790,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4945591921308299414, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6437916044461986549, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
       propertyPath: m_Camera
       value: 
@@ -2793,6 +2801,10 @@ PrefabInstance:
     - target: {fileID: 6437916044461986549, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
       propertyPath: m_SortingLayerID
       value: 1327563865
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437916044461986549, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9178622032648002410, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
       propertyPath: m_Name
@@ -3316,7 +3328,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PressToUseButton: {fileID: 0}
-  Player: {fileID: 0}
   MinimalLighting: {fileID: 0}
   GeneratorLighting: {fileID: 0}
   GlobalLighting: {fileID: 0}

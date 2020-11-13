@@ -349,7 +349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44496282}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.46, y: -0.9, z: 0}
+  m_LocalPosition: {x: 4.36, y: -2.81, z: 0}
   m_LocalScale: {x: 1.58, y: 1.48, z: 1}
   m_Children: []
   m_Father: {fileID: 1412822844}
@@ -1416,7 +1416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187333307}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.71, y: -1.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1412822844}
@@ -1429,16 +1429,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187333307}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb718bf64f8b4aa429f7ab5ee037d0bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PressToUseButton: {fileID: 0}
-  Player: {fileID: 0}
-  MinimalLighting: {fileID: 0}
-  GeneratorLighting: {fileID: 0}
-  GlobalLighting: {fileID: 0}
+  PressToUseButton: {fileID: 1980686355}
+  MinimalLighting: {fileID: 29404424}
+  GeneratorLighting: {fileID: 456061452}
+  GlobalLighting: {fileID: 1755172653}
   died: 0
   Alarm: 0
   CablePossession: 0
@@ -1468,7 +1467,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 5.7612333, y: -1.9172668}
+  m_Offset: {x: 0.8438029, y: -2.4677248}
   m_SpriteTilingProperty:
     border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
     pivot: {x: 0.5, y: 0.5}
@@ -1479,7 +1478,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.9693909, y: 5.693369}
+  m_Size: {x: 15.272141, y: 8.482361}
   m_EdgeRadius: 0
 --- !u!212 &1187333311
 SpriteRenderer:
@@ -2161,7 +2160,7 @@ Canvas:
   m_GameObject: {fileID: 1980686355}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 321197316}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2419,6 +2418,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4238775347925024434, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4945591921308299414, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6254838571760822464, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
@@ -3139,6 +3142,10 @@ PrefabInstance:
     - target: {fileID: 7291612096686108961, guid: 8c0716402b3a394498c9db05cb20d65f, type: 3}
       propertyPath: m_LocalPosition.z
       value: -9.354812
+      objectReference: {fileID: 0}
+    - target: {fileID: 7291612096686108963, guid: 8c0716402b3a394498c9db05cb20d65f, type: 3}
+      propertyPath: m_Name
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7291612096717344252, guid: 8c0716402b3a394498c9db05cb20d65f, type: 3}
       propertyPath: m_LocalPosition.x
