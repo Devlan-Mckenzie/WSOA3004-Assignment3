@@ -77,7 +77,9 @@ public class PlayerCombat : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Mouse0) && currentStamina >= attackStamina && !inPain)
                 {
+                    Debug.Log("Mouse click");
                     Attack();
+                    Debug.Log("Attack was Called before");
                     nextAttackTime = Time.time + 1f / attackRate;
                 }
             }
@@ -125,11 +127,13 @@ public class PlayerCombat : MonoBehaviour
     }
     void Attack()
     {
+        Debug.Log("Attacking call ");
         currentStamina -= attackStamina;
         staminaBar.SetStamina(currentStamina);
 
         //Play attack animation
         animator.SetTrigger("Attack");
+        Debug.Log("Attack Trigger set");
 
         //Detect enemies hit
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);

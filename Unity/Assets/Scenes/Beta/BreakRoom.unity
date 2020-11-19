@@ -573,6 +573,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3625660404634563908, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
+      propertyPath: m_Name
+      value: Player Bars
+      objectReference: {fileID: 0}
     - target: {fileID: 3769407888720450802, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -627,7 +631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4667964727546086284, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6324857160797207857, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_sounds.Array.data[0].audioClip
@@ -691,7 +695,7 @@ PrefabInstance:
       objectReference: {fileID: 222228103}
     - target: {fileID: 8328219281772475102, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9109315860012387995, guid: 6ed520a3ce53784469c6299b282be07d, type: 3}
       propertyPath: m_Name
@@ -2152,7 +2156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -5.552, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -442.00003, y: 336}
+  m_AnchoredPosition: {x: -442, y: 336}
   m_SizeDelta: {x: 389.91943, y: 199.90784}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304462357
