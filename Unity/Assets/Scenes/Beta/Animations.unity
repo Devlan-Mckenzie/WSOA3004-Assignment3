@@ -3160,7 +3160,7 @@ Rigidbody2D:
   m_Mass: 40
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3361,7 +3361,7 @@ Rigidbody2D:
   m_Mass: 40
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -4776,7 +4776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &736311176
 Transform:
   m_ObjectHideFlags: 0
@@ -6779,7 +6779,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124590508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.78, y: -0.85, z: 10}
+  m_LocalPosition: {x: -0.62, y: -0.85, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 528655003}
@@ -11217,6 +11217,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3447518385743633093, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3447518385743633094, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.7
@@ -11245,6 +11249,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4831195885905801403, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831195885905801403, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5544786051100757680, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -11252,6 +11264,14 @@ PrefabInstance:
     - target: {fileID: 5544786051100757680, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156114553349524708, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156114553349524708, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9135697527852659439, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
       propertyPath: m_AnchorMax.x
@@ -11304,7 +11324,7 @@ Rigidbody2D:
   m_Mass: 40
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -11429,7 +11449,7 @@ Rigidbody2D:
   m_Mass: 40
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
