@@ -2149,7 +2149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 676ac23510e3fec4eb3ffd72573b259f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 10
+  maxSpeed: 5
   mimicSpeed: 2
   minDistance: 1
   agroRange: 5
@@ -2158,8 +2158,8 @@ MonoBehaviour:
   attackRange: 0.5
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  attackRate: 2
+    m_Bits: 2048
+  attackRate: 0.25
   canvas: {fileID: 0}
   punch_Hit: {fileID: 0}
   KnockBackForce: 10
@@ -2330,7 +2330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 676ac23510e3fec4eb3ffd72573b259f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 10
+  maxSpeed: 5
   mimicSpeed: 2
   minDistance: 1
   agroRange: 5
@@ -2339,8 +2339,8 @@ MonoBehaviour:
   attackRange: 0.5
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  attackRate: 2
+    m_Bits: 2048
+  attackRate: 0.25
   canvas: {fileID: 0}
   punch_Hit: {fileID: 0}
   KnockBackForce: 10
@@ -8979,7 +8979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 676ac23510e3fec4eb3ffd72573b259f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 10
+  maxSpeed: 5
   mimicSpeed: 2
   minDistance: 1
   agroRange: 5
@@ -8988,8 +8988,8 @@ MonoBehaviour:
   attackRange: 0.5
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  attackRate: 2
+    m_Bits: 2048
+  attackRate: 0.25
   canvas: {fileID: 0}
   punch_Hit: {fileID: 0}
   KnockBackForce: 10
@@ -9607,7 +9607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 676ac23510e3fec4eb3ffd72573b259f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 10
+  maxSpeed: 5
   mimicSpeed: 2
   minDistance: 1
   agroRange: 5
@@ -9616,8 +9616,8 @@ MonoBehaviour:
   attackRange: 0.5
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  attackRate: 2
+    m_Bits: 2048
+  attackRate: 0.25
   canvas: {fileID: 0}
   punch_Hit: {fileID: 0}
   KnockBackForce: 10
