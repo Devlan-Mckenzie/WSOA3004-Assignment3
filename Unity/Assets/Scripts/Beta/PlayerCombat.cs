@@ -77,9 +77,9 @@ public class PlayerCombat : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Mouse0) && currentStamina >= attackStamina && !inPain)
                 {
-                    Debug.Log("Mouse click");
+                   
                     Attack();
-                    Debug.Log("Attack was Called before");
+                    
                     nextAttackTime = Time.time + 1f / attackRate;
                 }
             }
@@ -127,38 +127,39 @@ public class PlayerCombat : MonoBehaviour
     }
     void Attack()
     {
-        Debug.Log("Attacking call ");
+       
         currentStamina -= attackStamina;
         staminaBar.SetStamina(currentStamina);
 
         //Play attack animation
         animator.SetTrigger("Attack");
-        Debug.Log("Attack Trigger set");
+       
 
-        //Detect enemies hit
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
+        ////detect enemies hit
+        //collider2d[] hitenemies = physics2d.overlapcircleall(attackpoint.position,attackrange,enemylayers);
 
-        //Damage enemies
-        foreach (Collider2D enemy in hitEnemies)
-        {
-            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
-            moveDirection = enemy.transform.position - this.transform.position;   
-            enemy.GetComponent<EnemyController>().SetinPain();
-            enemy.GetComponent<Rigidbody2D>().AddForce(moveDirection.normalized * KnockBackForce);
-            hitSound.Play();
-        }
+        ////damage enemies
+        //foreach (collider2d enemy in hitenemies)
+        //{
+        //    enemy.getcomponent<enemy>().takedamage(attackdamage);
+        //    movedirection = enemy.transform.position - this.transform.position;   
+        //    enemy.getcomponent<enemycontroller>().setinpain();
+        //    enemy.getcomponent<rigidbody2d>().addforce(movedirection.normalized * knockbackforce);
+        //    hitsound.play();
+        //}
     }
 
     public void AttackMulti(int AttackPointNum)
     {
         if (!HitEnemy)
-        {
+        {   
             //Detect enemies hit
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackChecks[AttackPointNum].position, MultiAttackRange, enemyLayers);// Updated to use a point in a list of attack points, new range same affected layers 
-            Debug.Log("The num is " + AttackPointNum);
+            Debug.Log(AttackPointNum);
             //Damage enemies
             foreach (Collider2D enemy in hitEnemies) // same check performed in smaller area multiple times per animation of attack 
             {
+                Debug.Log("hit Enemy");
                 HitEnemy = true; // if this plays one enemy was hit and the dmg dealt is set to true so u cant dmg again in the same swing 
                 enemy.GetComponent<Enemy>().TakeDamage(attackDamage);//access the enemy and deal dmg 
                 enemy.GetComponent<Rigidbody2D>().AddForce(new Vector2(KnockBackForce, 0));
@@ -176,20 +177,24 @@ public class PlayerCombat : MonoBehaviour
 
     public void ResetHitEnemy()//Use anim event to call this at the end of attack anime to reset player ability to attack an enenmy 
     {
+        Debug.Log("Hit Reset");
         HitEnemy = false;
     }
     private void OnDrawGizmosSelected()
     {
+        for (int i = 0; i < AttackChecks.Count; i++)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(AttackChecks[i].position, MultiAttackRange);
+        }
+
         if (attackPoint == null)
         {
             return;
         }
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
 
-        for (int i = 0; i < AttackChecks.Count; i++)
-        {
-            Gizmos.DrawWireSphere(AttackChecks[i].position, MultiAttackRange);
-        }
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        
     }
 
     public void PlayerTakeDamage(int damage)
