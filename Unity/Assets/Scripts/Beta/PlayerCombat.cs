@@ -155,7 +155,7 @@ public class PlayerCombat : MonoBehaviour
         {
             //Detect enemies hit
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackChecks[AttackPointNum].position, MultiAttackRange, enemyLayers);// Updated to use a point in a list of attack points, new range same affected layers 
-
+            Debug.Log("The num is " + AttackPointNum);
             //Damage enemies
             foreach (Collider2D enemy in hitEnemies) // same check performed in smaller area multiple times per animation of attack 
             {
