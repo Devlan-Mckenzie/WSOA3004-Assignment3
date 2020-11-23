@@ -8164,6 +8164,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerSpeechBubble
       objectReference: {fileID: 0}
+    - target: {fileID: 6574422040903034465, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
+      propertyPath: m_TagString
+      value: PlayerSpeechBubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574422040903034465, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8174,7 +8182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8210,11 +8218,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -6.8300405
+      value: -3.43
       objectReference: {fileID: 0}
     - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.69
+      value: -11.34
       objectReference: {fileID: 0}
     - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
       propertyPath: m_SizeDelta.x
@@ -8247,6 +8255,18 @@ PrefabInstance:
     - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.008496834
+      objectReference: {fileID: 0}
+    - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0074958373
+      objectReference: {fileID: 0}
+    - target: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.011336872
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}

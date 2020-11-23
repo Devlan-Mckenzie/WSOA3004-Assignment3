@@ -4308,11 +4308,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!1 &1589834885 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 75380977283608015, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
-  m_PrefabInstance: {fileID: 1383143433}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1610270786
 GameObject:
   m_ObjectHideFlags: 0
@@ -5489,17 +5484,6 @@ MonoBehaviour:
   ShadowAlive: {fileID: 673939753}
   ShadowDead: {fileID: 673939754}
   health: 0
---- !u!114 &1979466295 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 75380975365211306, guid: aca57b66c06f33b4baf01c4b9587a9a1, type: 3}
-  m_PrefabInstance: {fileID: 1383143433}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2000858111
 GameObject:
   m_ObjectHideFlags: 0
@@ -5777,7 +5761,7 @@ PrefabInstance:
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerSpeechBubble
       value: 
-      objectReference: {fileID: 1589834885}
+      objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: SpeedlinesBackground
       value: 
@@ -5785,7 +5769,7 @@ PrefabInstance:
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: PlayerSpeech
       value: 
-      objectReference: {fileID: 1979466295}
+      objectReference: {fileID: 0}
     - target: {fileID: 378428794603328769, guid: 33c630598b8fd2b45b120d9b07eda055, type: 3}
       propertyPath: EnemySpeech
       value: 

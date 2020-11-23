@@ -58,6 +58,8 @@ public class SpeechTrigger : MonoBehaviour
         //EnemyWords= "Some quippy shit";
         //PlayerWords = "even more quippy shit!!!!!!!";      
         SpeedlinesImage = GameObject.FindGameObjectWithTag("SpeedLines");
+        PlayerSpeechBubble = GameObject.FindGameObjectWithTag("PlayerSpeechBubble");
+        PlayerSpeech = PlayerSpeechBubble.GetComponentInChildren<Text>();
         PlayerBanter();
         Invoke("EnemyBanter", ReplyTime);
     }
