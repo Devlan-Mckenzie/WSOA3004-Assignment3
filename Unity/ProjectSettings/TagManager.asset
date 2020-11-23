@@ -23,6 +23,8 @@ TagManager:
   - WeaponsLocker
   - Alarm Trigger
   - Final Trigger
+  - PlayerHurtEffect
+  - EnemyHurtEffect
   layers:
   - Default
   - TransparentFX

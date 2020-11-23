@@ -54,6 +54,8 @@ public class PlayerCombat : MonoBehaviour
     private float PainTime = 0f;
     private bool canTakeDmg = true;
 
+    public GameObject HurtEffect;
+
     private void Start()
     {
         PlayerRB2D = GetComponent<Rigidbody2D>();
@@ -65,7 +67,8 @@ public class PlayerCombat : MonoBehaviour
         staminaBar.SetMaxStamina(maxStamina);
 
         Prisoner = GameObject.FindGameObjectWithTag("Enemy");
-        HitEnemy = false;
+        HitEnemy = false;      
+       
     }
 
     // Update is called once per frame
@@ -199,6 +202,8 @@ public class PlayerCombat : MonoBehaviour
 
     public void PlayerTakeDamage(int damage)
     {
+
+        HurtEffect.GetComponent<HurtEffect>().PlayHurtEffect();
         animator.SetTrigger("Hurt");
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);

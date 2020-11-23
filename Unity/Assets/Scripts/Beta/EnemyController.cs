@@ -128,13 +128,12 @@ public class EnemyController : MonoBehaviour
     }
 
     private void Attack()
-    {
+    {        
         animator.SetTrigger("Attack");
-
         Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, playerLayer);
 
         foreach (Collider2D player in hitPlayers)
-        {
+        {            
             player.GetComponent<PlayerCombat>().PlayerTakeDamage(attackDamage);
             player.GetComponent<PlayerCombat>().DisableDamageTaken();
             player.GetComponent<PlayerCombat>().SetInPain();
