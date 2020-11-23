@@ -25,6 +25,7 @@ TagManager:
   - Final Trigger
   - PlayerHurtEffect
   - EnemyHurtEffect
+  - SpeedLines
   layers:
   - Default
   - TransparentFX

@@ -7567,7 +7567,7 @@ GameObject:
   - component: {fileID: 7714458843485747332}
   m_Layer: 11
   m_Name: behindSpeakerImage
-  m_TagString: Untagged
+  m_TagString: SpeedLines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
