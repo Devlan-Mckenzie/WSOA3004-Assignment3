@@ -60,6 +60,8 @@ public class SpeechTrigger : MonoBehaviour
         SpeedlinesImage = GameObject.FindGameObjectWithTag("SpeedLines");
         PlayerSpeechBubble = GameObject.FindGameObjectWithTag("PlayerSpeechBubble");
         PlayerSpeech = PlayerSpeechBubble.GetComponentInChildren<Text>();
+        EnemySpeechBubble = GameObject.FindGameObjectWithTag("EnemySpeechBubble");
+        EnemySpeech = EnemySpeechBubble.GetComponentInChildren<Text>();
         PlayerBanter();
         Invoke("EnemyBanter", ReplyTime);
     }

@@ -27,6 +27,7 @@ TagManager:
   - EnemyHurtEffect
   - SpeedLines
   - PlayerSpeechBubble
+  - EnemySpeechBubble
   layers:
   - Default
   - TransparentFX
