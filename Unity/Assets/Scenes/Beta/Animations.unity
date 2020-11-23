@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.81062233
+  m_Length: 0.81062335
   m_ChildTransform: {fileID: 753786632}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &60479776
@@ -448,7 +448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.49999976
+  m_Length: 0.50000036
   m_ChildTransform: {fileID: 1337608767}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &90934171
@@ -804,7 +804,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &114355045
 Animator:
   serializedVersion: 3
@@ -890,7 +890,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117579873}
   m_LocalRotation: {x: -0.00035901432, y: 0.0000072869952, z: -0.2926706, w: 0.9562133}
-  m_LocalPosition: {x: 0.78758854, y: -0.00000017881393, z: -0.0055322647}
+  m_LocalPosition: {x: 0.787588, y: -0.00000035762787, z: -0.00553222}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 982686601}
@@ -910,7 +910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.85062784
+  m_Length: 0.85062945
   m_ChildTransform: {fileID: 982686601}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &154377286
@@ -2057,11 +2057,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6332241191039028891, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6332241191039028891, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
@@ -3168,7 +3168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &528655003
 Transform:
   m_ObjectHideFlags: 0
@@ -3421,7 +3421,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &532135909
 Transform:
   m_ObjectHideFlags: 0
@@ -5081,7 +5081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.70000136
+  m_Length: 0.7000008
   m_ChildTransform: {fileID: 108775986}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &762312548
@@ -7553,11 +7553,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6332241191039028891, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6332241191039028891, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
@@ -8167,7 +8167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.0929153
+  m_Length: 1.0929154
   m_ChildTransform: {fileID: 2041278323}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &1337608766
@@ -8374,11 +8374,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6332241191039028891, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6332241191039028891, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
@@ -8551,7 +8551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.0000002
+  m_Length: 1.0000007
   m_ChildTransform: {fileID: 1626672499}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &1414530850
@@ -8956,14 +8956,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490343837}
-  m_LocalRotation: {x: 0, y: 0, z: -0.9701801, w: 0.24238528}
-  m_LocalPosition: {x: -0.14538926, y: -0.48952723, z: -0.0071878433}
+  m_LocalRotation: {x: 0.002524214, y: 0.002464208, z: -0.96261, w: 0.2708682}
+  m_LocalPosition: {x: -0.14538956, y: -0.4895278, z: -0.0071876827}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 117579874}
   m_Father: {fileID: 1393083850}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -151.945}
+  m_LocalEulerAnglesHint: {x: 0.35, y: -0.202, z: -148.569}
 --- !u!114 &1490343839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8977,7 +8977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.78758836
+  m_Length: 0.7875887
   m_ChildTransform: {fileID: 117579874}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &1493912423
@@ -9448,7 +9448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.7374865
+  m_Length: 1.7375057
   m_ChildTransform: {fileID: 1647544078}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &1629913802
@@ -9577,13 +9577,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647544077}
-  m_LocalRotation: {x: 0, y: 0, z: 0.072132066, w: 0.9973951}
-  m_LocalPosition: {x: 1.7374846, y: -0.0000000011350494, z: 0.10094166}
+  m_LocalRotation: {x: -0.016664084, y: 0.017768163, z: -0.1105639, w: 0.9935705}
+  m_LocalPosition: {x: 1.7374989, y: -0.0000018451829, z: 0.100941695}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1626672499}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.273}
+  m_LocalEulerAnglesHint: {x: -1.672, y: 2.236, z: -12.732}
 --- !u!114 &1647544079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12234,7 +12234,7 @@ PrefabInstance:
       objectReference: {fileID: 1414530851}
     - target: {fileID: 8508634909960848688, guid: cdebb771402b5e04b81c1558ba5ac86a, type: 3}
       propertyPath: MultiAttackRange
-      value: 0.5
+      value: 4.28
       objectReference: {fileID: 0}
     - target: {fileID: 8508634909960848688, guid: cdebb771402b5e04b81c1558ba5ac86a, type: 3}
       propertyPath: enemyLayers.m_Bits
@@ -12243,10 +12243,6 @@ PrefabInstance:
     - target: {fileID: 8508634909960848692, guid: cdebb771402b5e04b81c1558ba5ac86a, type: 3}
       propertyPath: m_Constraints
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8508634909960848695, guid: cdebb771402b5e04b81c1558ba5ac86a, type: 3}
-      propertyPath: maxSpeed
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdebb771402b5e04b81c1558ba5ac86a, type: 3}
