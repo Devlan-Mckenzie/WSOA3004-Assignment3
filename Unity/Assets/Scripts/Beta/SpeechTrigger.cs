@@ -56,7 +56,8 @@ public class SpeechTrigger : MonoBehaviour
     void Start()
     {
         //EnemyWords= "Some quippy shit";
-        //PlayerWords = "even more quippy shit!!!!!!!";        
+        //PlayerWords = "even more quippy shit!!!!!!!";      
+        SpeedlinesBackground = GameObject.FindGameObjectWithTag("SpeedLines");
         PlayerBanter();
         Invoke("EnemyBanter", ReplyTime);
     }
