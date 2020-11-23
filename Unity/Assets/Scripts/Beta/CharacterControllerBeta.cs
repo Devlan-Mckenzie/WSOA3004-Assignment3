@@ -34,11 +34,20 @@ public class CharacterControllerBeta : MonoBehaviour
         if (!ActiveCutScene)
         {
             // Read all the inputs
-            float h = Input.GetAxis("Horizontal");
-            float v = Input.GetAxis("Vertical");
-            Move(h, v);
+            if (Input.GetAxis("Horizontal")!= 0 || Input.GetAxis("Vertical") != 0)
+            {
+                rigidbody2D.constraints = RigidbodyConstraints2D.None;
+                rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+                float h = Input.GetAxis("Horizontal");
+                float v = Input.GetAxis("Vertical");
+                Move(h, v);
+            }
+            else
+            {
+                rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;                
+            }
+            
         }
-
         else
         {
             rigidbody2D.velocity = Vector2.zero;
