@@ -1387,7 +1387,7 @@ MonoBehaviour:
   - {fileID: 2186622754804691460}
   - {fileID: 2186622753796381059}
   - {fileID: 2186622754683345948}
-  MultiAttackRange: 4.28
+  MultiAttackRange: 0.7
   KnockBackForce: 10
   PainLength: 2
   HurtEffect: {fileID: 2186622753846214895}
