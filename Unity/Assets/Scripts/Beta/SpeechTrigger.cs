@@ -12,7 +12,7 @@ public class SpeechTrigger : MonoBehaviour
     public GameObject PlayerSpeechBubble;
 
     [Header("Image Behind Characters During Speech")]
-    public GameObject SpeedlinesBackground;
+    public GameObject SpeedlinesImage;
 
     //public Text speech;
     [Header ("")]
@@ -57,7 +57,7 @@ public class SpeechTrigger : MonoBehaviour
     {
         //EnemyWords= "Some quippy shit";
         //PlayerWords = "even more quippy shit!!!!!!!";      
-        SpeedlinesBackground = GameObject.FindGameObjectWithTag("SpeedLines");
+        SpeedlinesImage = GameObject.FindGameObjectWithTag("SpeedLines");
         PlayerBanter();
         Invoke("EnemyBanter", ReplyTime);
     }
@@ -80,7 +80,7 @@ public class SpeechTrigger : MonoBehaviour
         {
             
             cameraAnimation.SetInteger("CameraSelect", 2);
-            SpeedlinesBackground.SetActive(true);
+            SpeedlinesImage.GetComponent<Image>().enabled = true;
         }
 
     }
@@ -103,7 +103,7 @@ public class SpeechTrigger : MonoBehaviour
         {
             
             cameraAnimation.SetInteger("CameraSelect", 1);
-            SpeedlinesBackground.SetActive(true);
+            SpeedlinesImage.GetComponent<Image>().enabled = true;
         }
 
     }
@@ -126,7 +126,7 @@ public class SpeechTrigger : MonoBehaviour
             if (TimerEnemy > CommentFade)
             {                
                 EnemySpeechBubble.SetActive(false);
-                SpeedlinesBackground.SetActive(false);
+                SpeedlinesImage.GetComponent<Image>().enabled = false;
                 startTimerEnemy = false;
                 TimerEnemy = 0;
                 cameraAnimation.SetInteger("CameraSelect", 0);
@@ -141,7 +141,7 @@ public class SpeechTrigger : MonoBehaviour
             if (TimerPlayer > CommentFade)
             {
                 PlayerSpeechBubble.SetActive(false);
-                SpeedlinesBackground.SetActive(false);
+                SpeedlinesImage.GetComponent<Image>().enabled = false;
                 startTimerPlayer = false;
                 TimerPlayer = 0;
                 cameraAnimation.SetInteger("CameraSelect", 0);

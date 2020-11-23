@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 378428794603328798}
   - component: {fileID: 378428794603328769}
   - component: {fileID: 378428794603328768}
+  - component: {fileID: 990167447780062089}
   m_Layer: 5
   m_Name: General UI
   m_TagString: Untagged
@@ -114,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemySpeechBubble: {fileID: 0}
   PlayerSpeechBubble: {fileID: 0}
-  SpeedlinesBackground: {fileID: 0}
+  SpeedlinesImage: {fileID: 0}
   EnemySpeech: {fileID: 0}
   EnemyWords:
   - 'Enemycomment 1 '
@@ -133,6 +134,8 @@ MonoBehaviour:
   CommentFade: 4
   ReplyTime: 4
   cameraAnimation: {fileID: 0}
+  PlayerZoomCount: 0
+  EnemyZoomCount: 0
 --- !u!114 &378428794603328768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,4 +156,15 @@ MonoBehaviour:
   - armoury
   - security room
   - power room 2
-  RoomCounter: 0
+--- !u!114 &990167447780062089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378428794603328771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 613dc8bad0ec9674f98d6cd61b3df564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
