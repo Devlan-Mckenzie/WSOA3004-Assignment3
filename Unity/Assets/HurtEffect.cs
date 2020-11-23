@@ -17,7 +17,7 @@ public class HurtEffect : MonoBehaviour
     {
         if (PlayEffect)
         {
-            this.GetComponent<SpriteRenderer>().enabled = true;
+            this.GetComponent<SpriteRenderer>().enabled = true;            
             Timer -= Time.deltaTime;
             if (Timer < 0)
             {

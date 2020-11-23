@@ -157,12 +157,11 @@ public class PlayerCombat : MonoBehaviour
         if (!HitEnemy)
         {   
             //Detect enemies hit
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackChecks[AttackPointNum].position, MultiAttackRange, enemyLayers);// Updated to use a point in a list of attack points, new range same affected layers 
-            Debug.Log(AttackPointNum);
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackChecks[AttackPointNum].position, MultiAttackRange, enemyLayers);// Updated to use a point in a list of attack points, new range same affected layers             
             //Damage enemies
             foreach (Collider2D enemy in hitEnemies) // same check performed in smaller area multiple times per animation of attack 
             {
-                Debug.Log("hit Enemy");
+                
                 HitEnemy = true; // if this plays one enemy was hit and the dmg dealt is set to true so u cant dmg again in the same swing 
                 enemy.GetComponent<Enemy>().TakeDamage(attackDamage);//access the enemy and deal dmg 
                 enemy.GetComponent<Rigidbody2D>().AddForce(new Vector2(KnockBackForce, 0));
@@ -180,7 +179,6 @@ public class PlayerCombat : MonoBehaviour
 
     public void ResetHitEnemy()//Use anim event to call this at the end of attack anime to reset player ability to attack an enenmy 
     {
-        Debug.Log("Hit Reset");
         HitEnemy = false;
     }
     private void OnDrawGizmosSelected()
