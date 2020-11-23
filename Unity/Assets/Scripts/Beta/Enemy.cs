@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     private Animator animator; 
     public int maxHealth = 100;
     public int currentHealth;
+    public GameObject HurtEffect;
 
     private GameObject Player;
     // Start is called before the first frame update
@@ -18,8 +19,8 @@ public class Enemy : MonoBehaviour
     }
 
     public void TakeDamage(int damage)
-    {
-        Debug.Log("hit");
+    {       
+        HurtEffect.GetComponent<HurtEffect>().PlayHurtEffect();
         currentHealth -= damage;
 
         // Play hurt animation
