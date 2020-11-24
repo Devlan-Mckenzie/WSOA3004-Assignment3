@@ -26,6 +26,7 @@ public class EnemyAI : MonoBehaviour
     Rigidbody2D rigidbody;
     
     public Vector3 walkingdirection;
+    public Vector2 NextWayPoint;
    
     // Start is called before the first frame update
     void Start()
@@ -114,8 +115,10 @@ public class EnemyAI : MonoBehaviour
 
         }
 
-       
-        aim();
+
+        //aim();
+
+        NextWayPoint = (Vector2)path.vectorPath[currentwaypoint];
 
     }
 }

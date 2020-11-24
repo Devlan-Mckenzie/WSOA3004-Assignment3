@@ -94,7 +94,14 @@ public class EnemyController : MonoBehaviour
             if (range > minDistance)
             {                
                 isChasing = true;
-                transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);                
+                //transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, FindObjectOfType<EnemyAI>().NextWayPoint, maxSpeed * Time.deltaTime);
+
+            }
+
+            else if (range>minDistance/2 && range < minDistance)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);
             }
             else
             {
