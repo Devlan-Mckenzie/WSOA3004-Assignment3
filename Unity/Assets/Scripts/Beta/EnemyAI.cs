@@ -9,7 +9,8 @@ public class EnemyAI : MonoBehaviour
     //the point the enemy wants to reach
     public Transform target;
     
-    public float speed;
+    private float speed=100;
+    public float speedmultiplier=1;
     public float nextWayPointDistance = 3f;
 
     [Header ("Enemy")]
@@ -27,6 +28,8 @@ public class EnemyAI : MonoBehaviour
     
     public Vector3 walkingdirection;
     public Vector2 NextWayPoint;
+
+    public Vector2 force;
    
     // Start is called before the first frame update
     void Start()
@@ -92,7 +95,14 @@ public class EnemyAI : MonoBehaviour
         Vector2 direction = ((Vector2) path.vectorPath[currentwaypoint] - rigidbody.position).normalized;
         //create a force to move the enemy in the desired direction
         //force = direction * speed * Time.deltaTime;
-        //move the enemy
+
+        if (FindObjectOfType<EnemyController>().isChasing)
+        {
+            //move the enemy
+            rigidbody.velocity = direction * speed * Time.deltaTime;
+        }
+        
+        
         
         //finding the distance between the enemy annd its next waypoint
         float distance = Vector2.Distance(rigidbody.position, path.vectorPath[currentwaypoint]);

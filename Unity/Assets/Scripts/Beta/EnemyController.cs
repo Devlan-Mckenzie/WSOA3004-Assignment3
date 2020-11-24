@@ -16,7 +16,7 @@ public class EnemyController : MonoBehaviour
    
     public float minDistance = 1f;
     private float range;
-    private bool isChasing = false;
+    public bool isChasing = false;
     public int agroRange = 5;
 
     public Transform attackPoint;
@@ -95,14 +95,9 @@ public class EnemyController : MonoBehaviour
             {                
                 isChasing = true;
                 //transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);
-                transform.position = Vector2.MoveTowards(transform.position, FindObjectOfType<EnemyAI>().NextWayPoint, maxSpeed * Time.deltaTime);
-
+                                
             }
 
-            else if (range>minDistance/2 && range < minDistance)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, maxSpeed * Time.deltaTime);
-            }
             else
             {
                 if (Time.time >= nextAttackTime && Player.GetComponent<PlayerCombat>().CanTakeDamage())
