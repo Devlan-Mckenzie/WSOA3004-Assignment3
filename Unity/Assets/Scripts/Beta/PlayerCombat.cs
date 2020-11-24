@@ -167,7 +167,7 @@ public class PlayerCombat : MonoBehaviour
                 enemy.GetComponent<Rigidbody2D>().AddForce(new Vector2(KnockBackForce, 0));
 
                 FindObjectOfType<AudioManager>().Play("PrisonerPunchHit_");
-                //hitSound.Play();//play the hit sound 
+                hitSound.Play();//play the hit sound 
 
                 //create the hit particle affect here
 
