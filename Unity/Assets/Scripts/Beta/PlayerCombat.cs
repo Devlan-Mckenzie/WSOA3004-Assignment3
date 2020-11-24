@@ -165,7 +165,9 @@ public class PlayerCombat : MonoBehaviour
                 HitEnemy = true; // if this plays one enemy was hit and the dmg dealt is set to true so u cant dmg again in the same swing 
                 enemy.GetComponent<Enemy>().TakeDamage(attackDamage);//access the enemy and deal dmg 
                 enemy.GetComponent<Rigidbody2D>().AddForce(new Vector2(KnockBackForce, 0));
-                hitSound.Play();//play the hit sound 
+
+                FindObjectOfType<AudioManager>().Play("PrisonerPunchHit_");
+                //hitSound.Play();//play the hit sound 
 
                 //create the hit particle affect here
 

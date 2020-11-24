@@ -142,7 +142,8 @@ public class EnemyController : MonoBehaviour
             moveDirection = player.transform.position - this.transform.position;
             player.GetComponent<Rigidbody2D>().AddForce(moveDirection * KnockBackForce); // added knock back force
 
-            punch_Hit.Play();
+            FindObjectOfType<AudioManager>().Play("BattonHit_");
+            //punch_Hit.Play();
         }
     }
 
