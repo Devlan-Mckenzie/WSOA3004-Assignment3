@@ -7567,6 +7567,7 @@ GameObject:
   - component: {fileID: 6526031792838155180}
   - component: {fileID: 7714458843485747332}
   - component: {fileID: 1186682744434877559}
+  - component: {fileID: 5555642679084128706}
   m_Layer: 11
   m_Name: behindSpeakerImage
   m_TagString: Untagged
@@ -7666,6 +7667,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 613dc8bad0ec9674f98d6cd61b3df564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5555642679084128706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5998657274387402579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdfc373be0a216d4082d7d34b7198ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewPlanarDistance: 500
 --- !u!1 &6670748341326260934
 GameObject:
   m_ObjectHideFlags: 0
