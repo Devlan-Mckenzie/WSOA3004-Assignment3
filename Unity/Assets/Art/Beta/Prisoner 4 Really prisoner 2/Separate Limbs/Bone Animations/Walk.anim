@@ -3586,7 +3586,7 @@ AnimationClip:
   m_Events:
   - time: 0.5
     functionName: Play
-    data: _Footsteps_Prisoner
+    data: PrisonerWalk_
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
