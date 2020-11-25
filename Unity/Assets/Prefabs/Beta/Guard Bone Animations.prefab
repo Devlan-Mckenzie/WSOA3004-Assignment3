@@ -803,7 +803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 5.202788
+  m_Length: 5.2027884
   m_ChildTransform: {fileID: 2565695812525969493}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695811393246285
@@ -1230,7 +1230,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2565695811745349042}
-  m_LocalRotation: {x: 0.00003599876, y: -0.00022486714, z: 0.0022360354, w: 0.99999756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.22675127, y: 0.22675127, z: 0.113375634}
   m_Children:
@@ -1251,7 +1251,7 @@ Transform:
   - {fileID: 4604748160152143437}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.004, y: -0.026, z: 0.256}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2565695811745349040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1705,7 +1705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 4.047389
+  m_Length: 4.047388
   m_ChildTransform: {fileID: 2565695812492164584}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812269456460
@@ -1910,7 +1910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 5.028043
+  m_Length: 5.0280423
   m_ChildTransform: {fileID: 2565695812180753436}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812396851270
@@ -2146,7 +2146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.5000037
+  m_Length: 1.500005
   m_ChildTransform: {fileID: 2565695811871260860}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812525969494
@@ -2194,7 +2194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 3.477256
+  m_Length: 3.4772563
   m_ChildTransform: {fileID: 2565695812273348368}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812541679522
@@ -2242,7 +2242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 2.0259066
+  m_Length: 2.0259054
   m_ChildTransform: {fileID: 2565695811393246284}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812630428207
