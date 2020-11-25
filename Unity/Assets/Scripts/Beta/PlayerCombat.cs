@@ -154,7 +154,6 @@ public class PlayerCombat : MonoBehaviour
 
     public void AttackMulti(int AttackPointNum)
     {
-        Debug.Log(AttackPointNum);
         if (!HitEnemy)
         {   
             //Detect enemies hit
@@ -183,7 +182,6 @@ public class PlayerCombat : MonoBehaviour
     public void ResetHitEnemy()//Use anim event to call this at the end of attack anime to reset player ability to attack an enenmy 
     {
         HitEnemy = false;
-        Debug.Log("Reset Attack");
     }
     private void OnDrawGizmosSelected()
     {
