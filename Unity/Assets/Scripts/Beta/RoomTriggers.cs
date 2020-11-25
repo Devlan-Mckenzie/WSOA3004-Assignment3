@@ -206,10 +206,12 @@ public class RoomTriggers : MonoBehaviour
                 if (AlarmLight.activeSelf)
                 {
                     AlarmLight.SetActive(false);
+                    GlobalLighting.SetActive(true);
                     timer = 1f;
                 }
                 else if(!AlarmLight.activeSelf)
                 {
+                    GlobalLighting.SetActive(false);
                     AlarmLight.SetActive(true);
                     timer = 1f;
                 }
