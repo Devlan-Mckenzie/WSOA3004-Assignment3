@@ -46,8 +46,7 @@ public class RoomTriggers : MonoBehaviour
     public float SceneChangeDelay = 3;
     // Start is called before the first frame update
     void Start()
-    {
-        
+    {        
         //set the press to use button false
         PressToUseButton.SetActive(false);
         died = false;
@@ -64,14 +63,10 @@ public class RoomTriggers : MonoBehaviour
         {
             if (collision.gameObject.tag == "Room trigger")
             {
-
                 PressToUseButton.SetActive(true);
-
             }
-        }
-            
+        }            
     }
-
 
     private void OnTriggerStay2D(Collider2D Roomtrigger)
     {
@@ -79,9 +74,7 @@ public class RoomTriggers : MonoBehaviour
         {
             if (Roomtrigger.gameObject.tag == "Room trigger")
             {
-
                 PressToUseButton.SetActive(true);
-
             }
 
             if (Roomtrigger.gameObject.tag == "Switch trigger" && Input.GetKeyDown(KeyCode.E))
@@ -90,39 +83,32 @@ public class RoomTriggers : MonoBehaviour
                 LightSwitch();
                 Debug.Log("Room Trigger hit");
                 PressToUseButton.SetActive(false);
-
             }
 
             if (Roomtrigger.gameObject.tag == "WeaponsLocker" && Input.GetKeyDown(KeyCode.E))
             {
                 //plays animation to lock the weapons away 
                 LockWeapons();
-
             }
 
             if (Roomtrigger.gameObject.tag == "Alarm Trigger" && Input.GetKeyDown(KeyCode.E))
             {
                 //plays the alarm sound
                 SoundAlarm();
-
             }
 
             if (Roomtrigger.gameObject.tag == "Final Trigger" && Input.GetKeyDown(KeyCode.E))
             {
                 CablePlacement();
             }
-        }
-        
-            
-        
+        }        
     }
 
     private void OnTriggerExit2D(Collider2D Roomtrigger)
     {
         if (Roomtrigger.gameObject.tag == "Room trigger")
         {
-            PressToUseButton.SetActive(false);
-            
+            PressToUseButton.SetActive(false);            
         }
     }
 
@@ -137,11 +123,9 @@ public class RoomTriggers : MonoBehaviour
         Switchtoggle.Play();
         RoomCounter += 1;
         //SwitchingOnGenerator.Switch = true;
-
-        Invoke("exitroom", SceneChangeDelay);
         generatorplugged.SetActive(true);
         generatorunplugged.SetActive(false);
-
+        Invoke("exitroom", SceneChangeDelay);
     }
 
     public void LockWeapons()
@@ -159,21 +143,16 @@ public class RoomTriggers : MonoBehaviour
             ClosedArmory.SetActive(true);
         }
         Invoke("exitroom", SceneChangeDelay);
-        
-
     }
 
     public void SoundAlarm()
     {
         //play sound for alarm
-        RoomCounter += 1;
-        Invoke("exitroom", SceneChangeDelay);
+        RoomCounter += 1;        
         Alarm = true;
         AlarmSound.Play();
         //FindObjectOfType<AudioManager>().Play("Alarm");
-
-
-
+        Invoke("exitroom", SceneChangeDelay);
     }
 
     public void CablePlacement()
@@ -193,12 +172,10 @@ public class RoomTriggers : MonoBehaviour
                 poweroff.SetActive(false);
                 poweron.SetActive(true); 
             }
-
-
         }
         //PlacingCable.Switch = true;
-
     }
+
     public void exitroom()
     {
         //change the scene (go to next room)
@@ -211,8 +188,6 @@ public class RoomTriggers : MonoBehaviour
     {
         SceneManager.LoadScene(7);
     }
-
-
 
     // Update is called once per frame
     void Update()
@@ -241,9 +216,6 @@ public class RoomTriggers : MonoBehaviour
         {
             RoomCounter = 0;
             Invoke("deathscenechange", SceneChangeDelay);
-
-        }
-
-        
+        }        
     }
 }
