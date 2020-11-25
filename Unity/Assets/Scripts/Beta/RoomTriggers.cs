@@ -19,6 +19,8 @@ public class RoomTriggers : MonoBehaviour
     //for when the lights come back
     public GameObject GlobalLighting;
 
+    public GameObject AlarmLight;
+
     public static int RoomCounter;
 
     public bool died = false;
@@ -200,14 +202,14 @@ public class RoomTriggers : MonoBehaviour
 
             if(timer <= 0)
             {
-                if (GeneratorLighting.activeSelf)
+                if (AlarmLight.activeSelf)
                 {
-                    GeneratorLighting.SetActive(false);
+                    AlarmLight.SetActive(false);
                     timer = 1f;
                 }
-                else if(!GeneratorLighting.activeSelf)
+                else if(!AlarmLight.activeSelf)
                 {
-                    GeneratorLighting.SetActive(true);
+                    AlarmLight.SetActive(true);
                     timer = 1f;
                 }
             }
