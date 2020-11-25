@@ -35,10 +35,8 @@ public class RoomTriggers : MonoBehaviour
 
     public static float health;
 
-    public GameObject Armoury1;
-    public GameObject Armoury2;
-    public Sprite LockedArmoury;
-
+    public GameObject OpenArmory;
+    public GameObject ClosedArmory;
     public GameObject poweroff;
     public GameObject poweron;
     public AudioSource Switchtoggle;
@@ -140,11 +138,7 @@ public class RoomTriggers : MonoBehaviour
         Debug.Log("Locked weapons away");
         //put ui in to indicate that this has been done
         //just a simple text plus a sound ?
-
-        ///
-        //LockWeaponsSound.Play(); Use this when sound back 
-        ///
-
+        LockWeaponsSound.Play();
         //ClosingLockers.Switch = true;
         if (OpenArmory.activeSelf)
         {
