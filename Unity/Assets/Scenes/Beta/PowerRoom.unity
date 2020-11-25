@@ -926,7 +926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &377860110
 Transform:
   m_ObjectHideFlags: 0
@@ -2606,7 +2606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PressToUseButton: {fileID: 1980686355}
   MinimalLighting: {fileID: 29404424}
-  GeneratorLighting: {fileID: 0}
+  GeneratorLighting: {fileID: 377860109}
   GlobalLighting: {fileID: 1755172653}
   died: 0
   Alarm: 0
