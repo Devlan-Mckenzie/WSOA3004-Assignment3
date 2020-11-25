@@ -35,9 +35,8 @@ public class RoomTriggers : MonoBehaviour
 
     public static float health;
 
-    public GameObject Armoury1;
-    public GameObject Armoury2;
-    public Sprite LockedArmoury;
+    public GameObject OpenArmory;
+    public GameObject ClosedArmory;
     public GameObject poweroff;
     public GameObject poweron;
     public AudioSource Switchtoggle;
