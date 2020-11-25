@@ -122,7 +122,8 @@ public class RoomTriggers : MonoBehaviour
         GeneratorLighting.SetActive(true);
         //must insert animation here
 
-        Switchtoggle.Play();
+        //Switchtoggle.Play(); MUST BE USED WHEN SOUND IS FOUND FOR NOW CAUSES ISSUES
+
         RoomCounter += 1;
         //SwitchingOnGenerator.Switch = true;
         generatorplugged.SetActive(true);
