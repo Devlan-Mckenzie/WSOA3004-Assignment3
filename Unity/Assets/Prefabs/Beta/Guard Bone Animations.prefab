@@ -1439,7 +1439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37497b77c570d204e91dd15dc30f5863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 40
+  attackDamage: 30
   attackStamina: 20
   attackPoint: {fileID: 0}
   attackRange: 0.5
@@ -1453,8 +1453,8 @@ MonoBehaviour:
   maxStamina: 100
   currentStamina: 0
   staminaBar: {fileID: 7567160627411302272}
-  healthRegen: 1
-  staminaRegen: 1
+  healthRegen: 10
+  staminaRegen: 10
   healthRegenRate: 1
   staminaRegenRate: 1
   isAlive: 1
