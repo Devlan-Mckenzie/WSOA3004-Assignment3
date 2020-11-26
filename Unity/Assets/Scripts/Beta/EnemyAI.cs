@@ -103,11 +103,6 @@ public class EnemyAI : MonoBehaviour
             
         }
 
-        else if(FindObjectOfType<EnemyHealthBar>().EnemyHealth.value<=0)
-        {
-            rigidbody.velocity= Vector2.zero;
-           
-        }
         
         
         
