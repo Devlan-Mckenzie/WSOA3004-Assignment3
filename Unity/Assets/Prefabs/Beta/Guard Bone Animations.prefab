@@ -1453,8 +1453,8 @@ MonoBehaviour:
   maxStamina: 100
   currentStamina: 0
   staminaBar: {fileID: 7567160627411302272}
-  healthRegen: 10
-  staminaRegen: 10
+  healthRegen: 5
+  staminaRegen: 5
   healthRegenRate: 1
   staminaRegenRate: 1
   isAlive: 1
