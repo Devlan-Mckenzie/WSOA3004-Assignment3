@@ -61,17 +61,6 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    
-    //make the srpite look towards their next point on the path
-    public void aim()
-    {
-
-        walkingdirection = ((Vector2)path.vectorPath[currentwaypoint] - rigidbody.position).normalized; 
-        transform.up = walkingdirection;
-    }
-
-    
-
     void FixedUpdate()
     {
         
@@ -115,20 +104,6 @@ public class EnemyAI : MonoBehaviour
             currentwaypoint++;
         }
 
-        if(rigidbody.velocity.x >= 0.01f)
-        {
-            enemyimage.localScale = new Vector3(-scalex, scaley, 1);
-
-        }
-
-        else if (rigidbody.velocity.x <= 0.01f)
-        {
-            enemyimage.localScale = new Vector3(scalex, scaley, 1);
-
-        }
-
-
-        //aim();
 
         NextWayPoint = (Vector2)path.vectorPath[currentwaypoint];
 
