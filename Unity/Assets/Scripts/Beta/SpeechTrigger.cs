@@ -77,15 +77,12 @@ public class SpeechTrigger : MonoBehaviour
         
         //Start the enemy timer for comments to fade
         startTimerEnemy = true;
-        EnemyZoomCount++;
+        //EnemyZoomCount++;
         
         FindObjectOfType<CharacterControllerBeta>().ActiveCutScene = true;
-        if (EnemyZoomCount !=2)
-        {
-            
-            cameraAnimation.SetInteger("CameraSelect", 2);
-            SpeedlinesImage.GetComponent<Image>().enabled = true;
-        }
+        cameraAnimation.SetInteger("CameraSelect", 2);
+        SpeedlinesImage.GetComponent<Image>().enabled = true;
+        
 
     }
 
@@ -100,15 +97,13 @@ public class SpeechTrigger : MonoBehaviour
         
         //start the player timer for comments to fade
         startTimerPlayer = true;
-        PlayerZoomCount++;
+        
         
         FindObjectOfType<CharacterControllerBeta>().ActiveCutScene = true;
-        if (PlayerZoomCount!=2)
-        {
-            
+        
             cameraAnimation.SetInteger("CameraSelect", 1);
             SpeedlinesImage.GetComponent<Image>().enabled = true;
-        }
+        
 
     }
 
