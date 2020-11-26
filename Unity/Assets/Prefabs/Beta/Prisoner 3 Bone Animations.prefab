@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.60000074
+  m_Length: 0.60000116
   m_ChildTransform: {fileID: 6785778542449131044}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6785778541674732502
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.48500893
+  m_Length: 0.4850087
   m_ChildTransform: {fileID: 6785778541982765052}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6785778541720208928
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.6984966
+  m_Length: 0.69849706
   m_ChildTransform: {fileID: 6785778543296352142}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6785778541778457396
@@ -419,7 +419,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.8256857}
+  m_Offset: {x: 0, y: -0.868416}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -430,7 +430,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7453494, y: 4.742276}
+  m_Size: {x: 1.7453494, y: 1.3540713}
   m_EdgeRadius: 0
 --- !u!114 &8791778500003863261
 MonoBehaviour:
@@ -499,6 +499,7 @@ MonoBehaviour:
   maxSpeed: 5
   mimicSpeed: 2
   minDistance: 1
+  isChasing: 0
   agroRange: 5
   attackPoint: {fileID: 6785778542771878588}
   attackDamage: 40
@@ -870,7 +871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.6500009
+  m_Length: 0.65000135
   m_ChildTransform: {fileID: 6785778541720208929}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6785778542354561827
@@ -1025,7 +1026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.35000044
+  m_Length: 0.3500011
   m_ChildTransform: {fileID: 6785778543236415743}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6785778542449131043
@@ -1294,7 +1295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6785778542487579003
 Transform:
   m_ObjectHideFlags: 0
@@ -1537,7 +1538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.5000003
+  m_Length: 0.50000113
   m_ChildTransform: {fileID: 6785778541658252764}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6785778543236415742

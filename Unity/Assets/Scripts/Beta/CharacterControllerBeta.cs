@@ -26,6 +26,7 @@ public class CharacterControllerBeta : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame

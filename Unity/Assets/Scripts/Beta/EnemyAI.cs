@@ -9,7 +9,7 @@ public class EnemyAI : MonoBehaviour
     //the point the enemy wants to reach
     public GameObject target;
     
-    private float speed=100;
+    private float speed=200;
     public float speedmultiplier=7;
     public float nextWayPointDistance = 1f;
 

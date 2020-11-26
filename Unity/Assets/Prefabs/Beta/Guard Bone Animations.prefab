@@ -548,7 +548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 3.5000045
+  m_Length: 3.500006
   m_ChildTransform: {fileID: 2565695811911332656}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695810678305627
@@ -596,7 +596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 2.9267175
+  m_Length: 2.926723
   m_ChildTransform: {fileID: 2565695812541679521}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695810881325643
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 4.732407
+  m_Length: 4.7324076
   m_ChildTransform: {fileID: 2565695811577201023}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695811053119233
@@ -803,7 +803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 5.2027884
+  m_Length: 5.2027903
   m_ChildTransform: {fileID: 2565695812525969493}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695811393246285
@@ -1009,7 +1009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 3.5662248
+  m_Length: 3.5662258
   m_ChildTransform: {fileID: 2565695810606714568}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695811577201016
@@ -1057,7 +1057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 2.999998
+  m_Length: 2.9999971
   m_ChildTransform: {fileID: 2565695812630428206}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695811638258513
@@ -1425,7 +1425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 10
   Health_Stamina_Canvas: {fileID: 8560848554913108352}
-  SpeechCanvas: {fileID: 0}
+  SpeechCanvas: {fileID: 2462288702982153336}
   DustParticles: {fileID: 3180324237906914497}
   ActiveCutScene: 0
 --- !u!114 &6950819432502101511
@@ -1624,7 +1624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.7885021
+  m_Length: 1.7885011
   m_ChildTransform: {fileID: 2565695811516322779}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812111121537
@@ -1674,7 +1674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 3.210158
+  m_Length: 3.210159
   m_ChildTransform: {fileID: 2565695812026102824}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812180753437
@@ -1722,7 +1722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 4.047388
+  m_Length: 4.047389
   m_ChildTransform: {fileID: 2565695812492164584}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812269456460
@@ -1879,7 +1879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 2.086506
+  m_Length: 2.0865057
   m_ChildTransform: {fileID: 2565695812441108007}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812388173402
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 5.0280423
+  m_Length: 5.0280395
   m_ChildTransform: {fileID: 2565695812180753436}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812396851270
@@ -2163,7 +2163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.500005
+  m_Length: 1.5000024
   m_ChildTransform: {fileID: 2565695811871260860}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812525969494
@@ -2211,7 +2211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 3.4772563
+  m_Length: 3.4772594
   m_ChildTransform: {fileID: 2565695812273348368}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812541679522
@@ -2259,7 +2259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 2.0259054
+  m_Length: 2.0259023
   m_ChildTransform: {fileID: 2565695811393246284}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2565695812630428207
@@ -8303,5 +8303,10 @@ PrefabInstance:
 --- !u!224 &4604748160152143437 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7826814003774787076, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
+  m_PrefabInstance: {fileID: 6014900159862540361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &2462288702982153336 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 8165863214349380657, guid: ecf37ee758368ca438afc0c290af1d6b, type: 3}
   m_PrefabInstance: {fileID: 6014900159862540361}
   m_PrefabAsset: {fileID: 0}

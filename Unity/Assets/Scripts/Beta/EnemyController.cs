@@ -12,6 +12,7 @@ public class EnemyController : MonoBehaviour
 
     private Animator animator;
     private GameObject Player;
+    private GameObject Enemy;
     private bool facingRight = true;    
    
     public float minDistance = 1f;
@@ -28,6 +29,7 @@ public class EnemyController : MonoBehaviour
     private float nextAttackTime = 0f;
 
     public Canvas canvas;
+    public GameObject SpeechCanvas;
 
     public AudioSource punch_Hit;
 
@@ -57,7 +59,10 @@ public class EnemyController : MonoBehaviour
         if (animator == null)
         {
             animator = GetComponent<Animator>();
-        }        
+        }
+
+
+        SpeechCanvas = GameObject.FindWithTag("EnemySpeechBubble");
     }
 
     // Update is called once per frame
@@ -172,12 +177,16 @@ public class EnemyController : MonoBehaviour
     {        
         // Switch the way the player is labelled as facing.
         facingRight = !facingRight;
-
+        
         // Multiply the player's x local scale by -1.
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
+        
         transform.localScale = theScale;
+
         canvas.GetComponent<CanvasController>().CanvasFlip();
+        SpeechCanvas.GetComponent<CanvasController>().CanvasFlip();
+
 
     }
 
