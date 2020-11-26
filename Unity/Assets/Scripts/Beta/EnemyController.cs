@@ -104,8 +104,11 @@ public class EnemyController : MonoBehaviour
                 {
                     Attack();
                     nextAttackTime = Time.time + 1f / attackRate;
+                    AdjustHeight();
+                    
                 }
-                
+                isChasing = false;
+
             }
         }
         else
