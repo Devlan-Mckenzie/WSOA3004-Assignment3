@@ -2197,6 +2197,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 195201916542865911, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.014985639
+      objectReference: {fileID: 0}
+    - target: {fileID: 195201916542865911, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 195201916542865911, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -0.00795043
+      objectReference: {fileID: 0}
+    - target: {fileID: 195201916542865911, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 4570396904380345539, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
       propertyPath: m_sounds.Array.size
       value: 5
@@ -2297,13 +2313,21 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4570396905570242835, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 4570396905570242837, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1604381467
+      value: 771291895
       objectReference: {fileID: 0}
     - target: {fileID: 4570396905570242837, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
       propertyPath: m_SortingLayer
-      value: 6
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570396905570242837, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4570396905673826814, guid: 93642e79af361b84995d1bab4e59e035, type: 3}
       propertyPath: m_Mesh
@@ -2593,7 +2617,7 @@ MonoBehaviour:
   - {x: 1.9478052, y: -1.7044218, z: 0}
   - {x: 1.9489787, y: 1.3989029, z: 0}
   - {x: -1.9335368, y: 1.4049702, z: 0}
---- !u!43 &1074292304
+--- !u!43 &1068406691
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3199,6 +3223,22 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 2186622753846214893, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2186622753846214894, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2186622753846214894, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2186622753846214894, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 2565695811053119239, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3310,6 +3350,22 @@ PrefabInstance:
     - target: {fileID: 3637610785054767462, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604748160152143437, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.023211328
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604748160152143437, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604748160152143437, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.013265258
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604748160152143437, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 5163961329147643544, guid: f6ef314d8e71c5542902aa4182051767, type: 3}
       propertyPath: m_LocalScale.y
@@ -3964,9 +4020,9 @@ MonoBehaviour:
   - {x: 1.5655355, y: -2.4176698, z: 0}
   - {x: -1.5874681, y: -2.3663635, z: 0}
   m_ShapePathHash: 2130767979
-  m_Mesh: {fileID: 1838401771}
-  m_InstanceId: 58838
---- !u!43 &1838401771
+  m_Mesh: {fileID: 1861995795}
+  m_InstanceId: 85354
+--- !u!43 &1861995795
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5883,5 +5939,5 @@ MonoBehaviour:
   - {x: 3.1041484, y: -2.1456351, z: 0}
   - {x: -2.613186, y: -2.244149, z: 0}
   m_ShapePathHash: 1800873992
-  m_Mesh: {fileID: 1074292304}
-  m_InstanceId: 58916
+  m_Mesh: {fileID: 1068406691}
+  m_InstanceId: 85434
