@@ -28,6 +28,7 @@ TagManager:
   - SpeedLines
   - PlayerSpeechBubble
   - EnemySpeechBubble
+  - PauseMenu
   layers:
   - Default
   - TransparentFX

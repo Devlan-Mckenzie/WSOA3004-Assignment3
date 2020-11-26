@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 public class PauseButton : MonoBehaviour
 {
     public bool isPaused = false;
-    public GameObject PauseMenu;
+    public Canvas PauseMenu;
 
     //added this function because a death wasnt coded
-    
+    void Start()
+    {
+        PauseMenu = GameObject.FindGameObjectWithTag("PauseMenu").GetComponent<Canvas>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -20,14 +23,14 @@ public class PauseButton : MonoBehaviour
             {
                 Time.timeScale = 1;
                 isPaused = false;
-                PauseMenu.SetActive(false);
+                PauseMenu.enabled = false;
             }
 
             else
             {
                 Time.timeScale = 0;
                 isPaused = true;
-                PauseMenu.SetActive(true);
+                PauseMenu.enabled = true;
             }
 
             

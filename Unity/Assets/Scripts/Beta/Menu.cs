@@ -19,7 +19,7 @@ public class Menu : MonoBehaviour
     public void resume()
     {
         Time.timeScale = 1;
-        this.gameObject.SetActive(false);
+        this.gameObject.GetComponent<Canvas>().enabled = false;
     }
 
     public void rules()
