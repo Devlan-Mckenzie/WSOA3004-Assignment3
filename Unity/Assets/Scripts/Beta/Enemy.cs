@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         this.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         animator.SetBool("isDead", true);
         Player.GetComponent<PlayerCombat>().PlayerWon();
         GetComponent<Collider2D>().enabled = false;
