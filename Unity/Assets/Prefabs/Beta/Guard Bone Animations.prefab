@@ -493,7 +493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f6b3961ea96d97048b06b7e357264fa6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e1fd49fecf2f87241bfcfafbf67ffd36, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1392,6 +1392,7 @@ MonoBehaviour:
   MinimalLighting: {fileID: 0}
   GeneratorLighting: {fileID: 0}
   GlobalLighting: {fileID: 0}
+  AlarmLight: {fileID: 0}
   died: 0
   Alarm: 0
   CablePossession: 0
@@ -1399,8 +1400,9 @@ MonoBehaviour:
   ClosingLockers: {fileID: 0}
   PlacingCable: {fileID: 0}
   SwitchingOnGenerator: {fileID: 0}
-  OpenArmory: {fileID: 0}
-  ClosedArmory: {fileID: 0}
+  Armoury1: {fileID: 0}
+  Armoury2: {fileID: 0}
+  LockedArmoury: {fileID: 0}
   poweroff: {fileID: 0}
   poweron: {fileID: 0}
   Switchtoggle: {fileID: 0}
