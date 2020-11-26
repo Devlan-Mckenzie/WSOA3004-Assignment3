@@ -17,7 +17,7 @@ public class EnemyController : MonoBehaviour
     public float minDistance = 1f;
     private float range;
     public bool isChasing = false;
-    public int agroRange = 5;
+    public int agroRange = 15;
 
     public Transform attackPoint;
     public int attackDamage = 40;
@@ -66,7 +66,7 @@ public class EnemyController : MonoBehaviour
         if (!FindObjectOfType<CharacterControllerBeta>().ActiveCutScene)
         {
             ChasePlayer();
-            AdjustHeight();
+            //AdjustHeight();
 
             if (inPain)
             {

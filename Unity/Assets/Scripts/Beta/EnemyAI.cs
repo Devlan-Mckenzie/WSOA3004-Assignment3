@@ -7,11 +7,11 @@ public class EnemyAI : MonoBehaviour
 {
     [Header ("Player is Target")]
     //the point the enemy wants to reach
-    public Transform target;
+    public GameObject target;
     
     private float speed=100;
-    public float speedmultiplier=1;
-    public float nextWayPointDistance = 3f;
+    public float speedmultiplier=7;
+    public float nextWayPointDistance = 1f;
 
     [Header ("Enemy")]
     //for the purpose of fliping the sprite depending on the direction of movement
@@ -38,7 +38,7 @@ public class EnemyAI : MonoBehaviour
         rigidbody = this.GetComponent<Rigidbody2D>();
         //find a new path every 00.25s
         InvokeRepeating("UpdatePath", 0f, 0.25f);
-        
+        target = GameObject.FindWithTag("Player");
         
     }
 
@@ -47,7 +47,7 @@ public class EnemyAI : MonoBehaviour
         if (seeker.IsDone())
         {
             //create a path starting from the position of the enemy and ending at the target(player)
-            seeker.StartPath(rigidbody.position, target.position, OnPathComplete);
+            seeker.StartPath(rigidbody.position, target.transform.position, OnPathComplete);
         }
     }
 
