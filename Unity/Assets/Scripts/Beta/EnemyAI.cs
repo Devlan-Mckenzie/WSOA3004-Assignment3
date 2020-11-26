@@ -96,7 +96,7 @@ public class EnemyAI : MonoBehaviour
         //create a force to move the enemy in the desired direction
         //force = direction * speed * Time.deltaTime;
 
-        if (FindObjectOfType<EnemyController>().isChasing && FindObjectOfType<EnemyHealthBar>().EnemyHealth.value > 0)
+        if (this.GetComponent<EnemyController>().isChasing && this.GetComponent<Enemy>().currentHealth >= 0)
         {
             //move the enemy
             rigidbody.velocity = direction * speed * Time.deltaTime;
