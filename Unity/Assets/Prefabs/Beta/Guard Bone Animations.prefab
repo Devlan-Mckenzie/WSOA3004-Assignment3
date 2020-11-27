@@ -1448,7 +1448,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   attackRate: 2
-  maxHealth: 100
+  maxHealth: 125
   currentHealth: 0
   healthBar: {fileID: 2387821704472976676}
   maxStamina: 100
