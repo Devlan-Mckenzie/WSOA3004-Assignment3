@@ -104,6 +104,7 @@ public class SpeechTrigger : MonoBehaviour
             cameraAnimation.SetInteger("CameraSelect", 1);
             SpeedlinesImage.GetComponent<Image>().enabled = true;
         
+        
 
     }
 

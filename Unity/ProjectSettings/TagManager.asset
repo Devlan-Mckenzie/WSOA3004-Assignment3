@@ -29,6 +29,7 @@ TagManager:
   - PlayerSpeechBubble
   - EnemySpeechBubble
   - PauseMenu
+  - PressE
   layers:
   - Default
   - TransparentFX

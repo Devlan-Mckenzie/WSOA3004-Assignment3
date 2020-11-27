@@ -75,7 +75,7 @@ public class RoomTriggers : MonoBehaviour
     {
         if(FindObjectOfType<Enemy>().currentHealth <= 0)
         {
-            if (Roomtrigger.gameObject.tag == "Room trigger")
+            if (Roomtrigger.gameObject.tag == "Room trigger" && !GameObject.FindGameObjectWithTag("PlayerSpeechBubble").activeSelf)
             {
                 PressToUseButton.SetActive(true);
             }
