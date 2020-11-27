@@ -62,7 +62,6 @@ public class EnemyController : MonoBehaviour
         }
 
 
-        SpeechCanvas = GameObject.FindWithTag("EnemySpeechBubble");
     }
 
     // Update is called once per frame

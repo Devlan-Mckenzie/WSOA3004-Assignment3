@@ -509,7 +509,7 @@ MonoBehaviour:
     m_Bits: 2048
   attackRate: 0.25
   canvas: {fileID: 705744016193430403}
-  SpeechCanvas: {fileID: 0}
+  SpeechCanvas: {fileID: 7677062443925385730}
   punch_Hit: {fileID: 0}
   KnockBackForce: 10
   PainLength: 2
@@ -1737,6 +1737,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbb09d29bd84f924d9e2c5b37a3a273a, type: 3}
+--- !u!1 &7677062443925385730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7432272531013734698, guid: cbb09d29bd84f924d9e2c5b37a3a273a, type: 3}
+  m_PrefabInstance: {fileID: 985967136518021928}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &640462681512821587 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 382166642499182715, guid: cbb09d29bd84f924d9e2c5b37a3a273a, type: 3}
@@ -1859,14 +1864,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
---- !u!224 &705744016193430407 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6332241189998000706, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
-  m_PrefabInstance: {fileID: 6785778541498489285}
-  m_PrefabAsset: {fileID: 0}
 --- !u!223 &705744016193430403 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 6332241189998000710, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
+  m_PrefabInstance: {fileID: 6785778541498489285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &705744016193430407 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6332241189998000706, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
   m_PrefabInstance: {fileID: 6785778541498489285}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6785778542415757761

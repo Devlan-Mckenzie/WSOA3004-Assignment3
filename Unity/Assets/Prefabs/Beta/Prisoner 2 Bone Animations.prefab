@@ -108,7 +108,7 @@ MonoBehaviour:
     m_Bits: 2048
   attackRate: 0.25
   canvas: {fileID: 7533937328003251677}
-  SpeechCanvas: {fileID: 0}
+  SpeechCanvas: {fileID: 6979587592888918182}
   punch_Hit: {fileID: 0}
   KnockBackForce: 10
   PainLength: 2
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.6499996
+  m_Length: 0.6500006
   m_ChildTransform: {fileID: 4570396906341676916}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &4570396905302767109
@@ -798,7 +798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.49999955
+  m_Length: 0.50000024
   m_ChildTransform: {fileID: 4570396905280632512}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &4570396905570242832
@@ -1048,7 +1048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.50000095
+  m_Length: 0.50000054
   m_ChildTransform: {fileID: 4570396905202418116}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &4570396905772492357
@@ -1203,7 +1203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.9387479
+  m_Length: 0.9387491
   m_ChildTransform: {fileID: 4570396905302767108}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &4570396906154130573
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.78439486
+  m_Length: 0.78439516
   m_ChildTransform: {fileID: 4570396905842942211}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &4570396906304745404
@@ -1531,7 +1531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.65000033
+  m_Length: 0.6500006
   m_ChildTransform: {fileID: 4570396906380789454}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &4570396906412342304
@@ -1581,7 +1581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.0000012
+  m_Length: 1.0000008
   m_ChildTransform: {fileID: 4570396906483043764}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &4570396906483043765
@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.1000024
+  m_Length: 1.1000022
   m_ChildTransform: {fileID: 4570396904848869896}
   m_AttachedIK: {fileID: 0}
 --- !u!1001 &574426185562960268
@@ -1735,6 +1735,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbb09d29bd84f924d9e2c5b37a3a273a, type: 3}
+--- !u!1 &6979587592888918182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7432272531013734698, guid: cbb09d29bd84f924d9e2c5b37a3a273a, type: 3}
+  m_PrefabInstance: {fileID: 574426185562960268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &195201916542865911 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 382166642499182715, guid: cbb09d29bd84f924d9e2c5b37a3a273a, type: 3}
@@ -2009,13 +2014,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
---- !u!224 &7533937328003251673 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6332241189998000706, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
-  m_PrefabInstance: {fileID: 4570396905894119323}
-  m_PrefabAsset: {fileID: 0}
 --- !u!223 &7533937328003251677 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 6332241189998000710, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
+  m_PrefabInstance: {fileID: 4570396905894119323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &7533937328003251673 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6332241189998000706, guid: 36ef74858153db34e9834742d9e1afc0, type: 3}
   m_PrefabInstance: {fileID: 4570396905894119323}
   m_PrefabAsset: {fileID: 0}
