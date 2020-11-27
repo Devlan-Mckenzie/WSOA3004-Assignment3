@@ -674,6 +674,7 @@ MonoBehaviour:
   maxSpeed: 5
   mimicSpeed: 2
   minDistance: 1.5
+  isChasing: 0
   agroRange: 5
   attackPoint: {fileID: 7393283878082802644}
   attackDamage: 40
@@ -683,6 +684,7 @@ MonoBehaviour:
     m_Bits: 2048
   attackRate: 0.25
   canvas: {fileID: 3565332841278625499}
+  SpeechCanvas: {fileID: 0}
   punch_Hit: {fileID: 0}
   KnockBackForce: 10
   PainLength: 2
@@ -1725,6 +1727,10 @@ PrefabInstance:
     - target: {fileID: 382166642499182715, guid: cbb09d29bd84f924d9e2c5b37a3a273a, type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 382166642499182715, guid: cbb09d29bd84f924d9e2c5b37a3a273a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.00365
       objectReference: {fileID: 0}
     - target: {fileID: 7432272531013734698, guid: cbb09d29bd84f924d9e2c5b37a3a273a, type: 3}
       propertyPath: m_Name
